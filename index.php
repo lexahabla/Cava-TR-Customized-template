@@ -9,6 +9,29 @@
 
   </head>
   <body>
+  
+<div class="row">
+
+<div class="nav" id="fondomenu">
+					<div class="idiomas">
+						<div class="lang" id="anular">
+							<a href="#">
+							<img src="img/idiomas.png" id="langImg" onclick="idiomasIn();langout();" alt="Mostra els idiomes del Web Cava Tercera República">
+							</a>
+						</div>
+						<div class="lang2" id="anular2">
+							<a href="#">
+							<img src="img/idiomas2.png" id="lang2Img" onclick="idiomasOut();langin();" alt="Amaga els idiomas del Web Cava Tercera República">
+							</a>
+						</div>
+						<div id="cat">
+							<a href=""><img id="catImg"  src="img/catalan.png" alt="Web Cava Tercera República en Català" onmouseover="idiomasIn();" onmouseout="idiomasOut();langin();"></a>
+						</div>
+						<div id="cast">
+							<a href="Cast/index.html"><img id="castImg"  src="img/castellano.png" alt="Web Cava Tercera República en Castellano" onmouseover="idiomasIn();" onmouseout="idiomasOut();langin();"></a>
+						</div>
+					
+					</div>
     
     <nav class="navbar navbar-expand-lg bg-dark" id="menuResp">
         <button id="ham" class="navbar-toggler fixed-top" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,6 +68,8 @@
 
         </div>
     </nav>
+</div>
+</div>
 
     <!--menu-->
 
@@ -141,5 +166,6 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js" integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u" crossorigin="anonymous"></script>
     -->
+    <?php wp_footer(); ?>
   </body>
 </html>
