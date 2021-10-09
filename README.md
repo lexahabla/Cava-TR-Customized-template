@@ -10,3 +10,8 @@ To see how to change to your custom template you must change the name of the ind
 Documentation to add css styles and js scripts to your custom template:
 https://developer.wordpress.org/themes/basics/including-css-javascript/
 functions.php
+
+Documentation for Organizing Theme Files:
+https://developer.wordpress.org/themes/basics/organizing-theme-files/
+header.php
+footer.php
