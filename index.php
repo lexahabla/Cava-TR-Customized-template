@@ -13,7 +13,7 @@
 <div class="row">
 
 <div class="nav" id="fondomenu">
-					<div class="idiomas">
+					<!-- <div class="idiomas">
 						<div class="lang" id="anular">
 							<a href="#">
 							<img src="img/idiomas.png" id="langImg" onclick="idiomasIn();langout();" alt="Mostra els idiomes del Web Cava Tercera República">
@@ -31,7 +31,7 @@
 							<a href="Cast/index.html"><img id="castImg"  src="img/castellano.png" alt="Web Cava Tercera República en Castellano" onmouseover="idiomasIn();" onmouseout="idiomasOut();langin();"></a>
 						</div>
 					
-					</div>
+					</div> -->
     
     <nav class="navbar navbar-expand-lg bg-dark" id="menuResp">
         <button id="ham" class="navbar-toggler fixed-top" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
