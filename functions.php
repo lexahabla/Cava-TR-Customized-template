@@ -7,6 +7,10 @@ function cava_tr_add_css_js(){
     wp_enqueue_script('bootstrap-js', 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js', array ( 'popper' ), '4.3', true);
     wp_register_script('jquery-3.1.0', get_template_directory_uri().'/js/jquery-3.1.0.js'); 
     wp_enqueue_script('jquery-3.1.0');
+
+// CUSTOM JS
+    wp_enqueue_script('app-js', get_template_directory_uri() .'/js/app.js',array('bootstrap-js'), '1.0', true);
+// CUSTOM JS
 }
 add_action('wp_enqueue_scripts', 'cava_tr_add_css_js');
 // CSS JS 
@@ -23,7 +27,7 @@ register_sidebar(array(
     'id'  => 'widgets-right',
     'name'=>  __( 'widget-right' ),
     'description' => __('Arrosega el widget'),
-    'before_widget' => ' <div class="card-body">',
+    'before_widget' => ' <div class="card-body widget">',
     'after_widget'  => '</div>',
     'before_title'  => '<h4>',
     'after_title'   => '</h4><hr>'
