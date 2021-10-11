@@ -16,3 +16,7 @@ https://developer.wordpress.org/themes/basics/the-loop/
 Documentation Post thumbnails:<br>
 https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/<br>
 function.php - index.php - single-php
+
+Documentation GitHub Pagination by mtx-z with active method by sevmusic:
+https://gist.github.com/mtx-z/f95af6cc6fb562eb1a1540ca715ed928<br>
+making folder template-parts and content.pagination.php flie 
