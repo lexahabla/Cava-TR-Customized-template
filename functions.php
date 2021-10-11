@@ -1,5 +1,5 @@
 <?php
-
+// CSS JS 
 function add_css_js(){
     wp_enqueue_style('style', get_stylesheet_uri());
     wp_enqueue_style('bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css');
@@ -9,3 +9,11 @@ function add_css_js(){
     wp_enqueue_script('jquery-3.1.0');
 }
 add_action('wp_enqueue_scripts', 'add_css_js');
+// CSS JS 
+// POST THUMBNAILS
+
+if ( function_exists( 'add_theme_support' ) ) {
+    add_theme_support( 'post-thumbnails' );
+}
+
+ // POST THUMBNAILS

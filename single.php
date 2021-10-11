@@ -18,7 +18,14 @@
             Categorias: <?php the_category(' / '); ?>
             Etiquetas: <?php the_tags('', ' / ', '') ?>
           </p>
-           <img src="img/imgX.jpg" alt="" class="img-fluid mb-3">
+           <!-- <img src="img/imgX.jpg" alt="" class="img-fluid mb-3"> -->
+           <?php
+          if ( has_post_thumbnail() ) {
+          the_post_thumbnail('post-thumbnails', array(
+            'class' => 'img-fluid mb-3'
+          ));
+          }
+          ?>
            <?php the_content(); ?>  
           </div>
           <!--entrada-->
