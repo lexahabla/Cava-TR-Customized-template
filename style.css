@@ -31,9 +31,19 @@ Use it to make something cool, have fun, and share what you've learned with othe
 #wp-calendar tfoot #prev { font-size: 10px; text-transform: uppercase; padding-top: 10px; }
  
 
+html, body {width: auto !important; box-sizing: border-box;overflow-x: hidden; scroll-behavior: smooth;}
 
-#ham{ margin-top: 50px;z-index: 3;}
+#ham{z-index: 3;}
 .navbar-toggler-icon {background-image: url(../img/iconMenu2.png);}
-.navbar{width:100%;position: fixed; background-color: black; height: 60px;padding: 0px; border-bottom: solid 1px black;}
-
+.navbar{ width:100%;position: fixed; background-color: black; height: 60px;padding: 0px; border-bottom: solid 1px black;}
+a.navbar-brand {margin:0;}
+#xapa {display: flex; align-items: center;}
+.navbar img {width: 65%; margin: 0px 15px 0px 15px;}
+#menuCaja {height: 60px;margin-top: 40px; margin: 0 auto;}
+#fondomenu {padding: 0;}
+.collapse {height: 60px;}
+.navbar-nav {height: 60px;}
+.nav-item {display: flex; align-items: center;}
+a.nav-link b{color:white;}
+a.navbar-brand {height: 60px; width: 75px;}
 

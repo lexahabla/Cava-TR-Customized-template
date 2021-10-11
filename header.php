@@ -51,17 +51,24 @@
                     <li class="nav-item">
                     <a class="nav-link text-secondary	" href="origen.html"><b>ORIGEN</b></a>
                     </li>
-                    <div id="xapa">
-                    <a class="navbar-brand"  href="index.html"><img src="http://localhost/ficheros/WORDPRESS/cava_tercera_republica/wp-content/uploads/2021/10/xapa.png" alt="Xapa del cava Tercera República"></a>
-                    </div>
+                    
                     <li class="nav-item">
                     <a class="nav-link text-secondary" href="cava.html"><b>CAVA</b></a>
                     </li>
+                    <div id="xapa">
+                    <a class="navbar-brand"  href="index.html"><img src="http://localhost/ficheros/WORDPRESS/cava_tercera_republica/wp-content/uploads/2021/10/xapa.png" alt="Xapa del cava Tercera República"></a>
+                    </div>
                     <li class="nav-item">
                     <a class="nav-link text-secondary" href="tast.html"><b>TAST</b></a>
                     </li>
                      <li class="nav-item">
                     <a class="nav-link text-secondary" href="botiga.html"><b>BOTIGA</b></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-secondary" href="botiga.html"><b>CONTACTAR</b></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-secondary" href="botiga.html"><b>TAULER</b></a>
                     </li>
                 </ul>
             </div>
