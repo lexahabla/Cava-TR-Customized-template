@@ -11,5 +11,5 @@ Documentation to add css styles and js scripts to your custom template:<br>
 https://developer.wordpress.org/themes/basics/including-css-javascript/
 functions.php
 
-Using the loop:
+Using the loop:<br>
 https://developer.wordpress.org/themes/basics/the-loop/
