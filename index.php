@@ -48,13 +48,9 @@
         <!--entradas-->
 
         <!--Aside-->
-        <div class="col-lg-3">
-          <div class="card-body">
-          <h4>Widgets</h4>
-          <hr>
-          <img src="img/imgY.jpg" alt="" class="img-fluid">
-        </div>
-        </div>
+     <?php 
+     get_sidebar();
+     ?>
 
         <!--Aside-->
 
