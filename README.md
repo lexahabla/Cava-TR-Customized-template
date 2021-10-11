@@ -9,7 +9,10 @@ To see how to change to your custom template you must change the name of the ind
 
 Documentation to add css styles and js scripts to your custom template:<br>
 https://developer.wordpress.org/themes/basics/including-css-javascript/<br>
-functions.php
+functions.php<br>
+
+Using the loop:<br>
+https://developer.wordpress.org/themes/basics/the-loop/
 
 Documentation Post thumbnails:<br>
 https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/<br>
