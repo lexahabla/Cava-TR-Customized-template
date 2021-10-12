@@ -32,18 +32,28 @@ Use it to make something cool, have fun, and share what you've learned with othe
  
 
 html, body {width: auto !important; box-sizing: border-box;overflow-x: hidden; scroll-behavior: smooth;}
+.container {margin-top: 100px;}
 
-#ham{z-index: 3;}
-.navbar-toggler-icon {background-image: url(../img/iconMenu2.png);}
-.navbar{ width:100%;position: fixed; background-color: black; height: 60px;padding: 0px; border-bottom: solid 1px black;}
-a.navbar-brand {margin:0;}
-#xapa {display: flex; align-items: center;}
-.navbar img {width: 65%; margin: 0px 15px 0px 15px;}
-#menuCaja {height: 60px;margin-top: 40px; margin: 0 auto;}
-#fondomenu {padding: 0;}
-.collapse {height: 60px;}
-.navbar-nav {height: 60px;}
-.nav-item {display: flex; align-items: center;}
-a.nav-link b{color:white;}
-a.navbar-brand {height: 60px; width: 75px;}
+ /*MENU----------------------------------------------------------------*/
+ .selected {color: #927334;}
+ .selected:hover {color: white;}
+ /* .nav {width: 100%;height: 80px;transition:all 1s ease;overflow-y:hidden } */
+ .fondoIndex{background-image: url(../img/fondodiv1.jpg);background-attachment: fixed;
+ background-position: center;background-size: cover;width: 100%;position: absolute;}
+ 
+ .navbar{ width: 100%; min-height: 20px; z-index: 1; position: fixed!important; overflow-y:hidden;padding-top: 0px!important; padding-bottom: 0px!important; }
+ .navbar-brand img {width: 60px; height: 61px;margin:0 auto; margin-top: 7px;}
+ /* #navbarSupportedContent.collapse.navbar-collapse.justify-content-end {width: 100%; height:40px;margin-bottom: 0px;} */
+ a.nav-link.text-secondary {color: white!important; padding: 0px; margin: 0px 10px 0px 10px; line-height: 70px;}
+ a.nav-link.text-secondary:hover {color: #927334!important;position: relative; top: 3px; }
+ .text-secondary {margin: 10px;text-shadow:2px 2px 0px #000000; }
+ 
+ .navbar-brand img:hover {position: relative; top: 3px;}
+ #menuCaja { margin: 0 auto; }
+ .navbar-brand {margin: 0 auto; height: 100%;}
+ .navbar-brand img {margin:0 auto;margin-top: 5px;}
+ 
+ a.navbar-brand {margin:0;}
+
+ /*MENU----------------------------------------------------------------*/
 

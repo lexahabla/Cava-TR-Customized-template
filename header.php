@@ -10,9 +10,7 @@
   </head>
   <body>
   
-<div class="row">
 
-<div class="nav" id="fondomenu">
 					<!-- <div class="idiomas">
 						<div class="lang" id="anular">
 							<a href="#">
@@ -33,7 +31,7 @@
 					
 					</div> -->
     
-    <nav class="navbar navbar-expand-lg bg-dark" id="menuResp">
+    <nav class="navbar navbar-expand-lg navbar-dark col-12" id="fondomenu">
         <button id="ham" class="navbar-toggler fixed-top" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -75,9 +73,7 @@
 
         </div>
     </nav>
-</div>
-</div>
-
+ 
     <!--menu-->
 
     <!--blog-->

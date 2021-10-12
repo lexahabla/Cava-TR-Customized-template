@@ -4,6 +4,12 @@
       <h5>Cava Tercera Republica</h5>
     </footer>
     <!--footer-->
-    <?php wp_footer(); ?>
+
+<?php wp_footer(); ?>
+
+<script>
+scroll();
+</script>
+
   </body>
 </html>

@@ -11,3 +11,36 @@ listaEntradas.className += ' list-group';
 listaEntradas.querySelectorAll('li').forEach(item => {
     item.className += ' list-group-item';
 });
+
+
+
+/*SCROLL-------------------------------------------------------------------*/
+function scroll(){
+ 
+    var firstScrollTop = 0;
+    var colorMenu = document.getElementById("fondomenu");
+    
+    jQuery(function ($) {
+      
+      $(window).scroll(function(event){
+      var st = $(this).scrollTop();
+      console.log(st);
+        if(st > 99){
+            // upscroll code 
+         colorMenu.style.backgroundColor = "#000000";
+          colorMenu.style.transition = "all 2s ease";
+    
+      }else{
+           // upscroll code 
+       colorMenu.style.backgroundColor = "transparent";
+       colorMenu.style.transition = "all 2s ease";
+       
+    
+       firstScrollTop = st;
+      }
+      
+      
+    });
+    
+  });
+}
