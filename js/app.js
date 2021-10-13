@@ -25,12 +25,12 @@ function scroll(){
       $(window).scroll(function(event){
       var st = $(this).scrollTop();
       console.log(st);
-        if(st > 99){
+        if(st > 99  && window.matchMedia("(min-width: 992px)").matches){
             // upscroll code 
          colorMenu.style.backgroundColor = "#000000";
           colorMenu.style.transition = "all 2s ease";
-    
-      }else{
+        }
+        if(st == 0  && window.matchMedia("(min-width: 992px)").matches){
            // upscroll code 
        colorMenu.style.backgroundColor = "transparent";
        colorMenu.style.transition = "all 2s ease";
@@ -38,7 +38,12 @@ function scroll(){
     
        firstScrollTop = st;
       }
-      
+    if(st == 0 && window.matchMedia("(max-width: 991px)").matches){
+    // upscroll code 
+    colorMenu.style.backgroundColor = "#000000";
+   
+    firstScrollTop = st;
+  }
       
     });
     
