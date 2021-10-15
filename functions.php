@@ -1,4 +1,7 @@
 <?php
+
+//Register Custom Navigation Walker
+require_once get_template_directory() . '/template-parts/navbar.php';
 // CSS JS 
 function cava_tr_add_css_js(){
     wp_enqueue_style('style', get_stylesheet_uri());
@@ -35,3 +38,13 @@ register_sidebar(array(
 }
 add_action('widgets_init','cava_tr_widgets');
  //SIDEBAR
+//REGISTER MENUS
+ function cava_tr_register_my_menus() {
+    register_nav_menus(
+      array(
+        'menu-principal' => __( 'Menu Superior' )
+       )
+     );
+   }
+   add_action( 'init', 'cava_tr_register_my_menus' );
+//REGISTER MENUS

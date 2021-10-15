@@ -3,32 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    
    <?php wp_head(); ?>
     <title>Cava Tercera Republica</title>
 
   </head>
   <body>
   
-  <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-  
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <a class="nav-link" href="#">Features</a>
-        <a class="nav-link" href="#">Pricing</a>
-        <a class="nav-link disabled">Disabled</a>
-      </div>
-     
-    </div>
-  </div>
-</nav> -->
-  
-
 					<!-- <div class="idiomas">
 						<div class="lang" id="anular">
 							<a href="#">
@@ -49,15 +30,16 @@
 					
 					</div> -->
     
-    <nav class="navbar navbar-expand-lg navbar-dark col-12" id="fondomenu">
-        <button id="ham" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
+    <nav class="navbar navbar-expand-lg navbar-dark col-12" id="fondomenu"> 
+        <div id="container-fluid">
+          <button id="ham" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
 
-        <div id="menuCaja">
-            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+       
+            <!-- <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             
-                <ul class="navbar-nav text-center ">
+                <ul class="navbar-nav">
                     <li class="nav-item">
                     <a class="nav-link text-secondary" href="inici.html"> <span class="selected"><b>INICI</b></span> </a>
                     </li>
@@ -87,10 +69,23 @@
                     <a class="nav-link text-secondary" href="botiga.html"><b>TAULER</b></a>
                     </li>
                 </ul>
-            </div>
-
+            </div> -->
+            <?php
+          wp_nav_menu( array(
+              'theme_location'    => 'menu-principal',
+              'depth'             => 2,
+              'container'         => 'div',
+              'container_class'   => 'collapse navbar-collapse',
+              'container_id'      => 'navbarSupportedContent',
+              'menu_class'        => 'nav navbar-nav justify-content-center',
+              'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+              'walker'            => new WP_Bootstrap_Navwalker(),
+          ) );
+          ?>
         </div>
     </nav>
+
+    
  
     <!--menu-->
 

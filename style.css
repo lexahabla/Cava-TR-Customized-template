@@ -99,26 +99,28 @@ html, body {width: auto !important; box-sizing: border-box;overflow-x: hidden; s
     /*-------------------------------------------------------------------*/
     
     /*MENU----------------------------------------------------------------*/
+  
     .selected {color: #927334;}
-    .selected:hover {color: white;}
-    .nav {width: 100%;height: 80px;transition:all 1s ease;overflow-y:hidden }
+    .nav {width: 100%;transition:all 1s ease;overflow-y:hidden; }
     .fondoIndex{background-image: url(../img/fondodiv1.jpg);background-attachment: fixed;
     background-position: center;background-size: cover;width: 100%;position: absolute;}
-    
-    .navbar{ width: 100%; min-height: 20px;padding: 0px; z-index: 0; position: fixed; overflow-y:hidden }
-    #fondomenu {position: fixed!important;padding: 0!important;}
-    .navbar-brand img {width: 60px; height: 60px;margin:0 auto; margin-top: 10px!important;  display:flex;
-        align-items: center; vertical-align: middle;}
+    #fondomenu {position: fixed!important;padding: 0!important; z-index: 2;}
+    .navbar{ width: 100%; min-height: 20px; z-index: 0; position: fixed; overflow-y:hidden;height: 60px;}
+    .navbar-brand img {width: 60px; height: 60px;margin:0 auto; margin-top: 10px!important;  display:flex; align-items: center; vertical-align: middle;}
     /* #navbarSupportedContent.collapse.navbar-collapse.justify-content-end {width: 100%; height:40px;margin-bottom: 0px;} */
-    a.nav-link.text-secondary {color: white!important; padding: 0px; margin: 0px 10px 0px 10px; line-height: 80px;}
-    a.nav-link.text-secondary:hover {color: #927334!important;position: relative; top: 3px; }
-    .text-secondary {margin: 10px;text-shadow:2px 2px 0px #000000; }
+    a.nav-link {color: white!important; padding: 0px; margin: 0px 5px 0px 5px; line-height: 60px;}
+    a.nav-link:hover {color: #927334!important;position: relative; top: 3px; }
+    .text-secondary {margin: 10px;text-shadow:2px 2px 2px #000000; }
     #xapa {margin-left: auto;  margin-right: auto; height: 80px;}
-  
     .navbar-brand img:hover {position: relative; top: 3px;}
     #menuCaja { margin: 0 auto; }
     .navbar-brand {margin: 0 auto; height: 100%;}
     .navbar-brand img {margin:0 auto;margin-top: 5px;}
+    #menu-item-36 {
+    background-image: url('http://localhost/ficheros/WORDPRESS/cava_tercera_republica/wp-content/uploads/2021/10/xapa.png');
+    background-size: cover;  width: 60px; height: 60px; 
+  }
+  #menu-item-36:hover {position: relative; top: 3px;}
     
     
     /*MENU----------------------------------------------------------------*/
@@ -512,23 +514,31 @@ html, body {width: auto !important; box-sizing: border-box;overflow-x: hidden; s
   /*-------------------------------------------------------------------*/
   
   /*MENU----------------------------------------------------------------*/
-  .selected {color: #927334;}
-  .nav {width: 100%;height: 80px;transition:all 1s ease;overflow-y:hidden }
-  .fondoIndex{background-image: url(../img/fondodiv1.jpg);background-attachment: fixed;
+   .selected {color: #927334;}
+  .nav {width: 100%;transition:all 1s ease;overflow-y:hidden; } 
+
+
+
+.fondoIndex{background-image: url(../img/fondodiv1.jpg);background-attachment: fixed;
   background-position: center;background-size: cover;width: 100%;position: absolute;}
-  #fondomenu {position: fixed!important;padding: 0!important;}
-  .navbar{ width: 100%; min-height: 20px;padding: 0px; z-index: 0; position: fixed; overflow-y:hidden }
-  .navbar-brand img {width: 60px; height: 60px;margin:0 auto; margin-top: 10px!important;  display:flex; align-items: center; vertical-align: middle;}
-  /* #navbarSupportedContent.collapse.navbar-collapse.justify-content-end {width: 100%; height:40px;margin-bottom: 0px;} */
-  a.nav-link.text-secondary {color: white!important; padding: 0px; margin: 0px 10px 0px 10px; line-height: 80px;}
-  a.nav-link.text-secondary:hover {color: #927334!important;position: relative; top: 3px; }
+  #fondomenu {position: fixed!important;padding: 0!important; z-index: 2;}
+ .navbar{ width: 100%; min-height: 20px; z-index: 0; position: fixed; overflow-y:hidden;height: 60px;} 
+.navbar-brand img {width: 60px; height: 60px;margin:0 auto; margin-top: 10px!important;  display:flex; align-items: center; vertical-align: middle;}
+  #navbarSupportedContent.collapse.navbar-collapse.justify-content-end {width: 100%; height:40px;margin-bottom: 0px;} 
+ a.nav-link {color: white!important; padding: 0px; margin: 0px 5px 0px 5px; line-height: 60px;}
+  a.nav-link:hover {color: #927334!important;position: relative; top: 3px; }
   .text-secondary {margin: 10px;text-shadow:2px 2px 2px #000000; }
   #xapa {margin-left: auto;  margin-right: auto; height: 80px;}
   .navbar-brand img:hover {position: relative; top: 3px;}
-  #menuCaja { margin: 0 auto; }
+  #menuCaja { margin: 0 auto; } */
   .navbar-brand {margin: 0 auto; height: 100%;}
   .navbar-brand img {margin:0 auto;margin-top: 5px;}
-  
+  #menu-item-36 {
+  background-image: url('http://localhost/ficheros/WORDPRESS/cava_tercera_republica/wp-content/uploads/2021/10/xapa.png');
+  background-size: cover;  width: 60px; height: 60px; 
+}
+#menu-item-36:hover {position: relative; top: 3px;}
+ 
   
   /*MENU----------------------------------------------------------------*/
   
@@ -912,7 +922,9 @@ html, body {width: auto !important; box-sizing: border-box;overflow-x: hidden; s
   /*--MENU-----------------------------------------------------------*/
   .selected {color: #927334;}
   nav.navbar.navbar-expand-lg{width: 100%;}
-  .navbar{width:100%;position: fixed; background-color: black; height: 60px;padding: 0px!important; border-bottom: solid 1px rgb(255, 255, 255);} 
+  #menu-menu-1{background-color: black;text-align: center; }
+  .menu-item {border-top: solid white 1px;}
+  .navbar{width:100%;position: fixed; background-color: black; height: 60px;padding: 0px!important; } 
   #fondomenu {position: fixed!important;padding: 0!important;}
   .nav.navbar { width: 100%;}
   a.nav-link.text-secondary { line-height:40px; border-bottom: solid 1px white; background-color: black; text-shadow:2px 2px 2px #000000;color: white!important;}
@@ -924,6 +936,7 @@ html, body {width: auto !important; box-sizing: border-box;overflow-x: hidden; s
   .navbar-brand {display: none;}
   
   #menuCaja{width: 100%;}
+  #menu-item-36 {display: none;}
   
   /*--MENU-----------------------------------------------------------*/
   
@@ -1262,10 +1275,12 @@ html, body {width: auto !important; box-sizing: border-box;overflow-x: hidden; s
   /*-------------------------------------------------------------------*/
   
   /*--MENU-----------------------------------------------------------*/
-  
   .selected {color: #927334;}
   nav.navbar.navbar-expand-lg{width: 100%;}
-  .navbar{width:100%;position: fixed; background-color: black; height: 60px;padding: 0px!important; border-bottom: solid 1px rgb(255, 255, 255);} 
+  #menu-menu-1{background-color: black;text-align: center; }
+  .menu-item {border-top: solid white 1px;}
+  .navbar{width:100%;position: fixed; background-color: black; height: 60px;padding: 0px!important; } 
+  #fondomenu {position: fixed!important;padding: 0!important;}
   .nav.navbar { width: 100%;}
   a.nav-link.text-secondary { line-height:40px; border-bottom: solid 1px white; background-color: black; text-shadow:2px 2px 2px #000000;color: white!important;}
   
@@ -1276,7 +1291,7 @@ html, body {width: auto !important; box-sizing: border-box;overflow-x: hidden; s
   .navbar-brand {display: none;}
   
   #menuCaja{width: 100%;}
-  
+  #menu-item-36 {display: none;}
   /*--MENU-----------------------------------------------------------*/
   
   
@@ -1643,17 +1658,21 @@ html, body {width: auto !important; box-sizing: border-box;overflow-x: hidden; s
   /*--MENU-----------------------------------------------------------*/
   .selected {color: #927334;}
   nav.navbar.navbar-expand-lg{width: 100%;}
-  .navbar{width:100%;position: fixed; background-color: black; height: 60px;padding: 0px!important; border-bottom: solid 1px rgb(255, 255, 255);}
+  #menu-menu-1{background-color: black;text-align: center; }
+  .menu-item {border-top: solid white 1px;}
+  .navbar{width:100%;position: fixed; background-color: black; height: 60px;padding: 0px!important; } 
+  #fondomenu {position: fixed!important;padding: 0!important;}
   .nav.navbar { width: 100%;}
   a.nav-link.text-secondary { line-height:40px; border-bottom: solid 1px white; background-color: black; text-shadow:2px 2px 2px #000000;color: white!important;}
   
   a.nav-link.text-secondary:hover {color: grey!important;top: 3px;}
   .navbar-toggler {color:black!important; padding:0px!important; vertical-align: middle; border: solid 1px white!important;margin: 10px 0px 10px 10px!important; width: 45px; height: 40px;}
   
-  
   .navbar-toggler-icon {background-image: url(../img/iconMenu2.png);}
   .navbar-brand {display: none;}
+  
   #menuCaja{width: 100%;}
+  #menu-item-36 {display: none;}
   
   /*--MENU-----------------------------------------------------------*/
   
@@ -2007,18 +2026,23 @@ html, body {width: auto !important; box-sizing: border-box;overflow-x: hidden; s
   
   /*--MENU-----------------------------------------------------------*/
   .selected {color: #927334;}
-  .navbar-nav li {font-size: 14px;}
   nav.navbar.navbar-expand-lg{width: 100%;}
-  .navbar{width:100%;position: fixed; background-color: black; height: 60px;padding: 0px!important; border-bottom: solid 1px rgb(255, 255, 255);}
+  #menu-menu-1{background-color: black;text-align: center; }
+  .menu-item {border-top: solid white 1px;}
+  .navbar{width:100%;position: fixed; background-color: black; height: 60px;padding: 0px!important; } 
+  #fondomenu {position: fixed!important;padding: 0!important;}
   .nav.navbar { width: 100%;}
   a.nav-link.text-secondary { line-height:40px; border-bottom: solid 1px white; background-color: black; text-shadow:2px 2px 2px #000000;color: white!important;}
   
   a.nav-link.text-secondary:hover {color: grey!important;top: 3px;}
   .navbar-toggler {color:black!important; padding:0px!important; vertical-align: middle; border: solid 1px white!important;margin: 10px 0px 10px 10px!important; width: 45px; height: 40px;}
   
-  .navbar-toggler-icon {background-image: url(http://localhost/ficheros/WORDPRESS/cava_tercera_republica/wp-content/uploads/2021/10/iconMenu2.png);}
+  .navbar-toggler-icon {background-image: url(../img/iconMenu2.png);}
   .navbar-brand {display: none;}
+  
   #menuCaja{width: 100%;}
+
+  #menu-item-36 {display: none;}
   
   /*--MENU-----------------------------------------------------------*/
   

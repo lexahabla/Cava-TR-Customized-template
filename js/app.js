@@ -20,6 +20,7 @@ function scroll(){
     var firstScrollTop = 0;
     var colorMenu = document.getElementById("fondomenu");
     
+    
     jQuery(function ($) {
       
       $(window).scroll(function(event){
