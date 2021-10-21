@@ -32,7 +32,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
  
 
 html, body {width: auto !important; box-sizing: border-box;overflow-x: hidden; scroll-behavior: smooth;z-index: 0;} */
-.container {margin-top: 100px;}
+.sr-only {display: none!important;}
 
   
 @font-face {
@@ -127,7 +127,7 @@ html, body {width: auto !important; box-sizing: border-box;overflow-x: hidden; s
     
     
     /*TR-----------------------------------------------------*/
-    .TiraCava { margin:0px; padding: 0px;border-top: solid 1px white;position: relative;display: block;}
+    .TiraCava { padding:0!important; margin:0px; padding: 0px;border-top: solid 1px white;position: relative;display: block;}
     .TiraCava img {width: 100%; z-index: 0;}
     .TiraCava h6{ margin: 0 auto; width: 100%; text-align: center; color: #795205; 
     font-family: 'EB Garamond', Bold; position: absolute;z-index: 3;margin-top: 70px; font-size: 20px;text-shadow: 1px 1px #000000;}
@@ -135,7 +135,7 @@ html, body {width: auto !important; box-sizing: border-box;overflow-x: hidden; s
     font-family: 'Amarante', cursiva;position: absolute;z-index: 3; margin-top: 30px;font-size:500%; text-shadow: 2px 2px #000000; }
     .TiraSmall  {display: none; }
     .TiraBlue {display: none; }
-    .Etiqueta {width:100%; border-top: solid 1px white; position: relative;display: block;}
+    .Etiqueta {padding:0!important; width:100%; border-top: solid 1px white; position: relative;display: block;}
     .Etiqueta img {width: 100%; border-bottom: solid 2px black;}
     .EtiquetaSmall {display: none;}
     /*TR-----------------------------------------------------*/

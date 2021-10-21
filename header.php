@@ -90,7 +90,4 @@
     <!--menu-->
 
     <!--blog-->
-    <div class="container">
-
-      <h2 class="my-3 text-center text-primary">Tauler</h2>
-      <hr>
+    <div class="container-fluid">
