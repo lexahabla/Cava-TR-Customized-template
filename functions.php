@@ -18,13 +18,17 @@ function cava_tr_add_css_js(){
 add_action('wp_enqueue_scripts', 'cava_tr_add_css_js');
 // CSS JS 
 
-// POST THUMBNAILS
-if ( function_exists( 'add_theme_support' ) ) {
+  // POST THUMBNAILS
+ function cava_tr_setup(){
+  if ( function_exists( 'add_theme_support' ) ) {
     add_theme_support( 'post-thumbnails' );
-}
- // POST THUMBNAILS
+  }
+  add_theme_support( 'title-tag' );
+ }
+ add_action( 'after_setup_theme', 'cava_tr_setup' );
+// POST THUMBNAILS
 
- //SIDEBAR
+//SIDEBAR
 function cava_tr_widgets(){
 register_sidebar(array(
     'id'  => 'widgets-right',

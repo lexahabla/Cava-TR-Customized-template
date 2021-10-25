@@ -1,14 +1,14 @@
 <!doctype html>
-<html lang="en">
+<html <?php language_attributes(); ?>>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
    <?php wp_head(); ?>
-    <title>Cava Tercera Republica</title>
+  
 
   </head>
-  <body>
+  <body <?php body_class(); ?>>
   
 					<!-- <div class="idiomas">
 						<div class="lang" id="anular">
