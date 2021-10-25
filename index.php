@@ -1,8 +1,13 @@
 <?php get_header(); ?>
 <div class="container">
 <div class="row">
+  <div class="col-12">
+  <h2 class="text-center mt-5"> Tauler</h2>
+          <hr>
+  </div>
          <!--entradas-->
         <div class="col-lg-9">
+        
 
           
 

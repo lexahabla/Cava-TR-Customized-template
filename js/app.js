@@ -1,10 +1,17 @@
 // console.log('Hola');
 
-const formularioBuscar = document.querySelector('#searchform #s');
+const formularioBuscar = document.querySelectorAll('#searchform #s');
 if(formularioBuscar){
-  formularioBuscar.className += 'form-control mb-2'; 
-  const BotonBuscar = document.querySelector('#searchsubmit');
-  BotonBuscar.className += 'form-control btn btn-primary btn-block';
+
+  for(const iterator of formularioBuscar){
+
+  iterator.className += 'form-control mb-2'; 
+  }
+   const BotonBuscar = document.querySelectorAll('#searchsubmit');
+  
+   for(const iterator of BotonBuscar){
+    iterator.className += 'form-control btn btn-primary btn-block';
+   }
 }
  const listaEntradas = document.querySelector('.widget ul');
 if(listaEntradas){
