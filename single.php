@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 
-      <div class="row">
+<div class="container">
+<div class="row">
          <!--entradas-->
         <div class="col-lg-9">
 
@@ -26,21 +27,22 @@
           ));
           }
           ?>
-           <?php the_content(); ?>  
+          <?php the_content(); ?>  
+          <?php
+              if ( comments_open() || get_comments_number() ) :
+                comments_template();
+              endif;
+          ?>
+
           </div>
           <!--entrada-->
           <?php endwhile;  endif; ?> 
         </div>
         <!--entradas-->
 
-        <!--Aside-->
-        <div class="col-lg-3">
-          <div class="card-body">
-          <h4>Widgets</h4>
-          <hr>
-          <img src="img/imgY.jpg" alt="" class="img-fluid">
-        </div>
-        </div>
+        <!--Aside-->   
+        <?php get_sidebar();?>
+      
 
         <!--Aside-->
 
@@ -48,4 +50,8 @@
       </div>
     </div>
     <!--blog-->
+
+</div>
 <?php get_footer(); ?>
+
+     

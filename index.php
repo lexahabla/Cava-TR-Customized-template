@@ -1,6 +1,6 @@
 <?php get_header(); ?>
-
-      <div class="row">
+<div class="container">
+<div class="row">
          <!--entradas-->
         <div class="col-lg-9">
 
@@ -58,5 +58,8 @@
       </div>
     </div>
     <!--blog-->
+</div>
+
+     
 
 <?php get_footer(); ?>
