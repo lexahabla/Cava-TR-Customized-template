@@ -9,6 +9,8 @@
 
   </head>
   <body <?php body_class(); ?>>
+  <div class="bgone">
+  <header>
   
 					<!-- <div class="idiomas">
 						<div class="lang" id="anular">
@@ -84,6 +86,7 @@
           ?>
         </div>
     </nav>
+  </header>
 
     
  

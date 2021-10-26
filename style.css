@@ -31,14 +31,14 @@ Use it to make something cool, have fun, and share what you've learned with othe
 #wp-calendar tfoot #prev { font-size: 10px; text-transform: uppercase; padding-top: 10px; }
  
 
-html, body {width: auto !important; box-sizing: border-box;overflow-x: hidden; scroll-behavior: smooth;z-index: 0;} */
+html, body {margin:0!important; width: auto !important; box-sizing: border-box;overflow-x: hidden;  scroll-behavior: smooth;z-index: 0;} */
 .sr-only {display: none!important;}
 
 
   
 @font-face {
     font-family: Amarante-Regular;
-    src: url(../fonts/Amarante-Regular.ttf);
+    src: url(http://localhost/ficheros/WORDPRESS/cava_tercera_republica/wp-content/uploads/2021/10/Amarante-Regular.ttf);
     }
   .nav { padding: 0px;width: 100%;position: fixed;z-index: 4; overflow-y:hidden} 
   .navbar{height:80px;}
@@ -59,8 +59,11 @@ html, body {width: auto !important; box-sizing: border-box;overflow-x: hidden; s
   {
     /* body {background: pink;} */
   
-    .bgone {background-image: url('../img/fondodiv1.jpg');background-position: bottom ;   background-size: cover;  padding: 0px 15px 0px 15px;}
+    .bgone {background-image: url('http://localhost/ficheros/WORDPRESS/cava_tercera_republica/wp-content/uploads/2021/10/fondodiv1.jpg')!important;
+      background-attachment: fixed;
+      background-position: center;background-size: cover;width: 100%;position: absolute;  padding: 0; }
   
+  /*Fondo Web*/
     /* Tamaño Caroussel-----------------------------------------------*/
     .slider{width: 100%;padding: 0px;}
     .carousel-inner img {width: 100%;height: 100%;}
@@ -103,8 +106,7 @@ html, body {width: auto !important; box-sizing: border-box;overflow-x: hidden; s
   
     .selected {color: #927334;}
     .nav {width: 100%;transition:all 1s ease;overflow-y:hidden; }
-    .fondoIndex{background-image: url(../img/fondodiv1.jpg);background-attachment: fixed;
-    background-position: center;background-size: cover;width: 100%;position: absolute;}
+
     #fondomenu {position: fixed!important;padding: 0!important; z-index: 2;}
     .navbar{ width: 100%; min-height: 20px; z-index: 0; position: fixed; overflow-y:hidden;height: 60px;}
     .navbar-brand img {width: 60px; height: 60px;margin:0 auto; margin-top: 10px!important;  display:flex; align-items: center; vertical-align: middle;}
@@ -146,23 +148,23 @@ html, body {width: auto !important; box-sizing: border-box;overflow-x: hidden; s
   
    /* .Inici { padding: 50px 75px 0px 75px; } */
   
-   .contenText {padding:50px 100px 0px 100px;}
+   .contenText {padding:50px 100px 0px 100px!important;}
   
    .contenText p {font-size:18px; padding: 0px;margin: 0px; }
    
    .contenText h1 {font-size: 45px; font-family: Amarante-Regular,serif; margin-bottom: 15px}
   
-  .contentLeft{padding:25px 20px 50px 100px; position: relative; left: -250px;}
+  .contentLeft{padding:25px 20px 50px 100px!important; position: relative; left: -250px;}
    
   .contentLeft img{width: 100%;padding:0px;  border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;} 
   
-  .contentRight {padding: 25px 100px 50px 20px; position: relative; left: -250px; }
+  .contentRight {padding: 25px 100px 50px 20px!important; position: relative; left: -250px; }
   
   .contentRight img{width:100%; height:100%; padding:0px; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity:0;}
   
   #donesImg {display: none;}
   
-  .fondo{background-image: url(../img/fondo3.jpg);background-attachment: fixed;background-position: center left;
+  .fondo{background-image: url(http://localhost/ficheros/WORDPRESS/cava_tercera_republica/wp-content/uploads/2021/10/fondo3.jpg);background-attachment: fixed;background-position: center left;
     background-size: cover;height: 550px;width: 100%;display: table;}
   
   
@@ -170,11 +172,11 @@ html, body {width: auto !important; box-sizing: border-box;overflow-x: hidden; s
   
   .texto h1 {color: white;text-shadow: 2px 2px black; font-size: 5vw; text-align: center;}
   
-  .contentLeft2{padding:25px 20px 50px 100px; position: relative; left: -250px;}
+  .contentLeft2{padding:25px 20px 50px 100px!important; position: relative; left: -250px;}
   
   .contentLeft2 img{width: 100%;border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  .contenText2 {padding:50px 100px 0px 100px;}
+  .contenText2 {padding:50px 100px 0px 100px!important;}
   
   .contenText2 small {float: right;}
   
@@ -182,7 +184,7 @@ html, body {width: auto !important; box-sizing: border-box;overflow-x: hidden; s
   
   .contenText2 p{padding: 0px;margin-bottom: 10px;}
   
-  .contentRight2{padding: 25px 100px 50px 20px; position: relative; left: -250px;}
+  .contentRight2{padding: 25px 100px 50px 20px!important; position: relative; left: -250px;}
   
   .contentRight2 img{ width: 100%; padding:0px; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3); opacity: 0;}	
   
@@ -411,27 +413,27 @@ html, body {width: auto !important; box-sizing: border-box;overflow-x: hidden; s
     /*BOTIGA----------------------------------------------------------------------------------*/
     
     /*FOOTER---------------------------------------------------------------------------------*/
-    .futer{padding: 20px 40px 20px 40px;height:210px;background-color:#20201f;}
+    .futer{padding: 20px 40px 20px 40px!important;height:210px;background-color:#20201f;}
     
     /* .foter{background-color: #4a4848;width: 100%;bottom:0px; } */
-    .left{height: 170px;width: 100%;padding:0px 0px 0px 0px;float: left;border-right: solid 1px white;}
+    .left{height: 170px;width: 100%;padding:0!important;float: left;border-right: solid 1px white;}
     .leftin {width: 100%;padding:0px 0px 0px 15px;float: left;}
     .leftin a {display: block; }
     .left ul {list-style: none; padding:0px;}
     .left a {color:white; font-size: 14px; line-height: 25px;}
     .left h4 {color: white; font-size: 18px; margin-bottom: 20px;}
     .left p{text-align: left;color:white;line-height: 20px;}
-    .compraFuter{width: 100%;border-right: solid 1px white;height:170px;float: left;padding:0px 20px 0px 20px;}
+    .compraFuter{width: 100%;border-right: solid 1px white;height:170px;float: left;padding:0px 20px 0px 20px!important;}
     .compraFuter ul {list-style: none;padding: 0px;}
     .compraFuter a {color:white;font-size: 14px; display: block;}
     .compraFuter h4 {color: white;font-size: 18px; margin-bottom: 20px;}
     .comprafuterin {padding: 0;}
-    .payPal {width: 25%; height: 90%; float: left; padding-left: 5px; margin: 30px 0px 0px 25px;}
+    .payPal {width: 25%; height: 90%; float: left; padding-left: 5px; margin: 30px 0px 0px 25px!important;}
     .payPal img{width: 100%;}
-    .payCard {width: 25%; float: right; padding-right: 5px;margin: 30px 25px 0px 0px;}
+    .payCard {width: 25%; float: right; padding-right: 5px;margin: 30px 25px 0px 0px!important;}
     .payCard img {width: 100%;}
     .right h4 {color: white;font-size: 18px; margin-bottom: 20px;}
-    .right{width: 100%;height:170px;padding:0px 0px 0px 20px;float: right;}
+    .right{width: 100%;height:170px;padding:0px 0px 0px 20px!important;float: right;}
     .right p{width: 100%;font-size: 14px;color:white;margin: 0px;}
     .logos {width: 50%;height:35px; margin: 0 auto; background-color: #20201f; padding: 0px; margin-top: 5px;}
     .face {width: 12%; float: left;margin-left:22%; margin-right:14%;}
@@ -448,7 +450,7 @@ html, body {width: auto !important; box-sizing: border-box;overflow-x: hidden; s
        
     .politicas-smart{display: none;}
     .politicas{width: 100%;height: 55px;background-color: black;}
-    .politicas p {color: white; font-size: 12px; text-align: center; line-height: 55px;margin:0;} 
+    .politicas p {color: white; font-size: 12px; text-align: center; line-height: 55px;margin: 0!important;;} 
     /*FOOTER---------------------------------------------------------------------------------*/
   
     /*CONTACTAR--------------------------------------------------------------------------------*/
