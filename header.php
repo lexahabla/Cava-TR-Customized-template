@@ -3,13 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="http://localhost/ficheros/WORDPRESS/cava_tercera_republica/wp-content/themes/cava3arepublica/js/scripts.js"></script>
     
    <?php wp_head(); ?>
   
 
   </head>
-  <body <?php body_class(); ?>>
-  <div class="bgone">
+  <body class="bgone" <?php body_class(); ?>>
+  
   <header>
   
 					<!-- <div class="idiomas">
@@ -93,4 +94,4 @@
     <!--menu-->
 
     <!--blog-->
-    <div class="container-fluid">
+    <!-- <div class="container-fluid"> -->

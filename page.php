@@ -1,8 +1,5 @@
 <?php get_header(); ?>
 
-    <div class="row">
-         <!--entradas-->
-        <div class="col-lg-12">
 
           
 
@@ -25,13 +22,12 @@
           
           <!--entrada-->
           <?php endwhile;  endif; ?> 
-        </div>
+       
         <!--entradas-->
 
      
 
       
-      </div>
-    </div>
+  
     <!--blog-->
 <?php get_footer(); ?>

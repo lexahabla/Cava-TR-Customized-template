@@ -30,12 +30,15 @@ Use it to make something cool, have fun, and share what you've learned with othe
 #wp-calendar tfoot #next { font-size: 10px; text-transform: uppercase; text-align: right; }
 #wp-calendar tfoot #prev { font-size: 10px; text-transform: uppercase; padding-top: 10px; }
  
-
-html, body {margin:0!important; width: auto !important; box-sizing: border-box;overflow-x: hidden;  scroll-behavior: smooth;z-index: 0;} */
 .sr-only {display: none!important;}
+html, body {width: auto !important;overflow-x: hidden !important;/* overflow-y: hidden!important; */
+box-sizing: border-box!important; scroll-behavior: smooth!important; line-height: normal!important;}
+#wpadminbar{position: fixed!important;}
+.card-body{padding:0!important}
+.container-fluid {padding: 0!important;}
+p {margin-bottom: 0!important;}
+#slider p {display: none;}
 
-
-  
 @font-face {
     font-family: Amarante-Regular;
     src: url(http://localhost/ficheros/WORDPRESS/cava_tercera_republica/wp-content/uploads/2021/10/Amarante-Regular.ttf);
@@ -43,7 +46,7 @@ html, body {margin:0!important; width: auto !important; box-sizing: border-box;o
   .nav { padding: 0px;width: 100%;position: fixed;z-index: 4; overflow-y:hidden} 
   .navbar{height:80px;}
   
-  body {height: 120%;} 
+  /* body {line-height: 0!important;} */
   
   .comprar { margin:0 auto; width: 60%;}
   .comprar select{width: 100%;}
@@ -54,9 +57,13 @@ html, body {margin:0!important; width: auto !important; box-sizing: border-box;o
   #numberbox{width: 100%;}
   
   
-  
+  /*---------------------------------------------------------------------------------------------------------*/
+  /*---------------------------------------------------------------------------------------------------------*/
+  /*---------------------------------------------------------------------------------------------------------*/
+  /*---------------------------------------------------------------------------------------------------------*/
   @media screen and (min-width: 1200px) 
   {
+ 
     /* body {background: pink;} */
   
     .bgone {background-image: url('http://localhost/ficheros/WORDPRESS/cava_tercera_republica/wp-content/uploads/2021/10/fondodiv1.jpg')!important;
@@ -194,9 +201,9 @@ html, body {margin:0!important; width: auto !important; box-sizing: border-box;o
   
   p {font-size:18px;text-align: left;}
   
-  .repuText {padding: 50px 100px 0px 100px;}
+  .repuText {padding: 50px 100px 0px 100px!important;}
   
-  .repuText p{margin: 0px;}
+  /* .repuText p{margin: 0px;} */
   
   .repuText h1 {font-size: 45px; font-family: Amarante-Regular,serif; margin-bottom: 15px;}
   
@@ -206,25 +213,25 @@ html, body {margin:0!important; width: auto !important; box-sizing: border-box;o
   
   #repuImg1L {opacity: 0;}
   
-  .repuleft2 {padding: 0px 20px 0px 100px; position: relative; float: left;margin-right: 0px; left: -250px;}
+  .repuleft2 {padding: 0px 20px 0px 100px!important; position: relative; float: left;margin-right: 0px; left: -250px;}
   
   .repuleft2 img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  .repuright{padding: 50px 100px 0px 40px; position: relative;float: right; left: -250px; }
+  .repuright{padding: 50px 100px 0px 40px!important; position: relative;float: right; left: -250px; }
   
   .repuright img{width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
    
-  .repuText2 {padding: 50px 100px 0px 100px;}
+  .repuText2 {padding: 50px 100px 0px 100px!important;}
   
   .repuText2 h1 {font-size: 45px; font-family: Amarante-Regular,serif;margin-bottom: 15px;}
   
   .repuText2 p{ margin:0px; text-align: left;}
   
-  .repuleft3 {padding: 50px 20px 50px 100px; position: relative; left: -250px;}
+  .repuleft3 {padding: 50px 20px 50px 100px!important; position: relative; left: -250px;}
   
   .repuleft3 img{width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  .repuright2{padding: 50px 100px 0px 20px; position: relative; left: -250px;}
+  .repuright2{padding: 50px 100px 0px 20px!important; position: relative; left: -250px;}
   
   .repuright2 img{width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
@@ -413,19 +420,21 @@ html, body {margin:0!important; width: auto !important; box-sizing: border-box;o
     /*BOTIGA----------------------------------------------------------------------------------*/
     
     /*FOOTER---------------------------------------------------------------------------------*/
-    .futer{padding: 20px 40px 20px 40px!important;height:210px;background-color:#20201f;}
-    
+    .futer{padding: 20px 40px 20px 40px!important;height:210px;background-color:#353533;}
+    footer {padding-bottom: 15px;}
     /* .foter{background-color: #4a4848;width: 100%;bottom:0px; } */
     .left{height: 170px;width: 100%;padding:0!important;float: left;border-right: solid 1px white;}
     .leftin {width: 100%;padding:0px 0px 0px 15px;float: left;}
     .leftin a {display: block; }
     .left ul {list-style: none; padding:0px;}
-    .left a {color:white; font-size: 14px; line-height: 25px;}
+    .left a {color:white; font-size: 14px; text-decoration: none; }
+  .left a:hover {color: #97702b;}
     .left h4 {color: white; font-size: 18px; margin-bottom: 20px;}
     .left p{text-align: left;color:white;line-height: 20px;}
     .compraFuter{width: 100%;border-right: solid 1px white;height:170px;float: left;padding:0px 20px 0px 20px!important;}
     .compraFuter ul {list-style: none;padding: 0px;}
-    .compraFuter a {color:white;font-size: 14px; display: block;}
+    .compraFuter a {color:white;font-size: 14px;display: block;text-decoration: none;}
+    .compraFuter a:hover {color:#97702b;}
     .compraFuter h4 {color: white;font-size: 18px; margin-bottom: 20px;}
     .comprafuterin {padding: 0;}
     .payPal {width: 25%; height: 90%; float: left; padding-left: 5px; margin: 30px 0px 0px 25px!important;}
@@ -434,8 +443,10 @@ html, body {margin:0!important; width: auto !important; box-sizing: border-box;o
     .payCard img {width: 100%;}
     .right h4 {color: white;font-size: 18px; margin-bottom: 20px;}
     .right{width: 100%;height:170px;padding:0px 0px 0px 20px!important;float: right;}
+    .right a {color: #97702b; text-decoration: none;}
+    .right a:hover {color:grey!important;}
     .right p{width: 100%;font-size: 14px;color:white;margin: 0px;}
-    .logos {width: 50%;height:35px; margin: 0 auto; background-color: #20201f; padding: 0px; margin-top: 5px;}
+    .logos {width: 50%;height:35px; margin: 0 auto; background-color: #353533; padding: 0px; margin-top: 5px;}
     .face {width: 12%; float: left;margin-left:22%; margin-right:14%;}
     .face img{ width: 100%; }
     .insta {width: 12%; float: left;}
@@ -449,8 +460,11 @@ html, body {margin:0!important; width: auto !important; box-sizing: border-box;o
     .modal-content{width: 600px;}
        
     .politicas-smart{display: none;}
-    .politicas{width: 100%;height: 55px;background-color: black;}
-    .politicas p {color: white; font-size: 12px; text-align: center; line-height: 55px;margin: 0!important;;} 
+    .politicas{width: 100%;background-color: black;height: 45px;}
+    .politicas p {color: white; font-size: 12px; text-align: center; margin: 0;line-height: 75px;} 
+
+    .modal-body p {font-size: 16px;}
+  .modal-dialog {max-width: 60%!important;}
     /*FOOTER---------------------------------------------------------------------------------*/
   
     /*CONTACTAR--------------------------------------------------------------------------------*/
@@ -474,13 +488,21 @@ html, body {margin:0!important; width: auto !important; box-sizing: border-box;o
   
   
   /*PANTALLES EXTRA GANDES bootstrap Grid (XL) de 1200 para arriba ------------------------------*/
+  /*---------------------------------------------------------------------------------------------*/
+  /*---------------------------------------------------------------------------------------------*/
+  /*---------------------------------------------------------------------------------------------*/
+  /*---------------------------------------------------------------------------------------------*/
   @media screen and (min-width: 992px) and (max-width:1199px) 
   {
-  
+    *{
+      margin:0;
+      padding: 0;
+    }
   /* body {background: blueviolet;} */
   
-  body {background-image: url(../img/fondodiv1.jpg);background-attachment: fixed;
-    background-position: center center;background-size: cover;width: 100%;height: 100%;}
+  .bgone {background-image: url('http://localhost/ficheros/WORDPRESS/cava_tercera_republica/wp-content/uploads/2021/10/fondodiv1.jpg')!important;
+    background-attachment: fixed;
+    background-position: center;background-size: cover;width: 100%;position: absolute;  padding: 0; }
   
   /* Tamaño Caroussel-----------------------------------------------*/
   .slider{width: 100%;padding: 0px;}
@@ -516,91 +538,87 @@ html, body {margin:0!important; width: auto !important; box-sizing: border-box;o
   #cast:hover {top: 2px;}
   /*-------------------------------------------------------------------*/
   
-  /*MENU----------------------------------------------------------------*/
-   .selected {color: #927334;}
-  .nav {width: 100%;transition:all 1s ease;overflow-y:hidden; } 
+ /*MENU----------------------------------------------------------------*/
+  
+ .selected {color: #927334;}
+ .nav {width: 100%;transition:all 1s ease;overflow-y:hidden; }
 
-
-
-.fondoIndex{background-image: url(../img/fondodiv1.jpg);background-attachment: fixed;
-  background-position: center;background-size: cover;width: 100%;position: absolute;}
-  #fondomenu {position: fixed!important;padding: 0!important; z-index: 2;}
- .navbar{ width: 100%; min-height: 20px; z-index: 0; position: fixed; overflow-y:hidden;height: 60px;} 
-.navbar-brand img {width: 60px; height: 60px;margin:0 auto; margin-top: 10px!important;  display:flex; align-items: center; vertical-align: middle;}
-  #navbarSupportedContent.collapse.navbar-collapse.justify-content-end {width: 100%; height:40px;margin-bottom: 0px;} 
+ #fondomenu {position: fixed!important;padding: 0!important; z-index: 2;}
+ .navbar{ width: 100%; min-height: 20px; z-index: 0; position: fixed; overflow-y:hidden;height: 60px;}
+ .navbar-brand img {width: 60px; height: 60px;margin:0 auto; margin-top: 10px!important;  display:flex; align-items: center; vertical-align: middle;}
+ /* #navbarSupportedContent.collapse.navbar-collapse.justify-content-end {width: 100%; height:40px;margin-bottom: 0px;} */
  a.nav-link {color: white!important; padding: 0px; margin: 0px 5px 0px 5px; line-height: 60px;}
-  a.nav-link:hover {color: #927334!important;position: relative; top: 3px; }
-  .text-secondary {margin: 10px;text-shadow:2px 2px 2px #000000; }
-  #xapa {margin-left: auto;  margin-right: auto; height: 80px;}
-  .navbar-brand img:hover {position: relative; top: 3px;}
-  #menuCaja { margin: 0 auto; } */
-  .navbar-brand {margin: 0 auto; height: 100%;}
-  .navbar-brand img {margin:0 auto;margin-top: 5px;}
-  #menu-item-36 {
-  background-image: url('http://localhost/ficheros/WORDPRESS/cava_tercera_republica/wp-content/uploads/2021/10/xapa.png');
-  background-size: cover;  width: 60px; height: 60px; 
+ a.nav-link:hover {color: #927334!important;position: relative; top: 3px; }
+ .text-secondary {margin: 10px;text-shadow:2px 2px 2px #000000; }
+ #xapa {margin-left: auto;  margin-right: auto; height: 80px;}
+ .navbar-brand img:hover {position: relative; top: 3px;}
+ #menuCaja { margin: 0 auto; }
+ .navbar-brand {margin: 0 auto; height: 100%;}
+ .navbar-brand img {margin:0 auto;margin-top: 5px;}
+ #menu-item-36 {
+ background-image: url('http://localhost/ficheros/WORDPRESS/cava_tercera_republica/wp-content/uploads/2021/10/xapa.png');
+ background-size: cover;  width: 60px; height: 60px; 
 }
 #menu-item-36:hover {position: relative; top: 3px;}
  
+ 
+ /*MENU----------------------------------------------------------------*/
+ 
   
-  /*MENU----------------------------------------------------------------*/
   
-  
-  /*TR-----------------------------------------------------*/
-  .TiraCava { margin:0px; padding: 0px;border-top: solid 1px white;position: relative;display: block;}
-  .TiraCava img {width: 100%; z-index: 0;}
-  .TiraCava h6{ margin: 0 auto; width: 100%; text-align: center; color: #795205; 
-  font-family: 'EB Garamond', Bold; position: absolute;z-index: 3;margin-top: 70px; font-size: 20px;text-shadow: 1px 1px #000000;}
-  .TiraCava h1 { margin: 0 auto; width: 100%; text-align: center; color: #795205; 
-  font-family: 'Amarante', cursiva;position: absolute;z-index: 3; margin-top: 30px;font-size:500%; text-shadow: 2px 2px #000000; }
-  .TiraSmall  {display: none; }
-  .TiraBlue {display: none; }
-  .Etiqueta {width:100%; border-top: solid 1px white; position: relative;display: block;}
-  .Etiqueta img {width: 100%; border-bottom: solid 2px black;}
-  .EtiquetaSmall {display: none;}
-  /*TR-----------------------------------------------------*/
-   /*INDEX---------------------------------------------------------------------------------------*/ 
+ /*TR-----------------------------------------------------*/
+ .TiraCava { padding:0!important; margin:0px; padding: 0px;border-top: solid 1px white;position: relative;display: block;}
+ .TiraCava img {width: 100%; z-index: 0;}
+ .TiraCava h6{ margin: 0 auto; width: 100%; text-align: center; color: #795205; 
+ font-family: 'EB Garamond', Bold; position: absolute;z-index: 3;margin-top: 70px; font-size: 20px;text-shadow: 1px 1px #000000;}
+ .TiraCava h1 { margin: 0 auto; width: 100%; text-align: center; color: #795205; 
+ font-family: 'Amarante', cursiva;position: absolute;z-index: 3; margin-top: 30px;font-size:500%; text-shadow: 2px 2px #000000; }
+ .TiraSmall  {display: none; }
+ .TiraBlue {display: none; }
+ .Etiqueta {padding:0!important; width:100%; border-top: solid 1px white; position: relative;display: block;}
+ .Etiqueta img {width: 100%; border-bottom: solid 2px black;}
+ .EtiquetaSmall {display: none;}
+ /*TR-----------------------------------------------------*/
+  /*INDEX---------------------------------------------------------------------------------------*/ 
   p {font-size:14;text-align: left;}
+   /* .Inici { padding: 50px 75px 0px 75px; } */
+   .contenText {padding:50px 100px 0px 100px!important;}
   
-   .Inici { padding: 50px 75px 0px 75px; }
-  
-   .contenText {padding:25px 50px 0px 50px;}
-  
-   .contenText p {padding: 0px;margin: 0px; }
+   .contenText p {font-size:18px; padding: 0px;margin: 0px; }
    
-   .contenText h1 {font-size: 35px; font-family: Amarante-Regular,serif; line-height: 50px;}
+   .contenText h1 {font-size: 45px; font-family: Amarante-Regular,serif; margin-bottom: 15px}
   
-  .contentLeft{padding:25px 15px 50px 50px; position: relative; left: -250px;}
+  .contentLeft{padding:25px 20px 50px 100px!important; position: relative; left: -250px;}
    
   .contentLeft img{width: 100%;padding:0px;  border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;} 
   
-  .contentRight {padding: 25px 50px 50px 15px; position: relative; left: -250px; }
+  .contentRight {padding: 25px 100px 50px 20px!important; position: relative; left: -250px; }
   
   .contentRight img{width:100%; height:100%; padding:0px; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity:0;}
   
   #donesImg {display: none;}
   
-  .fondo{background-image: url(../img/fondo3.jpg);background-attachment: fixed;background-position: center left;
-    background-size: cover;height: 450px;width: 100%;display: table;}
+  .fondo{background-image: url(http://localhost/ficheros/WORDPRESS/cava_tercera_republica/wp-content/uploads/2021/10/fondo3.jpg);background-attachment: fixed;background-position: center left;
+    background-size: cover;height: 550px;width: 100%;display: table;}
   
   
   .texto{display: table-cell;vertical-align: middle;}
   
-  .texto h1{color: white;text-shadow: 2px 2px black; font-size: 5vw; text-align: center;}
+  .texto h1 {color: white;text-shadow: 2px 2px black; font-size: 5vw; text-align: center;}
   
-  .contentLeft2{padding: 25px 20px 50px 50px; position: relative; left: -250px;}
+  .contentLeft2{padding:25px 20px 50px 100px!important; position: relative; left: -250px;}
   
   .contentLeft2 img{width: 100%;border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  .contenText2 {padding:25px 50px 0px 50px }
+  .contenText2 {padding:50px 100px 0px 100px!important;}
   
-  .contenText2 small {float:right}
+  .contenText2 small {float: right;}
   
-  .contenText2 h1 {font-size: 35px; font-family: Amarante-Regular,serif; line-height: 40px;}
+  .contenText2 h1 {font-size: 45px; font-family: Amarante-Regular,serif; margin-bottom: 15px;}
   
   .contenText2 p{padding: 0px;margin-bottom: 10px;}
   
-  .contentRight2{padding: 25px 50px 50px 20px; position: relative; left: -250px;}
+  .contentRight2{padding: 25px 100px 50px 20px!important; position: relative; left: -250px;}
   
   .contentRight2 img{ width: 100%; padding:0px; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3); opacity: 0;}	
   
@@ -830,19 +848,21 @@ html, body {margin:0!important; width: auto !important; box-sizing: border-box;o
     /*BOTIGA----------------------------------------------------------------------------------*/
   
   /*FOOTER---------------------------------------------------------------------------------*/
-  .futer{padding: 20px 40px 20px 40px;height:210px;background-color:#20201f;}
-  
+  .futer{padding: 20px 40px 20px 40px!important;height:210px!important;background-color:#353533;}
+  footer {padding-bottom: 15px;}
   /* .foter{background-color: #4a4848;width: 100%;bottom:0px; } */
   .left{height: 170px;width: 100%;padding:0px 0px 0px 0px;float: left;border-right: solid 1px white;}
   .leftin {width: 100%;padding:0px 0px 0px 15px;float: left;}
   .leftin a {display: block; }
   .left ul {list-style: none; padding:0px;}
-  .left a {color:white; font-size: 14px; line-height: 25px;}
+  .left a {color:white; font-size: 12px; text-decoration: none; }
+  .left a:hover {color: #97702b;}
   .left h4 {color: white; font-size: 18px; margin-bottom: 20px;}
   .left p{text-align: left;color:white;line-height: 20px;}
   .compraFuter{width: 100%;border-right: solid 1px white;height:170px;float: left;padding:0px 20px 0px 20px;}
   .compraFuter ul {list-style: none;padding: 0px;}
-  .compraFuter a {color:white;font-size: 14px;display: block;}
+  .compraFuter a {color:white;font-size: 12px;display: block;text-decoration: none;}
+  .compraFuter a:hover {color:#97702b;}
   .compraFuter h4 {color: white;font-size: 18px; margin-bottom: 20px;}
   .comprafuterin {padding: 0;}
   .payPal {width: 32%; float: left; padding-left: 5px; margin: 30px 0px 0px 25px;}
@@ -851,8 +871,10 @@ html, body {margin:0!important; width: auto !important; box-sizing: border-box;o
   .payCard img {width: 100%;}
   .right h4 {color: white;font-size: 18px; margin-bottom: 20px;}
   .right{width: 100%;height:170px;padding:0px 0px 0px 20px;float: right;}
-  .right p{width: 100%;font-size: 14px;color:white;margin: 0px;}
-  .logos {width: 70%;height:35px; margin: 0 auto; background-color: #20201f; padding: 0px; margin-top: 5px;}
+  .right a {color: #97702b; text-decoration: none;}
+  .right a:hover {color:grey;}
+  .right p{width: 100%;font-size: 12px;color:white;margin: 0px;}
+  .logos {width: 70%;height:35px; margin: 0 auto; background-color: #353533; padding: 0px; margin-top: 5px;}
   .face {width: 12%; float: left;margin-left:14%; margin-right:14%;}
   .face img{ width: 100%; }
   .insta {width: 12%; float: left;}
@@ -866,8 +888,9 @@ html, body {margin:0!important; width: auto !important; box-sizing: border-box;o
   .modal-content{width: 600px;}
      
   .politicas-smart{display: none;}
-  .politicas{width: 100%;height: 55px;background-color: black;}
-  .politicas p {color: white; font-size: 12px; text-align: center; line-height: 55px;margin:0;} 
+  .politicas{width: 100%;background-color: black;height: 47px;}
+  .politicas p {color: white; font-size: 12px; text-align: center; margin: 0;line-height: 75px;} 
+  
   /*FOOTER---------------------------------------------------------------------------------*/
   
     /*CONTACTAR--------------------------------------------------------------------------------*/
@@ -884,14 +907,23 @@ html, body {margin:0!important; width: auto !important; box-sizing: border-box;o
   
   }
   
-  
   /*--PANTALLAS GRANDES bootstrap Grid (LG) a partir de 992px ------------------------------------*/
+   /*----------------------------------------------------------------------------------------------*/
+  /*----------------------------------------------------------------------------------------------*/
+  /*----------------------------------------------------------------------------------------------*/
+  /*----------------------------------------------------------------------------------------------*/
   @media screen and (min-width: 768px) and (max-width: 991px)
   {
+    html{
+      margin-top:0!important;
+      padding: 0;
+    }
     /* body {background: green;} */
   
-    .bgone {background-image: url('../img/bg_smart.jpg');background-position: bottom ;   background-size: 100%;  padding: 0px 15px 0px 15px;}
-  
+  .bgone {background-image: url('http://localhost/ficheros/WORDPRESS/cava_tercera_republica/wp-content/uploads/2021/10/fondodiv1.jpg')!important;
+    background-attachment: fixed;
+    background-position: center;background-size: cover;width: 100%;position: absolute;  padding: 0; }
+
   
   /* Tamaño Caroussel-----------------------------------------------*/
   
@@ -928,7 +960,7 @@ html, body {margin:0!important; width: auto !important; box-sizing: border-box;o
   #menu-menu-1{background-color: black;text-align: center; }
   .menu-item {border-top: solid white 1px;}
   .navbar{width:100%;position: fixed; background-color: black; height: 60px;padding: 0px!important; } 
-  #fondomenu {position: fixed!important;padding: 0!important;}
+  #fondomenu {position: fixed!important;padding: 0!important;z-index: 2;}
   .nav.navbar { width: 100%;}
   a.nav-link.text-secondary { line-height:40px; border-bottom: solid 1px white; background-color: black; text-shadow:2px 2px 2px #000000;color: white!important;}
   
@@ -944,67 +976,64 @@ html, body {margin:0!important; width: auto !important; box-sizing: border-box;o
   /*--MENU-----------------------------------------------------------*/
   
   
-  /*TR-----------------------------------------------------*/
-  .TiraCava { margin:0px; padding: 0px;border-top: solid 1px white;position: relative;display: block;}
-  .TiraCava img {width: 100%; z-index: 0;}
-  .TiraCava h6{ margin: 0 auto; width: 100%; text-align: center; color: #795205; 
-  font-family: 'EB Garamond', Bold; position: absolute;z-index: 3;margin-top: 70px; font-size: 20px;text-shadow: 1px 1px #000000;}
-  .TiraCava h1 { margin: 0 auto; width: 100%; text-align: center; color: #795205; 
-  font-family: 'Amarante', cursiva;position: absolute;z-index: 3; margin-top: 30px;font-size:500%; text-shadow: 2px 2px #000000; }
-  .TiraSmall  {display: none; }
-  .TiraBlue {display: none; }
-  .Etiqueta {border-top: solid 1px white; position: relative;display: block;}
-  .Etiqueta img {width: 100%; border-bottom: solid 2px black;}
-  .EtiquetaSmall {display: none;}
-  /*TR-----------------------------------------------------*/
-  /*INDEX----------------------------------------------------------------------------------*/
-  p {font-size:14;text-align: left;}
+ /*TR-----------------------------------------------------*/
+ .TiraCava { padding:0!important; margin:0px; padding: 0px;border-top: solid 1px white;position: relative;display: block;}
+ .TiraCava img {width: 100%; z-index: 0;}
+ .TiraCava h6{ margin: 0 auto; width: 100%; text-align: center; color: #795205; 
+ font-family: 'EB Garamond', Bold; position: absolute;z-index: 3;margin-top: 70px; font-size: 20px;text-shadow: 1px 1px #000000;}
+ .TiraCava h1 { margin: 0 auto; width: 100%; text-align: center; color: #795205; 
+ font-family: 'Amarante', cursiva;position: absolute;z-index: 3; margin-top: 30px;font-size:500%; text-shadow: 2px 2px #000000; }
+ .TiraSmall  {display: none; }
+ .TiraBlue {display: none; }
+ .Etiqueta {padding:0!important; width:100%; border-top: solid 1px white; position: relative;display: block;}
+ .Etiqueta img {width: 100%; border-bottom: solid 2px black;}
+ .EtiquetaSmall {display: none;}
+ /*TR-----------------------------------------------------*/
+  /*INDEX---------------------------------------------------------------------------------------*/ 
+  p {font-size:14!important;text-align: left;}
+   /* .Inici { padding: 50px 75px 0px 75px; } */
+   .contenText {padding:50px 75px 0px 75px!important;}
   
-  .fondoIndex{background-image: url(../img/fondodiv1.jpg);background-attachment: fixed;
-  background-position: center center;background-size: cover;width: 100%;}
-  
-  .contenText {padding:25px 50px 0px 50px;}
-  
-  .contenText p {padding: 0px;margin: 0px; }
-  
-  .contenText h1 {font-size: 35px; font-family: Amarante-Regular,serif; line-height: 50px;}
-  
-  .contentLeft{Padding: 25px 15px 50px 50px;;position:relative;left: -250px;}
+   .contenText p {font-size:18px; padding: 0px;margin: 0px; }
    
-  .contentLeft img{width: 100%;padding:0px;border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
+   .contenText h1 {font-size: 45px; font-family: Amarante-Regular,serif; margin-bottom: 15px}
   
-  .contentRight {padding: 25px 50px 50px 15px; position:relative; left: -250px;}
+  .contentLeft{padding:25px 20px 50px 75px!important; position: relative; left: -250px;}
+   
+  .contentLeft img{width: 100%;padding:0px;  border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;} 
   
-  .contentRight img{width:100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
+  .contentRight {padding: 25px 75px 50px 20px!important; position: relative; left: -250px; }
+  
+  .contentRight img{width:100%; height:100%; padding:0px; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity:0;}
   
   #donesImg {display: none;}
   
-  .fondo{background-image: url(../img/fondo3.jpg);background-attachment: fixed;background-position: center left;
-    background-size: cover;height: 450px;width: 100%;display: table;}
+  .fondo{background-image: url(http://localhost/ficheros/WORDPRESS/cava_tercera_republica/wp-content/uploads/2021/10/fondo3.jpg);background-attachment: fixed;background-position: center left;
+    background-size: cover;height: 550px;width: 100%;display: table;}
+  
   
   .texto{display: table-cell;vertical-align: middle;}
   
-  .texto h1{color: white;text-shadow: 2px 2px black; font-size: 5vw; text-align: center;}
+  .texto h1 {color: white;text-shadow: 2px 2px black; font-size: 5vw; text-align: center;}
   
-  .contentLeft2{padding: 25px 15px 50px 40px; position:relative;left: -250px;}
+  .contentLeft2{padding:25px 20px 50px 75px!important; position: relative; left: -250px;}
   
   .contentLeft2 img{width: 100%;border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  .contenText2 {padding:25px 50px 0px 50px }
+  .contenText2 {padding:50px 75px 0px 75px!important;}
   
   .contenText2 small {float: right;}
   
-  .contenText2 h1 {font-size: 35px; font-family: Amarante-Regular,serif; line-height: 40px;}
+  .contenText2 h1 {font-size: 45px; font-family: Amarante-Regular,serif; margin-bottom: 15px;}
   
-  .contenText2 p{padding: 0px;margin: 0px;}
+  .contenText2 p{padding: 0px;margin-bottom: 10px;}
   
-  .contentRight2{padding: 25px 40px 0px 15px; position:relative;left: -250px;}
+  .contentRight2{padding: 25px 75px 50px 20px!important; position: relative; left: -250px;}
   
-  .contentRight2 img{ width: 100%; padding:0px; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}	
-      
+  .contentRight2 img{ width: 100%; padding:0px; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3); opacity: 0;}	
   
-  /*INDEX----------------------------------------------------------------------------------*/
-  
+  /*INDEX---------------------------------------------------------------------------------*/
+
   /*REPU----------------------------------------------------------------------------------*/
   
   p {font-size:14px;text-align: left;}
@@ -1194,46 +1223,51 @@ html, body {margin:0!important; width: auto !important; box-sizing: border-box;o
   /*BOTIGA----------------------------------------------------------------------------------*/
   
   
-  /*FOOTER---------------------------------------------------------------------------------*/
-  .futer{padding:20px;width: 100%;height:210px;background-color:#20201f;}
-  
+    /*FOOTER---------------------------------------------------------------------------------*/
+  .futer{padding: 20px 40px 20px 40px!important;height:210px!important;background-color:#353533;}
+  footer {padding-bottom: 15px;}
   /* .foter{background-color: #4a4848;width: 100%;bottom:0px; } */
   .left{height: 170px;width: 100%;padding:0px 0px 0px 0px;float: left;border-right: solid 1px white;}
+  .left a {color:white; text-decoration: none; }
+  .left a:hover {color: #97702b;}
   .leftin {width: 100%;padding:0px 0px 0px 15px;float: left;}
   .leftin a {display: block; }
   .left ul {list-style: none; padding:0px;}
-  .left a {color:white; font-size: 13px; line-height: 25px;}
+  .left a {color:white; font-size: 12px; line-height: 25px;}
   .left h4 {color: white; font-size: 18px; margin-bottom: 20px;}
-  .left p{text-align: left;font-size: auto;color:white;line-height: 20px;}
+  .left p{text-align: left;color:white;line-height: 20px;}
   .compraFuter{width: 100%;border-right: solid 1px white;height:170px;float: left;padding:0px 20px 0px 20px;}
   .compraFuter ul {list-style: none;padding: 0px;}
-  .compraFuter a {color:white;font-size: 13px;}
+  .compraFuter a {color:white;font-size: 12px;display: block;text-decoration: none;}
+  .compraFuter a:hover {color:#97702b;}
   .compraFuter h4 {color: white;font-size: 18px; margin-bottom: 20px;}
-  .comprafuterin {padding:0px;}
-  .payPal {width: 35%; float: left; padding-left: 15px;margin-top: 30px;}
+  .comprafuterin {padding: 0;}
+  .payPal {width: 32%; float: left; padding-left: 5px; margin: 30px 0px 0px 25px;}
   .payPal img{width: 100%;}
-  .payCard {width: 35%; float: right; padding-right: 15px; margin-top: 30px;}
+  .payCard {width: 35%; float: right; padding-right: 5px;margin: 30px 25px 0px 0px;}
   .payCard img {width: 100%;}
   .right h4 {color: white;font-size: 18px; margin-bottom: 20px;}
+  .right a {color: #97702b; text-decoration: none;}
+  .right a:hover {color:grey!important;}
   .right{width: 100%;height:170px;padding:0px 0px 0px 20px;float: right;}
-  .right p{width: 100%;font-size: 13px;color:white;margin:0; line-height: 25px;}
-  .content-logos {display: none;}
-  .logos {width: 50%;height:35px; margin: 0 auto; background-color: #20201f; padding: 0px; margin-top: 5px;}
-  .face {width: 15%; float: left;margin-left:13%; margin-right:13%;}
+  .right p{width: 100%;font-size: 12px;color:white;margin: 0px;}
+  .logos {width: 70%;height:35px; margin: 0 auto; background-color: #353533; padding: 0px; margin-top: 5px;}
+  .face {width: 12%; float: left;margin-left:14%; margin-right:14%;}
   .face img{ width: 100%; }
-  .insta {width: 15%; float: left;}
+  .insta {width: 12%; float: left;}
   .insta img{ width: 100%;}
-  .twiter {width: 15%; float: left;margin-left:13%; margin-right:13%;}
+  .twiter {width: 12%; float: left;margin-left:14%; margin-right:14%;}
   .twiter img{ width: 100%;}
-  .logo {width: 25%;float: right; margin-top: 15px;margin-right: 15px; padding-right: 0px; padding-left: 0px; }
+  .logo {width: 20%;float: right; margin-top: 15px;margin-right: 15px; padding-right: 0px; padding-left: 0px; }
   .logo img{width: 100%;}  
   .redes{/*border:solid 1px white;*/width: 100%;height: 60px;line-height: 60px;padding: 0px;/*height: 100%;*/float: right;text-align: center; }
   .redes img{width: 40px;/*float:right;*/margin:2px; }
   .modal-content{width: 600px;}
      
   .politicas-smart{display: none;}
-  .politicas{width: 100%;height: 55px;background-color: black;}
-  .politicas p {color: white; font-size: 12px; text-align: center; line-height: 55px;margin:0;} 
+  .politicas{width: 100%;background-color: black;height: 47px;}
+  .politicas p {color: white; font-size: 12px; text-align: center; margin: 0;line-height: 75px;} 
+  
   /*FOOTER---------------------------------------------------------------------------------*/
   
     /*CONTACTAR--------------------------------------------------------------------------------*/
@@ -1247,11 +1281,18 @@ html, body {margin:0!important; width: auto !important; box-sizing: border-box;o
   
   } 
   /*--PANTALLAS GRANDES bootstrap Grid (MD) a partir de 992px ------------------------------------*/
+  /*----------------------------------------------------------------------------------------------*/
+  /*----------------------------------------------------------------------------------------------*/
+  /*----------------------------------------------------------------------------------------------*/
+  /*----------------------------------------------------------------------------------------------*/
   @media screen and (min-width: 576px) and (max-width:767px) 
   {
+  
     /* body {background: yellow;} */
     
-    .bgone {background-image: url('../img/bg_smart.jpg');background-position: bottom ;   background-size: 130%;  padding: 0px 15px 0px 15px;}
+    .bgone {background-image: url('http://localhost/ficheros/WORDPRESS/cava_tercera_republica/wp-content/uploads/2021/10/fondodiv1.jpg')!important;
+      background-attachment: fixed;
+      background-position: center;background-size: cover;width: 100%;position: absolute;  padding: 0; }
   
   
   
@@ -1283,7 +1324,7 @@ html, body {margin:0!important; width: auto !important; box-sizing: border-box;o
   #menu-menu-1{background-color: black;text-align: center; }
   .menu-item {border-top: solid white 1px;}
   .navbar{width:100%;position: fixed; background-color: black; height: 60px;padding: 0px!important; } 
-  #fondomenu {position: fixed!important;padding: 0!important;}
+  #fondomenu {position: fixed!important;padding: 0!important;z-index: 2;}
   .nav.navbar { width: 100%;}
   a.nav-link.text-secondary { line-height:40px; border-bottom: solid 1px white; background-color: black; text-shadow:2px 2px 2px #000000;color: white!important;}
   
@@ -1295,6 +1336,7 @@ html, body {margin:0!important; width: auto !important; box-sizing: border-box;o
   
   #menuCaja{width: 100%;}
   #menu-item-36 {display: none;}
+  
   /*--MENU-----------------------------------------------------------*/
   
   
@@ -1304,67 +1346,66 @@ html, body {margin:0!important; width: auto !important; box-sizing: border-box;o
   #slider2 { display: none;}
   
   
-  /*TR-----------------------------------------------------*/
-  .TiraCava { margin:0px; padding: 0px;position: relative;border-top: solid 1px white;}
-  .TiraCava img {width: 100%; height:100%; }
-  .TiraCava h6{ margin: 0 auto; width: 100%; text-align: center; color: #795205; 
-  font-family: 'EB Garamond', Bold; position: absolute;z-index: 3;margin-top: 70px; font-size: 20px;text-shadow: 1px 1px #000000;}
-  .TiraCava h1 { margin: 0 auto; width: 100%; vertical-align: bottom; text-align: center; color: #795205; 
-  font-family: 'Amarante', cursiva;position: absolute;z-index: 3; margin-top: auto;font-size: 500%; text-shadow: 2px 2px #000000; }
-  .TiraSmall  {display: none; }
-  .TiraBlue {display: none; }
-  .Etiqueta {border-top: solid 1px white; position: relative;display: block;}
-  .Etiqueta img {width: 100%; border-bottom: solid 2px black;}
-  .EtiquetaSmall {display: none;}
-  /*TR-----------------------------------------------------*/
+   /*TR-----------------------------------------------------*/
+ .TiraCava { background-color: black; padding:0!important; margin:0px; padding: 0px;border-top: solid 1px white;position: relative;display: block;}
+ .TiraCava img {width: 100%; z-index: 0;height:100%;}
+ .TiraCava h6{ margin: 0 auto; width: 100%; text-align: center; color: #795205; 
+ font-family: 'EB Garamond', Bold; position: absolute;z-index: 3;margin-top: 70px; font-size: 20px;text-shadow: 1px 1px #000000;}
+ .TiraCava h1 { margin: 0 auto; width: 100%; text-align: center; color: #795205; 
+ font-family: 'Amarante', cursiva;position: absolute;z-index: 3; margin-top: 30px;font-size:500%; text-shadow: 2px 2px #000000; }
+ .TiraSmall  {display: none; }
+ .TiraBlue {display: none; }
+ .Etiqueta {padding:0!important; width:100%; border-top: solid 1px white; position: relative;display: block;}
+ .Etiqueta img {width: 100%; border-bottom: solid 2px black;}
+ .EtiquetaSmall {display: none;}
+ /*TR-----------------------------------------------------*/
   
   
   
-  /*INDEX----------------------------------------------------------------------------------*/	
-  p {font-size:14px;text-align: left;}
+   /*INDEX---------------------------------------------------------------------------------------*/ 
+   p {font-size:14px!important;text-align: left;}
+   /* .Inici { padding: 50px 75px 0px 75px; } */
+   .contenText {padding:50px 50px 0px 50px!important;}
   
-  .contenText {padding:25px 40px 0px 40px;}
-  
-  .contenText p {padding: 0px;margin: 0px; }
-  
-  .contenText h1 {font-size: 30px; font-family: Amarante-Regular,serif; line-height: 50px;}
-  
-  .contentLeft{padding:25px 15px 25px 40px; position:relative; left: -250px;}
+   .contenText p {font-size:18px; padding: 0px;margin: 0px; }
    
-  .contentLeft img{width: 100%;padding:0px; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
+   .contenText h1 {font-size: 38px; font-family: Amarante-Regular,serif; margin-bottom: 15px}
   
-  .contentRight {width: 100%;padding: 25px 40px 25px 15px; position:relative; left: -250px;}
+  .contentLeft{padding:25px 20px 50px 50px!important; position: relative; left: -250px;}
+   
+  .contentLeft img{width: 100%;padding:0px;  border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;} 
+  
+  .contentRight {padding: 25px 50px 50px 20px!important; position: relative; left: -250px; }
+  
+  .contentRight img{width:100%; height:100%; padding:0px; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity:0;}
   
   #donesImg {display: none;}
   
-  .contentRight img{width:100%;padding:0px; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
+  .fondo{background-image: url(http://localhost/ficheros/WORDPRESS/cava_tercera_republica/wp-content/uploads/2021/10/fondo3.jpg);background-attachment: fixed;background-position: center left;
+    background-size: cover;height: 550px;width: 100%;display: table;}
   
-  .fondo{background-image: url(../img/fondo3.jpg);background-attachment: fixed;background-position: center left;
-    background-size: cover;height: 450px;width: 100%;display: table;}
-    
   
   .texto{display: table-cell;vertical-align: middle;}
   
-  .texto h1{color: white;text-shadow: 2px 2px black; font-size: 5vw; text-align: center;}
+  .texto h1 {color: white;text-shadow: 2px 2px black; font-size: 5vw; text-align: center;}
   
-  .contentLeft2{padding: 25px 15px 50px 40px; position: relative; left: -250px;}
+  .contentLeft2{padding:25px 20px 50px 50px!important; position: relative; left: -250px;}
   
-  .contentLeft2 img{width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
+  .contentLeft2 img{width: 100%;border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  .contenText2 {padding:25px 50px 0px 50px }
+  .contenText2 {padding:50px 50px 0px 50px!important;}
   
   .contenText2 small {float: right;}
   
-  .contenText2 h1 {font-size: 30px; font-family: Amarante-Regular,serif; line-height: 40px;}
+  .contenText2 h1 {font-size: 38px; font-family: Amarante-Regular,serif; margin-bottom: 15px;}
   
-  .contenText2 p{padding: 0px;margin: 0px;}
+  .contenText2 p{padding: 0px;margin-bottom: 10px;}
   
-  .contentRight2{padding: 25px 40px 0px 15px; position: relative; left: -250px;}
+  .contentRight2{padding: 25px 50px 50px 20px!important; position: relative; left: -250px;}
   
-  .contentRight2 img{ width: 100%; padding:0px; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}	
+  .contentRight2 img{ width: 100%; padding:0px; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3); opacity: 0;}	
   
-  
-  /*INDEX----------------------------------------------------------------------------------*/
+  /*INDEX---------------------------------------------------------------------------------*/
   
   
   /*REPU----------------------------------------------------------------------------------*/
@@ -1560,18 +1601,21 @@ html, body {margin:0!important; width: auto !important; box-sizing: border-box;o
   
   /*FOOTER---------------------------------------------------------------------------------*/
   
-  .futer{width: 100%;height:340px; padding:20px 25px 20px 25px;background-color:#20201f;}
+  .futer{width: 100%;height:340px; padding:20px 40px 20px 40px!important;background-color:#353533;}
+  /* footer {padding-bottom: 15px;} */
   /* .foter{background-color: #4a4848;width: 100%;bottom:0px; } */
   .left{height: 140px;padding-left:0px;width: 100%;float: left;border-right: solid 1px white;}
   .left ul {list-style: none; padding:0px;}
-  .left a {color:white; font-size: 12px; }
+  .left a {color:white; font-size: 12px;text-decoration: none; }
+  .left a:hover {color: #97702b;}
   
   .left h4 {color: white; font-size: 16px;margin-bottom: 20px;}
   .leftin {padding-left: 20px;}
-  .leftin a {display: block;line-height: 25px;}
+  .leftin a {display: block;line-height: 25px;text-decoration: none;}
   /* .left p{text-align: left;font-size: auto;color:white;line-height: 20px;} */
-  .compraFuter{width: 100%; height:140px;float: left;padding:0px 0px 0px 15px;}
-  .compraFuter a {color:white;font-size: 12px;display: block;}
+  .compraFuter{width: 100%; height:140px;float: left;padding:0px 0px 0px 15px!important;}
+  .compraFuter a {color:white;font-size: 12px;display: block;text-decoration: none;}
+  .compraFuter a:hover {color:#97702b;}
   .compraFuter h4 {color: white;font-size: 16px; margin-bottom: 20px;};
   
   .compraFuter h4 {color: white;font-size: 14px}
@@ -1580,10 +1624,13 @@ html, body {margin:0!important; width: auto !important; box-sizing: border-box;o
   .payCard {width: 32%; float: right; margin-right: 30px;  margin-top: 30px;}
   .payCard img {width: 100%;}
   .right h4 {color: white;font-size: 16px}
-  .right{padding: 0px;width: 100%;height:110px;float: right;background-color:#20201f ;margin-top: 20px;}
-  .right p{width: 100%;font-size: 12px;color:white;margin:10px 0px 10px 0px; }
+  .right{padding: 0px;width: 100%;height:110px;float: right;background-color:#353533 ;margin-top: 20px;}
+  .right p{width: 100%;font-size: 12px!important;color:white;margin:10px 0px 10px 0px!important; }
+  .right a {color: #97702b; text-decoration: none;}
+  .right a:hover {color:grey!important;}
+
   .content-logos {display: none;}
-  .logos {width: 50%;height:30px; margin: 0 auto; background-color: #20201f; padding: 0px;}
+  .logos {width: 65%;height:30px; margin: 0 auto; background-color: #353533; padding: 0px;}
   
   .face {width: 8%; float: left;margin-left:19%; margin-right:19%;}
   .face img{ width: 100%; }
@@ -1591,15 +1638,16 @@ html, body {margin:0!important; width: auto !important; box-sizing: border-box;o
   .insta img{ width: 100%;}
   .twiter {width: 8%; float: left;margin-left:19%; margin-right:19%;}
   .twiter img{ width: 100%;}
-  .logo {width: 15%;float: right; margin-top: 15px;padding-right: 0px; margin-right:60px; }
+  .logo {width: 13%;float: right; margin-top: 15px;padding-right: 0px; margin-right:60px; }
   .logo img{width: 100%;}  
   .redes{/*border:solid 1px white;*/width: 100%;height: 60px;line-height: 60px;padding: 0px;/*height: 100%;*/float: right;text-align: center; }
   .redes img{width: 40px;/*float:right;*/margin:2px; }
   
-  .content-logos {width: 100%; height:50px;background-color:#20201f;}  
+  .content-logos {width: 100%; height:50px;background-color:#353533;}  
   .politicas-smart {display: none;}
-  .politicas {width: 100%;height:50px;background-color: black;padding:10px 15px 10px 15px;display: block;}
+  .politicas {width: 100%;height:50px;background-color: black;padding:10px 15px 10px 15px!important;display: block;}
   .politicas p {color: white; font-size: 11px;  text-align: center;margin:0;line-height: 30px;} 
+  
   /*FOOTER---------------------------------------------------------------------------------*/
   
     /*CONTACTAR--------------------------------------------------------------------------------*/
@@ -1614,13 +1662,22 @@ html, body {margin:0!important; width: auto !important; box-sizing: border-box;o
   
   
   /*--PANTALLAS tablet bootstrap Grid (SM)a partir de 768px -----------------------------------*/
+  /*-------------------------------------------------------------------------------------------*/
+  /*-------------------------------------------------------------------------------------------*/
+  /*-------------------------------------------------------------------------------------------*/
+  /*-------------------------------------------------------------------------------------------*/
   @media screen and (min-width:321px) and (max-width:575px) 
   {
+    *{
+      margin:0;
+      padding: 0;
+    }
   /* body {background: red;}	 */
   
     
-  .bgone {background-image: url('../img/bg_smart.jpg');background-position: bottom ;   background-size: 300%;  padding: 0px 15px 0px 15px;}
-  
+  .bgone {background-image: url('http://localhost/ficheros/WORDPRESS/cava_tercera_republica/wp-content/uploads/2021/10/fondodiv1.jpg')!important;
+    background-attachment: fixed;
+    background-position: center;background-size: cover;width: 100%;position: absolute;  padding: 0; }
   /* Idiomas-----------------------------------------------*/
   #cajaClean {width: 200px; height:50px; float: right;margin-top: 51px;z-index: 1;position: absolute; right: 0px;}
   #cajaClean2 { width: 95px; height:50px; float: right; position: relative; z-index: 1; position: absolute;right: 107px;}
@@ -1643,15 +1700,15 @@ html, body {margin:0!important; width: auto !important; box-sizing: border-box;o
   /*-------------------------------------------------------------------*/
   
   /*TR-----------------------------------------------------*/
-  .TiraCava { height:100%;width: 100%;padding: 0;}
+  .TiraCava { height:100%;width: 100%;padding: 0!important;}
   .TiraCava img { width: 100%; vertical-align: bottom;}
   
   /* .TiraCava h1 { margin: 0 auto; width: 100%; vertical-align: bottom; text-align: center; color: #795205; 
   font-family: 'Amarante', cursiva;position: absolute;z-index: 3; margin-top: auto;font-size: 500%; text-shadow: 2px 2px #000000; }  */
-  .TiraSmall {border-top: solid 1px white; height: 100%;}
+  .TiraSmall {border-top: solid 1px white; height: 100%;padding: 0!important;}
   .TiraBig {display: none;} 
   .TiraBlue {display: none; }
-  .Etiqueta {display: block; width:100%; border-top: solid 1px white; position: relative; border-bottom: solid 2px black;margin-top: 0px; }
+  .Etiqueta {display: block; width:100%; border-top: solid 1px white; position: relative; border-bottom: solid 2px black;margin-top: 0px;padding: 0!important; }
   .Etiqueta img {width: 100%;height: 100%;}
   /* .EtiquetaSmall {height: 100%;display: none; } */
   .EtiquetaBig {display: none;}
@@ -1664,7 +1721,7 @@ html, body {margin:0!important; width: auto !important; box-sizing: border-box;o
   #menu-menu-1{background-color: black;text-align: center; }
   .menu-item {border-top: solid white 1px;}
   .navbar{width:100%;position: fixed; background-color: black; height: 60px;padding: 0px!important; } 
-  #fondomenu {position: fixed!important;padding: 0!important;}
+  #fondomenu {position: fixed!important;padding: 0!important;z-index:2!important;}
   .nav.navbar { width: 100%;}
   a.nav-link.text-secondary { line-height:40px; border-bottom: solid 1px white; background-color: black; text-shadow:2px 2px 2px #000000;color: white!important;}
   
@@ -1689,43 +1746,43 @@ html, body {margin:0!important; width: auto !important; box-sizing: border-box;o
   
   /*INDEX----------------------------------------------------------------------------------*/
   
-  p {font-size:14px;text-align: left;}
+  p {font-size:14px!important;text-align: left;}
   
-  .contenText {padding:25px 25px 0px 25px;}
+  .contenText {padding:25px 50px 0px 50px!important;}
   
   .contenText p {padding: 0px;margin: 0px; }
   
-  .contenText h1 {font-size: 35px; font-family: Amarante-Regular,serif; line-height: 40px;}
+  .contenText h1 {font-size: 30px; font-family: Amarante-Regular,serif; line-height: 40px;}
   
-  .contentLeft{padding:25px 25px 25px 25px;position:relative;left: -250px; }
+  .contentLeft{padding:25px 50px 25px 50px!important;position:relative;left: -250px; }
    
   .contentLeft img{width: 100%;padding:0px;border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  .contentRight {width: 100%;padding: 0px 25px 50px 25px;position:relative;left: -250px; }
+  .contentRight {width: 100%;padding: 0px 50px 50px 50px!important;position:relative;left: -250px; }
   
   .contentRight img{width:100%;padding:0px;border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  .fondo{background-image: url(../img/fondo3.jpg);background-attachment: fixed;background-position: bottom left; 
+  .fondo{background-image: url(http://localhost/ficheros/WORDPRESS/cava_tercera_republica/wp-content/uploads/2021/10/fondo3.jpg);background-attachment: fixed;background-position: bottom left; 
     background-size: cover;height: 450px;width: 100%;background-size: 725px 625px;  background-repeat: no-repeat;}
   
   .texto{width: 100%;}
   
   /*.texto h1{color: white;text-shadow: 2px 2px black; font-size: 5vw; text-align: center;}*/
   
-  .contentLeft2{padding: 25px 25px 25px 25px;  position: relative; left: -250px;}
+  .contentLeft2{padding: 25px 50px 25px 50px!important;  position: relative; left: -250px;}
   
   .contentLeft2 img{width: 100%;border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
   
-  .contentRight2{padding: 0px 25px 50px 25px;  position: relative; left: -250px;}
+  .contentRight2{padding: 0px 50px 50px 50px!important;  position: relative; left: -250px;}
   
   .contentRight2 img{ width: 100%; padding:0px;border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}	
   
-  .contenText2 {padding:25px 25px 0px 25px; }
+  .contenText2 {padding:25px 50px 0px 50px!important; }
   
   .contenText2 small{float: right;}
   
-  .contenText2 h1 {font-size: 35px; font-family: Amarante-Regular,serif; line-height: 40px;}
+  .contenText2 h1 {font-size: 30px; font-family: Amarante-Regular,serif; line-height: 40px;}
   
   .contenText2 p{padding: 0px;margin: 0px 0px 10px 0px;}
   
@@ -1930,18 +1987,19 @@ html, body {margin:0!important; width: auto !important; box-sizing: border-box;o
   
   /*FOOTER---------------------------------------------------------------------------------*/
   
-  .futer{width: 100%;height:330px; padding:20px;background-color:#20201f;}
+  .futer{width: 100%;height:330px; padding:30px!important;background-color:#353533;}
   
   .left{height: 130px;padding-left:0px;width: 100%;float: left;border-right: solid 1px white;}
   .left ul {list-style: none; padding:0px;}
-  .left a {color:white; font-size: 11px; }
-  
+  .left a {color:white; font-size: 12px; text-decoration: none; }
+  .left a:hover {color: #97702b;}
   .left h4 {color: white; font-size: 16px;margin-bottom: 20px;}
   .leftin {padding-left: 15px;}
   .leftin a {display: block;line-height: 25px;}
   .left p{text-align: left;font-size: 11;color:white;line-height: 20px;}
   .compraFuter{width: 100%; height:130px;float: left;padding:0px 0px 0px 15px;}
-  .compraFuter a {color:white;font-size: 11px;display: block;}
+  .compraFuter a {color:white;font-size: 12px;display: block;text-decoration: none;}
+  .compraFuter a:hover {color:#97702b;}
   .compraFuter h4 {color: white;font-size: 16px; margin-bottom: 20px;};
   
   .compraFuter h4 {color: white;font-size: 14px}
@@ -1950,10 +2008,12 @@ html, body {margin:0!important; width: auto !important; box-sizing: border-box;o
   .payCard {width: 35%; float: right;  margin-top: 30px;margin-right: 10px;}
   .payCard img {width: 100%;}
   .right h4 {color: white;font-size: 16px}
-  .right{padding: 0px;width: 100%;height:110px;float: right;background-color:#20201f ;margin-top: 20px;}
-  .right p{width: 100%;font-size: 12px;color:white;margin:10px 0px 10px 0px; }
+  .right{padding: 0px;width: 100%;height:110px;float: right;background-color:#353533 ;margin-top: 20px;}
+  .right a {color: #97702b; text-decoration: none;}
+  .right a:hover {color:grey!important;}
+  .right p{width: 100%;font-size: 12px!important;color:white;margin:10px 0px 10px 0px; }
   
-  .logos {width: 50%; height:30px; background-color: #20201f; padding: 0px; display: flex;margin:0 auto; z-index: 0;}
+  .logos {width: 50%; height:30px; background-color: #353533; padding: 0px; display: flex;margin:0 auto; z-index: 0;}
   
   .face {width: 32px; margin-left:15px; margin-right:15px;float:right;}
   .face img{ width: 100%; }
@@ -1966,12 +2026,13 @@ html, body {margin:0!important; width: auto !important; box-sizing: border-box;o
   .redes{/*border:solid 1px white;*/width: 100%;height: 60px;line-height: 60px;padding: 0px;/*height: 100%;*/float: right;text-align: center; }
   .redes img{width: 40px;/*float:right;*/margin:2px; }
   
-  .content-logos {width: 100%; height:50px;background-color:#20201f;}  
+  .content-logos {width: 100%; height:50px;background-color:#353533;}  
   .politicas {display: none;}
   .politicas-smart {width: 100%;height:50px;background-color: black;padding:10px 15px 10px 15px;display: block;}
-  .politicas-smart p {color: white; font-size: 11px;  text-align: center;margin:0;line-height: 18px;} 
+  .politicas-smart p {color: white; font-size: 11px!important;  text-align: center;margin:0;line-height: 18px;} 
   
-  .modal-body p {font-size: auto;}
+  .modal-body p {font-size: 16px;}
+  .modal-dialog {max-width: 60%!important;}
   /*FOOTER---------------------------------------------------------------------------------*/
   
     /*CONTACTAR--------------------------------------------------------------------------------*/
@@ -1985,13 +2046,19 @@ html, body {margin:0!important; width: auto !important; box-sizing: border-box;o
   } 
    
   /*--PANTALLAS MEDIAS bootstrap Grid (SX) por debajo de 768 px -----------------------------------*/
+  /*----------------------------------------------------------------------------------------------*/
+  /*----------------------------------------------------------------------------------------------*/
+  /*----------------------------------------------------------------------------------------------*/
+  /*----------------------------------------------------------------------------------------------*/
   @media screen and (min-width:0px) and (max-width: 320px)
   {
+   
     
     /* body {background: blue; }	 */
   
-  .bgone {background-image: url('../img/bg_smart.jpg');background-position: bottom ;   background-size: 300%;  padding: 0px 15px 0px 15px;}
-  
+    .bgone {background-image: url('http://localhost/ficheros/WORDPRESS/cava_tercera_republica/wp-content/uploads/2021/10/fondodiv1.jpg')!important;
+      background-attachment: fixed;
+      background-position: center;background-size: cover;width: 100%;position: absolute;  padding: 0; }
     p {font-size: auto; text-align: left;}
   
   /* Idiomas-----------------------------------------------*/
@@ -2016,11 +2083,11 @@ html, body {margin:0!important; width: auto !important; box-sizing: border-box;o
   #slider {display: none;}
   #slider2 {padding:60px 0px 0px 0px ; width: 100%;}
   
-  .TiraCava {  margin:0px; padding: 0px; border-top: solid 1px white; }
+  .TiraCava {  margin:0px; padding: 0px!important; border-top: solid 1px white; }
   .TiraBig { display: none; }
   .TiraSmall {display: none;}
   
-  .Etiqueta { border-top: solid 1px white;}
+  .Etiqueta { border-top: solid 1px white;padding: 0!important;}
   .EtiquetaBig {display:none;}
   .EtiquetaSmall {width: 100%;}
   .TiraBlue {width: 100%;}
@@ -2033,7 +2100,7 @@ html, body {margin:0!important; width: auto !important; box-sizing: border-box;o
   #menu-menu-1{background-color: black;text-align: center; }
   .menu-item {border-top: solid white 1px;}
   .navbar{width:100%;position: fixed; background-color: black; height: 60px;padding: 0px!important; } 
-  #fondomenu {position: fixed!important;padding: 0!important;}
+  #fondomenu {position: fixed!important;padding: 0!important;z-index:2!important;}
   .nav.navbar { width: 100%;}
   a.nav-link.text-secondary { line-height:40px; border-bottom: solid 1px white; background-color: black; text-shadow:2px 2px 2px #000000;color: white!important;}
   
@@ -2044,56 +2111,55 @@ html, body {margin:0!important; width: auto !important; box-sizing: border-box;o
   .navbar-brand {display: none;}
   
   #menuCaja{width: 100%;}
-
   #menu-item-36 {display: none;}
   
   /*--MENU-----------------------------------------------------------*/
   
   
-  /*INDEX----------------------------------------------------------------------------------*/
+   /*INDEX----------------------------------------------------------------------------------*/
   
-  p {font-size:14px;text-align: left;}
+   p {font-size:14px!important;text-align: left;}
   
-  .contenText {padding:25px 25px 0px 25px;}
-  
-  .contenText p {padding: 0px;margin: 0px; }
-  
-  .contenText h1 {font-size: 28px; font-family: Amarante-Regular,serif; line-height: 40px;}
-  
-  .contentLeft{padding:25px 25px 25px 25px;position:relative;left: -250px; }
+   .contenText {padding:25px 25px 0px 25px!important;}
    
-  .contentLeft img{width: 100%;padding:0px;border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
+   .contenText p {padding: 0px;margin: 0px; }
+   
+   .contenText h1 {font-size: 30px; font-family: Amarante-Regular,serif; line-height: 40px;}
+   
+   .contentLeft{padding:25px 25px 25px 25px!important;position:relative;left: -250px; }
+    
+   .contentLeft img{width: 100%;padding:0px;border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
+   
+   .contentRight {width: 100%;padding: 0px 25px 50px 25px!important;position:relative;left: -250px; }
+   
+   .contentRight img{width:100%;padding:0px;border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
+   
+   .fondo{background-image: url(http://localhost/ficheros/WORDPRESS/cava_tercera_republica/wp-content/uploads/2021/10/fondo3.jpg);background-attachment: fixed;background-position: bottom left; 
+     background-size: cover;height: 450px;width: 100%;background-size: 725px 625px;  background-repeat: no-repeat;}
+   
+   .texto{width: 100%;}
+   
+   /*.texto h1{color: white;text-shadow: 2px 2px black; font-size: 5vw; text-align: center;}*/
+   
+   .contentLeft2{padding: 25px 25px 25px 25px!important;  position: relative; left: -250px;}
+   
+   .contentLeft2 img{width: 100%;border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
+   
+   
+   .contentRight2{padding: 0px 25px 50px 25px!important;  position: relative; left: -250px;}
+   
+   .contentRight2 img{ width: 100%; padding:0px;border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}	
+   
+   .contenText2 {padding:25px 25px 0px 25px!important; }
+   
+   .contenText2 small{float: right;}
+   
+   .contenText2 h1 {font-size: 30px; font-family: Amarante-Regular,serif; line-height: 40px;}
+   
+   .contenText2 p{padding: 0px;margin: 0px 0px 10px 0px;}
+   
+   /*INDEX----------------------------------------------------------------------------------*/
   
-  .contentRight {width: 100%;padding: 0px 25px 25px 25px;position:relative;left: -250px; }
-  
-  .contentRight img{width:100%;padding:0px;border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
-  
-  .fondo{background-image: url(../img/fondo3.jpg);background-attachment: fixed;background-position: left bottom; 
-    background-size: cover;height: 450px;width: 100%;background-size: 700px 625px;  background-repeat: no-repeat;}
-  
-  .texto{width: 100%;}
-  
-  /*.texto h1{color: white;text-shadow: 2px 2px black; font-size: 5vw; text-align: center;}*/
-  
-  .contentLeft2{padding: 25px 25px 25px 25px;  position: relative; left: -250px;}
-  
-  .contentLeft2 img{width: 100%;border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
-  
-  
-  .contentRight2{padding: 0px 25px 50px 25px;  position: relative; left: -250px;}
-  
-  .contentRight2 img{ width: 100%; padding:0px;border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}	
-  
-  
-  .contenText2 {padding:25px 25px 0px 25px; }
-  
-  .contenText2 small{float: right;}
-  
-  .contenText2 h1 {font-size: 28px; font-family: Amarante-Regular,serif; line-height: 40px;}
-  
-  .contenText2 p{padding: 0px;margin: 0px 0px 10px 0px;}
-  
-  /*INDEX----------------------------------------------------------------------------------*/
   
   /*REPU----------------------------------------------------------------------------------*/
   
@@ -2293,18 +2359,18 @@ html, body {margin:0!important; width: auto !important; box-sizing: border-box;o
   
   /*FOOTER---------------------------------------------------------------------------------*/
   
-  .futer{width: 100%;height:310px; padding:20px;background-color:#20201f;}
+  .futer{width: 100%;height:320px; padding:30px!important;background-color:#353533!important;}
   
   .left{height: 140px;padding-left:0px;width: 100%;float: left;border-right: solid 1px white;}
   .left ul {list-style: none; padding:0px;}
-  .left a {color:white; font-size: 10px; line-height: 10px;}
+  .left a {color:white; font-size: 10px; line-height: 10px;text-decoration: none;}
   .left p {line-height: 10px;}
   .left h4 {color: white; font-size: 14px; margin-bottom: 20px;}
   .leftin {padding-left: 15px;}
   .leftin a {display: block;line-height: 18px;}
   
   .compraFuter{width: 100%; height:140px;float: left;padding:0px 0px 0px 15px;}
-  .compraFuter a {color:white;font-size: 10px;}
+  .compraFuter a {color:white;font-size: 10px;text-decoration: none;}
   .compraFuter h4 {color: white;font-size: 14px; margin-bottom: 20px;};
   .comprafuterin {padding:0px;}
   .comprafuterin a {display: block;}
@@ -2314,26 +2380,28 @@ html, body {margin:0!important; width: auto !important; box-sizing: border-box;o
   .payCard {width: 45%; float: right; padding-right: 10px;  margin-top: 30px;}
   .payCard img {width: 100%;}
   .right h4 {color: white;font-size: 14px}
-  .right{padding: 0px;width: 100%;height:110px;float: right;background-color:#20201f ;margin-top: 20px;}
-  .right p{width: 100%;font-size: 10px;color:white;margin:10px 0px 10px 0px; }
+  .right{padding: 0px;width: 100%;height:110px;float: right;background-color:#353533 ;margin-top: 20px;}
+  .right p{width: 100%;font-size: 10px!important;color:white;margin:10px 0px 10px 0px;}
+  .right a {text-decoration: none; color:#97702b;}
+  .right a:hover {color:grey!important}
   .content-logos {display: none;}
-  .logos {width: 50%;height:30px; margin: 0 auto; background-color: #20201f; padding: 0px;}
+  .logos {width: 40%;height:50px!important; margin: 0 auto; background-color: #353533; padding: 0px;}
   
-  .face {width: 20%; float: left;margin-left:10%; margin-right:10%;}
+  .face {width: 19%; float: left;margin-left:10%; margin-right:10%;}
   .face img{ width: 100%; }
-  .insta {width: 20%; float: left;}
+  .insta {width: 19%; float: left;}
   .insta img{ width: 100%;}
-  .twiter {width: 20%; float: left;margin-left:10%; margin-right:10%;}
+  .twiter {width: 19%; float: left;margin-left:10%; margin-right:10%;}
   .twiter img{ width: 100%;}
   .logo {width: 20%;float: right; margin-top: 30px;padding-right: 0px; padding-left: 0px; }
   .logo img{width: 100%;}  
   .redes{/*border:solid 1px white;*/width: 100%;height: 60px;line-height: 60px;padding: 0px;/*height: 100%;*/float: right;text-align: center; }
   .redes img{width: 40px;/*float:right;*/margin:2px; }
   
-  .content-logos {width: 100%; height:50px;background-color:#20201f;}  
+  .content-logos {width: 100%; height:50px;background-color:#353533;}  
   .politicas {display: none;}
-  .politicas-smart {width: 100%;height:50px;background-color: black;padding:10px 15px 10px 15px;display: block;}
-  .politicas-smart p {color: white; font-size: 11px;  text-align: center;margin:0;line-height: 20px;} 
+  .politicas-smart {width: 100%;height:50px!important;background-color: black;padding-top: 8px!important;display: block;}
+  .politicas-smart p {color: white; font-size: 10px!important;  text-align: center;margin:0;line-height: 18px;} 
   /*FOOTER---------------------------------------------------------------------------------*/
   
     /*CONTACTAR--------------------------------------------------------------------------------*/
