@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<?php get_template_part('template-parts/content', 'slider'); ?>
 <div class="container">
 <div class="row">
   <div class="col-12">
@@ -22,7 +23,7 @@
            <p class="small ">
             Categorias: <?php the_category(' / '); ?>
             Etiquetas: <?php the_tags('', ' / ', '') ?>
-          </p>
+          </p><br>
            <!-- <img src="img/imgX.jpg" alt="" class="img-fluid mb-3"> -->
           <?php
           if ( has_post_thumbnail() ) {
@@ -32,9 +33,9 @@
           }
           ?>
            <?php the_excerpt(); ?> 
-              <a href="<?php the_permalink(); ?>" class="btn btn-primary">Mes info</a>
+              <br><br><a href="<?php the_permalink(); ?>" class="btn btn-primary">Mes info</a>
 
-          </div>
+          </div><br><br>
           <!--entrada-->
           <?php endwhile;  endif; ?> 
          

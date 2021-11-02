@@ -55,7 +55,7 @@ p {margin-bottom: 0!important;}
   .paycard {width: 10px; }
   .paycard img {width: 50%;}
   #numberbox{width: 100%;}
-  
+  .btn-danger {background-color: #97702b!important; border-color: white!important;}  
   
   /*---------------------------------------------------------------------------------------------------------*/
   /*---------------------------------------------------------------------------------------------------------*/
@@ -198,7 +198,8 @@ p {margin-bottom: 0!important;}
   /*INDEX---------------------------------------------------------------------------------*/
   
   /*REPU----------------------------------------------------------------------------------*/
-  
+  .general {position:relative;padding-left: 100px!important;}
+
   p {font-size:18px;text-align: left;}
   
   .repuText {padding: 50px 100px 0px 100px!important;}
@@ -207,17 +208,17 @@ p {margin-bottom: 0!important;}
   
   .repuText h1 {font-size: 45px; font-family: Amarante-Regular,serif; margin-bottom: 15px;}
   
-  .repuleft{padding: 50px 20px 50px 100px; position: relative; float: left; left:-250px;}
+  .repuleft{padding: 50px 40px 0px 0px!important; position: relative; float: left; left:-250px;}
   
   .repuleft img{width: 100%;  border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
   #repuImg1L {opacity: 0;}
   
-  .repuleft2 {padding: 0px 20px 0px 100px!important; position: relative; float: left;margin-right: 0px; left: -250px;}
+  .repuleft2 {padding: 20px 0px 0px 100px!important; position: relative; float: left;margin-right: 0px; left: -250px;position:absolute; bottom:0!important}
   
-  .repuleft2 img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
+  .repuleft2 img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0; bottom: 0!important;}
   
-  .repuright{padding: 50px 100px 0px 40px!important; position: relative;float: right; left: -250px; }
+  .repuright{padding: 50px 100px 0px 0px!important; position: relative;float: right; left: -250px; }
   
   .repuright img{width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
    
@@ -234,48 +235,45 @@ p {margin-bottom: 0!important;}
   .repuright2{padding: 50px 100px 0px 20px!important; position: relative; left: -250px;}
   
   .repuright2 img{width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
-  
-  
-  
   /*REPU----------------------------------------------------------------------------------*/
     
     /*ORIGEN----------------------------------------------------------------------------------*/
   
     p {font-size:18px;text-align: left;}
     
-    .orgText { padding: 50px 100px 0px 100px;}
+    .orgText { padding: 50px 100px 0px 100px!important;}
     
     .orgText p { padding: 0px; margin: 0px;text-align: justify; }
   
     .orgText h1 {font-size: 45px; font-family: Amarante-Regular,serif; margin-bottom: 15px;}
     
-    .orgLeft {padding: 50px 20px 50px 100px; position: relative;left:-250px;}
+    .orgLeft {padding: 50px 20px 50px 100px!important; position: relative;left:-250px;}
     
     .orgLeft img { width: 100%;border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
     
-    .orgRight {padding: 50px 100px 50px 20px;position: relative;left:-250px;}
+    .orgRight {padding: 50px 100px 50px 20px!important;position: relative;left:-250px;}
     
     .orgRight img {width: 100%;border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
     
     .orgText2 p {padding: 0px;margin:0px;text-align: justify;}
     
-    .orgText2{ padding: 0px 100px 0px 100px;}
+    .orgText2{ padding: 0px 100px 0px 100px!important;}
   
     .orgText2 h1 {font-size: 45px; font-family: Amarante-Regular,serif; margin-bottom: 15px;}
     
-    .ciarga { padding: 50px 20px 50px 100px; position: relative;left:-250px;}
+    .ciarga { padding: 50px 20px 50px 100px!important; position: relative;left:-250px;}
     
     .ciarga img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
     
-    .ciarga2 {padding: 50px 100px 50px 20px;position: relative;left:-250px;}
+    .ciarga2 {padding: 50px 100px 50px 20px!important;position: relative;left:-250px;}
     
     .ciarga2 img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
     
-    .orgLeft2 {padding: 50px 20px 50px 100px; position: relative;left:-250px; }
+    .orgLeft2 {padding: 50px 20px 50px 100px!important; position: relative;left:-250px; }
   
     .orgLeft2 img { width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
     
-    .orgRight2 { padding: 50px 100px 50px 20px; position: relative;left:-250px; }
+    .orgRight2 { padding: 50px 100px 50px 20px!important; position: relative;left:-250px; }
     
     .orgRight2 img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
     
@@ -285,31 +283,31 @@ p {margin-bottom: 0!important;}
   
     p {font-size:18px;text-align: left;}
     
-    .cavaText1 {padding: 50px 100px 0px 100px;}
+    .cavaText1 {padding: 50px 100px 0px 100px!important;}
   
     .cavaText1 h1 {font-size: 45px; font-family: Amarante-Regular,serif; margin-bottom: 15px;}
     
     .cavaText1 p {margin: 0px;}
     
-    .cavaRight {padding: 50px 100px 50px 20px;position: relative;left:-250px;}
+    .cavaRight {padding: 50px 100px 50px 20px!important;position: relative;left:-250px;}
     
-    .cavaLeft {padding: 50px 20px 50px 100px;position: relative;left:-250px;}
+    .cavaLeft {padding: 50px 20px 50px 100px!important;position: relative;left:-250px;}
     
     .cavaLeft img {width: 100%;border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
     
     .cavaRight img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
     
-    .cavaText2 {padding: 0px 100px 0px 100px; }
+    .cavaText2 {padding: 0px 100px 0px 100px!important; }
   
     .cavaText2 h1 {font-size: 45px; font-family: Amarante-Regular,serif; margin-bottom: 15px;}
     
     .cavaText2 p {margin: 0px;}
     
-    .cavapan {padding: 50px 20px 50px 100px;position: relative;left:-250px;}
+    .cavapan {padding: 50px 20px 50px 100px!important;position: relative;left:-250px;}
     
     .cavapan img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
     
-    .cavapan2 {padding: 50px 100px 50px 20px;position: relative;left:-250px;}
+    .cavapan2 {padding: 50px 100px 50px 20px!important;position: relative;left:-250px;}
     
     .cavapan2 img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
     
@@ -320,81 +318,52 @@ p {margin-bottom: 0!important;}
     /*TAST----------------------------------------------------------------------------------*/
     p {font-size:18px;text-align: left;}
   
-    .tastText1 {padding: 50px 100px 0px 100px;}
+    .tastText1 {padding: 50px 100px 0px 100px!important;}
   
     .tastText1 h1 {font-size: 45px; font-family: Amarante-Regular,serif; margin-bottom: 15px;}
     
     .tastText1 p {text-align: left;margin: 0px;}
     
-    .tastLeft {padding: 25px 15px 0px 100px;position: relative;left:-250px;}
+    .tastLeft {padding: 25px 15px 0px 100px!important;position: relative;left:-250px;}
     
     .tastLeft img {width:100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
     
-    .tastRight { padding: 25px 100px 0px 15px; position: relative;left:-250px; }
+    .tastRight { padding: 25px 100px 0px 15px!important; position: relative;left:-250px; }
     
     .tastRight img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
     
-    .tastText2{padding: 50px 100px 0px 100px;}
+    .tastText2{padding: 50px 100px 0px 100px!important;}
     
     .tastText2 h1 {font-size: 45px; font-family: Amarante-Regular,serif; margin-bottom: 15px;}
     
     .tastText2 p {margin:0}
     
-    .tastLeft2 {padding: 25px 15px 50px 100px;position: relative;left:-250px;}
+    .tastLeft2 {padding: 25px 15px 50px 100px!important;position: relative;left:-250px;}
     
     .tastLeft2 img {width:100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-    .tastRight2 {padding: 25px 100px 50px 15px;position: relative;left:-250px;}
+    .tastRight2 {padding: 25px 100px 50px 15px!important;position: relative;left:-250px;}
     
     .tastRight2 img {width:100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
     
     
     /*TAST----------------------------------------------------------------------------------*/
     
-     /*BLOG----------------------------------------------------------------------------------*/
-    .foto{width: 100%;  padding: 0px; }
-    .foto img{ width:100%; }
-    .column{border: solid 1px black;width: 100%;height: 925px; padding: 25px 100px 25px 15px;}
-    .post { background-color: rgba(255, 255, 255, 0.5); width: 100%; }
-    .content-post{width: 100%; padding:25px 50px 25px 100px;}
-    .botones {float: right;  position: absolute; top: 250px; 
-        bottom: 15px; right: 10px;}
-    /*SHARE BUTONS-----------------------------------------------------------------------*/
-    .share-buttons-row{height: 40px;display: -webkit-flex; /* Safari */-webkit-align-items: center; /* Safari 7.0+ */
-     display: flex;align-items: center;}
-    .share-buttons-row > div {width: 40px;height: 40px;cursor: pointer;-webkit-border-radius: 2px;-moz-border-radius: 2px;
-    border-radius: 2px;text-align: center;float: left;margin-right: .3em;padding: 0;background-repeat: no-repeat;
-    background-position: center;background-size: 20px 20px;}
-    .share-fb{ background-color: #2d609b;
-    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTI2LjY2NyAwaC0yMS4zMzRjLTIuOTQ1IDAtNS4zMzMgMi4zODgtNS4zMzMgNS4zMzR2MjEuMzMyYzAgMi45NDYgMi4zODcgNS4zMzQgNS4zMzMgNS4zMzRoMTAuNjY3di0xNGgtNHYtNGg0di0zYzAtMi43NjEgMi4yMzktNSA1LTVoNXY0aC01Yy0wLjU1MiAwLTEgMC40NDgtMSAxdjNoNS41bC0xIDRoLTQuNXYxNGg2LjY2N2MyLjk0NSAwIDUuMzMzLTIuMzg4IDUuMzMzLTUuMzM0di0yMS4zMzJjMC0yLjk0Ni0yLjM4Ny01LjMzNC01LjMzMy01LjMzNHoiPjwvcGF0aD48L3N2Zz4=);
-    }
-    .share-twitter{background-color: #00c3f3;
-    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTMyIDYuMDc2Yy0xLjE3NyAwLjUyMi0yLjQ0MyAwLjg3NS0zLjc3MSAxLjAzNCAxLjM1NS0wLjgxMyAyLjM5Ni0yLjA5OSAyLjg4Ny0zLjYzMi0xLjI2OSAwLjc1Mi0yLjY3NCAxLjI5OS00LjE2OSAxLjU5My0xLjE5OC0xLjI3Ni0yLjkwNC0yLjA3My00Ljc5Mi0yLjA3My0zLjYyNiAwLTYuNTY1IDIuOTM5LTYuNTY1IDYuNTY1IDAgMC41MTUgMC4wNTggMS4wMTYgMC4xNyAxLjQ5Ni01LjQ1Ni0wLjI3NC0xMC4yOTQtMi44ODgtMTMuNTMyLTYuODYtMC41NjUgMC45Ny0wLjg4OSAyLjA5Ny0wLjg4OSAzLjMwMSAwIDIuMjc4IDEuMTU5IDQuMjg3IDIuOTIxIDUuNDY1LTEuMDc2LTAuMDM0LTIuMDg4LTAuMzI5LTIuOTc0LTAuODIxLTAuMDAxIDAuMDI3LTAuMDAxIDAuMDU1LTAuMDAxIDAuMDgzIDAgMy4xODEgMi4yNjMgNS44MzQgNS4yNjYgNi40MzctMC41NTEgMC4xNS0xLjEzMSAwLjIzLTEuNzMgMC4yMy0wLjQyMyAwLTAuODM0LTAuMDQxLTEuMjM1LTAuMTE4IDAuODM1IDIuNjA4IDMuMjYgNC41MDYgNi4xMzMgNC41NTktMi4yNDcgMS43NjEtNS4wNzggMi44MS04LjE1NCAyLjgxLTAuNTMgMC0xLjA1Mi0wLjAzMS0xLjU2Ni0wLjA5MiAyLjkwNSAxLjg2MyA2LjM1NiAyLjk1IDEwLjA2NCAyLjk1IDEyLjA3NiAwIDE4LjY3OS0xMC4wMDQgMTguNjc5LTE4LjY4IDAtMC4yODUtMC4wMDYtMC41NjgtMC4wMTktMC44NDkgMS4yODMtMC45MjYgMi4zOTYtMi4wODIgMy4yNzYtMy4zOTh6Ij48L3BhdGg+PC9zdmc+);
-    }
-    .share-linkedin{background-color: #0074a1;
-     background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTI2LjYyNSAwaC0yMS4yNWMtMi45NTYgMC01LjM3NSAyLjQxOS01LjM3NSA1LjM3NXYyMS4yNWMwIDIuOTU2IDIuNDE5IDUuMzc1IDUuMzc1IDUuMzc1aDIxLjI1YzIuOTU2IDAgNS4zNzUtMi40MTkgNS4zNzUtNS4zNzV2LTIxLjI1YzAtMi45NTYtMi40MTktNS4zNzUtNS4zNzUtNS4zNzV6TTEyIDI2aC00di0xNGg0djE0ek0xMCAxMGMtMS4xMDUgMC0yLTAuODk1LTItMnMwLjg5NS0yIDItMiAyIDAuODk1IDIgMi0wLjg5NSAyLTIgMnpNMjYgMjZoLTR2LThjMC0xLjEwNS0wLjg5NS0yLTItMnMtMiAwLjg5NS0yIDJ2OGgtNHYtMTRoNHYyLjQ4M2MwLjgyNS0xLjEzMyAyLjA4Ni0yLjQ4MyAzLjUtMi40ODMgMi40ODUgMCA0LjUgMi4yMzkgNC41IDV2OXoiPjwvcGF0aD48L3N2Zz4=);
-    }
-    .share-pinterest{background-color: #ca212a;
-    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTE2IDBjLTguODM3IDAtMTYgNy4xNjMtMTYgMTYgMCA2Ljc3OCA0LjIxNyAxMi41NjggMTAuMTY5IDE0Ljg5OS0wLjE0LTEuMjY2LTAuMjY2LTMuMjA4IDAuMDU1LTQuNTkgMC4yOTEtMS4yNDkgMS44NzYtNy45NTMgMS44NzYtNy45NTNzLTAuNDc5LTAuOTU4LTAuNDc5LTIuMzc1YzAtMi4yMjUgMS4yOS0zLjg4NiAyLjg5NS0zLjg4NiAxLjM2NSAwIDIuMDI0IDEuMDI1IDIuMDI0IDIuMjU0IDAgMS4zNzMtMC44NzQgMy40MjUtMS4zMjUgNS4zMjctMC4zNzcgMS41OTMgMC43OTkgMi44OTIgMi4zNjkgMi44OTIgMi44NDQgMCA1LjAzMC0yLjk5OSA1LjAzMC03LjMyNyAwLTMuODMxLTIuNzUzLTYuNTA5LTYuNjgzLTYuNTA5LTQuNTUyIDAtNy4yMjUgMy40MTUtNy4yMjUgNi45NDMgMCAxLjM3NSAwLjUzIDIuODUgMS4xOTEgMy42NTEgMC4xMzEgMC4xNTggMC4xNSAwLjI5NyAwLjExMSAwLjQ1OS0wLjEyMSAwLjUwNi0wLjM5MSAxLjU5My0wLjQ0NCAxLjgxNS0wLjA3MCAwLjI5My0wLjIzMiAwLjM1NS0wLjUzNSAwLjIxNC0xLjk5OC0wLjkzLTMuMjQ4LTMuODUyLTMuMjQ4LTYuMTk4IDAtNS4wNDcgMy42NjctOS42ODIgMTAuNTcyLTkuNjgyIDUuNTUgMCA5Ljg2NCAzLjk1NSA5Ljg2NCA5LjI0MSAwIDUuNTE0LTMuNDc3IDkuOTUyLTguMzAyIDkuOTUyLTEuNjIxIDAtMy4xNDUtMC44NDItMy42NjctMS44MzcgMCAwLTAuODAyIDMuMDU1LTAuOTk3IDMuODAzLTAuMzYxIDEuMzktMS4zMzcgMy4xMzItMS45ODkgNC4xOTUgMS40OTcgMC40NjMgMy4wODggMC43MTMgNC43MzggMC43MTMgOC44MzYtMCAxNi03LjE2MyAxNi0xNnMtNy4xNjMtMTYtMTYtMTZ6Ij48L3BhdGg+PC9zdmc+);
-    }
-    .share-tumblr{background-color: #36465d;
-    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTI2LjY2OCAwaC0yMS4zMzRjLTIuOTM0IDAtNS4zMzQgMi40LTUuMzM0IDUuMzM0djIxLjMzMmMwIDIuOTM2IDIuNCA1LjMzNCA1LjMzNCA1LjMzNGgyMS4zMzRjMi45MzMgMCA1LjMzMi0yLjM5OCA1LjMzMi01LjMzNHYtMjEuMzMyYy0wLTIuOTMzLTIuMzk5LTUuMzM0LTUuMzMyLTUuMzM0ek0yMi44NjYgMjUuNzcxYy0wLjk0MiAwLjQ0My0xLjc5OCAwLjc1Ni0yLjU2MyAwLjkzNi0wLjc2NSAwLjE3OC0xLjU5MyAwLjI2Ny0yLjQ4MSAwLjI2Ny0xLjAxMCAwLTEuNjA1LTAuMTI3LTIuMzgxLTAuMzgxLTAuNzc1LTAuMjU2LTEuNDM4LTAuNjIxLTEuOTg0LTEuMDkwLTAuNTQ5LTAuNDczLTAuOTI4LTAuOTc1LTEuMTQtMS41MDZzLTAuMzE3LTEuMzAzLTAuMzE3LTIuMzEzdi03Ljc0NGgtM3YtMy4xMjdjMC44NjctMC4yODEgMS44NzMtMC42ODUgMi40OS0xLjIxMSAwLjYyLTAuNTI3IDEuMTE2LTEuMTU4IDEuNDktMS44OTYgMC4zNzUtMC43MzYgMC42MzMtMS42NzYgMC43NzQtMi44MTVoMy4xNDF2NS4xMDhoNS4xMDV2My45NDFoLTUuMTA2djUuNjYyYzAgMS4yODEtMC4wMTcgMi4wMjAgMC4xMTkgMi4zODMgMC4xMzUgMC4zNjEgMC40NzMgMC43MzYgMC44NDEgMC45NTMgMC40ODkgMC4yOTMgMS4wNDcgMC40MzkgMS42NzYgMC40MzkgMS4xMTggMCAyLjIzMS0wLjM2MyAzLjMzNi0xLjA5MHYzLjQ4MnoiPjwvcGF0aD48L3N2Zz4=);
-    }
-    /*BLOG----------------------------------------------------------------------------------*/
+ 
   
     /*BOTIGA----------------------------------------------------------------------------------*/
     p {font-size:18px;text-align: left;}
   
-    .botigaText1 {padding: 50px 100px 0px 100px;}
+    .botigaText1 {padding: 50px 100px 0px 100px!important;}
   
     .botigaText1 h1 {font-size: 45px; font-family: Amarante-Regular,serif; margin-bottom: 15px;}
     
     .botigaText1 p {margin:0; }
     
-    .containerAmpolla {padding: 25px 15px 0px 100px; width: 100%;  }
+    .containerAmpolla {padding: 25px 15px 0px 100px!important; width: 100%;  }
     .sliderAmpolla {width: 100%; position: relative;left:-250px;}
     
-    .containerCaixa {padding: 25px 100px 0px 15px; width: 100%;}
+    .containerCaixa {padding: 25px 100px 0px 15px!important; width: 100%;}
     .sliderCaixa { width: 100%; position: relative;left:-250px;}
     
     .carousel-inner2 { border: solid 2px #927334;box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);overflow: auto;opacity: 0;}
@@ -406,15 +375,19 @@ p {margin-bottom: 0!important;}
     .lotCaixa {width: 100%; padding-bottom: 25px;}
     .lotCaixa h6 {text-align: center; font-size: 16px;}
     .lotCaixa h3 {text-align: center;font-size: 20px;}
-    .button { margin: 0 auto;text-align: center;}
-    .btn-danger {background-color:  #927334 ; border-color:white ;}
+    .button { margin: 0 auto!important;text-align: center!important}
+    .btn-danger {background-color:  #927334!important; border-color:white!important;}
     /* .button a {width: 150px; height: 40px;} */
     body.modal-open {overflow: hidden;}
     .modal-body {width: 100%;}
-    form {text-align: center;}
-    form select {font-size: 14px;}
-      .modal-content {background-image: url(../img/fondodiv1.jpg);background-attachment: fixed;
-        background-position: center center;background-size: cover;width: 100%;}
+    form {text-align: center!important;}
+    form select {font-size: 14px!important;}
+    .modal-content {background-image: url('http://localhost/ficheros/WORDPRESS/cava_tercera_republica/wp-content/uploads/2021/10/fondodiv1.jpg');background-attachment: fixed;
+    background-position: center center;background-size: cover;width: 100%;}
+    .paycard { display: flex; justify-content: center;}
+    .paycard img {margin:0 auto!important; text-align: center!important;}
+    .buybuttons {display: flex; justify-content: center; height: 40px;} 
+    .buybuttons button { margin:0 auto!important; background-color:#927334;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em}
   
     
     /*BOTIGA----------------------------------------------------------------------------------*/
@@ -445,7 +418,7 @@ p {margin-bottom: 0!important;}
     .right{width: 100%;height:170px;padding:0px 0px 0px 20px!important;float: right;}
     .right a {color: #97702b; text-decoration: none;}
     .right a:hover {color:grey!important;}
-    .right p{width: 100%;font-size: 14px;color:white;margin: 0px;}
+    .right p{width: 100%;font-size: 14px;color:white;margin-bottom: 25px!important;}
     .logos {width: 50%;height:35px; margin: 0 auto; background-color: #353533; padding: 0px; margin-top: 5px;}
     .face {width: 12%; float: left;margin-left:22%; margin-right:14%;}
     .face img{ width: 100%; }
@@ -469,8 +442,8 @@ p {margin-bottom: 0!important;}
   
     /*CONTACTAR--------------------------------------------------------------------------------*/
   
-    /* table { width:100%;text-align:center; border:0; border-color:"#FFFFFF"; margin: 0 auto;} */
-    /* .contactar {width: 50%;margin: 0 auto; padding: 50px 0px 50px 0px;} */
+    table { width:100%;text-align:center; border:0; border-color:"#FFFFFF"; margin: 0 auto;} 
+   .contactar {width: 65%!important;margin: 0 auto!important; padding: 50px 50px 50px 50px!important;}
     .contactar h1 {font-size: 45px; font-family: Amarante-Regular,serif; margin-bottom: 15px; text-align: center;}
     .contactar h2 {font-size:18px;text-align: left;}
     .contactar td {font-size:18px;text-align: left;}
@@ -622,65 +595,63 @@ p {margin-bottom: 0!important;}
   
   .contentRight2 img{ width: 100%; padding:0px; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3); opacity: 0;}	
   
-  /*INDEX---------------------------------------------------------------------------------*/
+/*INDEX---------------------------------------------------------------------------------*/
+
+/*REPU----------------------------------------------------------------------------------*/
+.general {position:relative;padding-left: 75px!important;}
+
+p {font-size:18px;text-align: left;}
+
+.repuText {padding: 50px 75px 0px 75px!important;}
+
+/* .repuText p{margin: 0px;} */
+
+.repuText h1 {font-size: 45px; font-family: Amarante-Regular,serif; margin-bottom: 15px;}
+
+.repuleft{padding: 50px 30px 0px 0px!important; position: relative; float: left; left:-250px;}
+
+.repuleft img{width: 100%;  border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
+
+#repuImg1L {opacity: 0;}
+
+.repuleft2 {padding: 0px 0px 0px 75px!important; position: relative; float: left;margin-right: 0px; left: -250px;position:absolute; bottom:0!important}
+
+.repuleft2 img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0; bottom: 0!important;}
+
+.repuright{padding: 50px 75px 0px 0px!important; position: relative;float: right; left: -250px; }
+
+.repuright img{width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  /*REPU----------------------------------------------------------------------------------*/
-  
-  p {font-size:14px;text-align: left;}
-  
-  .repuText {padding: 25px 50px 0px 50px;}
-  
-  .repuText p{margin: 0px;}
-  
-  .repuText h1 {font-size: 35px; font-family: Amarante-Regular,serif; line-height: 40px;}
-  
-  .repuleft{padding: 25px 20px 25px 50px; position: relative; float: left; left:-250px;}
-  
-  .repuleft img{width: 100%;  border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
-  
-  #repuImg1L {opacity: 0;}
-  
-  .repuleft2 {padding: 0px 20px 0px 50px; position: relative; float: left;margin-right: 0px; left: -250px;}
-  
-  .repuleft2 img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
-  
-  .repuright{padding: 25px 50px 0px 25px; position: relative;float: right; left: -250px; }
-  
-  .repuright img{width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
-   
-  .repuText2 {padding: 0px; padding: 25px 50px 0px 50px;}
-  
-  .repuText2 h1 {font-size: 35px; font-family: Amarante-Regular,serif; line-height: 40px;}
-  
-  .repuText2 p{ margin:0px; text-align: left;}
-  
-  .repuleft3 {padding: 25px 20px 50px 50px; position: relative; left: -250px;}
-  
-  .repuleft3 img{width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
-  
-  .repuright2{padding: 25px 50px 50px 20px; position: relative; left: -250px;}
-  
-  .repuright2 img{width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
-  
-  
-  
-  /*REPU----------------------------------------------------------------------------------*/
+.repuText2 {padding: 50px 75px 0px 75px!important;}
+
+.repuText2 h1 {font-size: 45px; font-family: Amarante-Regular,serif;margin-bottom: 15px;}
+
+.repuText2 p{ margin:0px; text-align: left;}
+
+.repuleft3 {padding: 50px 20px 50px 75px!important; position: relative; left: -250px;}
+
+.repuleft3 img{width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
+
+.repuright2{padding: 50px 75px 0px 20px!important; position: relative; left: -250px;}
+
+.repuright2 img{width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
+/*REPU----------------------------------------------------------------------------------*/
   
   /*ORIGEN----------------------------------------------------------------------------------*/
   
   p {font-size:16px;text-align: left;}
   
-  .orgText { padding: 35px 75px 25px 75px;}
+  .orgText { padding: 35px 75px 25px 75px!important;}
   
   .orgText h1 {font-size: 35px; font-family: Amarante-Regular,serif; line-height: 40px;}
   
   .orgText p { padding: 0px; margin: 0px;text-align: justify; }
   
-  .orgLeft { padding: 0px 15px 25px 75px; position: relative;left:-250px;}
+  .orgLeft { padding: 0px 15px 25px 75px!important; position: relative;left:-250px;}
   
   .orgLeft img { width: 100%;border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  .orgRight {padding: 0px 75px 25px 15px;position: relative;left:-250px;}
+  .orgRight {padding: 0px 75px 25px 15px!important;position: relative;left:-250px;}
   
   .orgRight img {width: 100%;border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
@@ -688,21 +659,21 @@ p {margin-bottom: 0!important;}
   
   .orgText2 h1 {font-size: 35px; font-family: Amarante-Regular,serif; line-height: 40px;}
   
-  .orgText2{ padding: 0px 75px 25px 75px; }
+  .orgText2{ padding: 0px 75px 25px 75px!important; }
   
-  .ciarga { padding:0px 15px 25px 75px; position: relative;left:-250px;}
+  .ciarga { padding:0px 15px 25px 75px!important; position: relative;left:-250px;}
   
   .ciarga img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  .ciarga2 {padding: 0px 75px 25px 15px;position: relative;left:-250px;}
+  .ciarga2 {padding: 0px 75px 25px 15px!important;position: relative;left:-250px;}
   
   .ciarga2 img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  .orgLeft2 { padding: 0px 15px 50px 75px; position: relative;left:-250px; }
+  .orgLeft2 { padding: 0px 15px 50px 75px!important; position: relative;left:-250px; }
   
   .orgLeft2 img { width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  .orgRight2 { padding: 0px 75px 50px 15px; position: relative;left:-250px; }
+  .orgRight2 { padding: 0px 75px 50px 15px!important; position: relative;left:-250px; }
   
   .orgRight2 img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
@@ -712,31 +683,31 @@ p {margin-bottom: 0!important;}
   
    p {font-size:16px;text-align: left;}
     
-   .cavaText1 {padding: 35px 75px 25px 75px;}
+   .cavaText1 {padding: 35px 75px 25px 75px!important;}
   
    .cavaText1 h1 {font-size: 35px; font-family: Amarante-Regular,serif; margin-bottom: 15px;}
    
    .cavaText1 p {margin: 0px;}
    
-   .cavaRight {padding: 0px 75px 25px 15px;position: relative;left:-250px;}
+   .cavaRight {padding: 0px 75px 25px 15px!important;position: relative;left:-250px;}
    
-   .cavaLeft {padding: 0px 15px 25px 75px;position: relative;left:-250px;}
+   .cavaLeft {padding: 0px 15px 25px 75px!important;position: relative;left:-250px;}
    
    .cavaLeft img {width: 100%;border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
    
    .cavaRight img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
    
-   .cavaText2 {padding: 0px 100px 0px 100px; }
+   .cavaText2 {padding: 0px 100px 0px 100px!important; }
   
    .cavaText2 h1 {font-size: 35px; font-family: Amarante-Regular,serif; margin-bottom: 15px;}
    
    .cavaText2 p {margin: 0px;}
    
-   .cavapan {padding: 25px 15px 50px 75px;position: relative;left:-250px;}
+   .cavapan {padding: 25px 15px 50px 75px!important;position: relative;left:-250px;}
    
    .cavapan img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
    
-   .cavapan2 {padding: 25px 75px 50px 15px;position: relative;left:-250px;}
+   .cavapan2 {padding: 25px 75px 50px 15px!important;position: relative;left:-250px;}
    
    .cavapan2 img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
    
@@ -748,81 +719,52 @@ p {margin-bottom: 0!important;}
   
   p {font-size:16px;text-align: left;}
   
-  .tastText1 {padding: 35px 75px 25px 75px;}
+  .tastText1 {padding: 35px 75px 25px 75px!important;}
   
   .tastText1 h1 {font-size: 35px; font-family: Amarante-Regular,serif; margin-bottom: 15px;}
   
   .tastText1 p {text-align: left;margin: 0px;}
   
-  .tastLeft {padding: 0px 15px 25px 75px;position: relative;left:-250px;}
+  .tastLeft {padding: 0px 15px 25px 75px!important;position: relative;left:-250px;}
   
   .tastLeft img {width:100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  .tastRight {padding: 0px 75px 25px 15px; position: relative;left:-250px; }
+  .tastRight {padding: 0px 75px 25px 15px!important; position: relative;left:-250px; }
   
   .tastRight img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  .tastText2{padding: 0px 75px 0px 75px;}
+  .tastText2{padding: 0px 75px 0px 75px!important;}
   
   .tastText2 h1 {font-size: 35px; font-family: Amarante-Regular,serif; margin-bottom: 15px;}
   
   .tastText2 p {margin:0}
   
-  .tastLeft2 {padding: 25px 15px 50px 75px;position: relative;left:-250px;}
+  .tastLeft2 {padding: 25px 15px 50px 75px!important;position: relative;left:-250px;}
   
   .tastLeft2 img {width:100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  .tastRight2 {padding: 25px 75px 25px 15px;position: relative;left:-250px;}
+  .tastRight2 {padding: 25px 75px 25px 15px!important;position: relative;left:-250px;}
   
   .tastRight2 img {width:100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
   
   /*TAST----------------------------------------------------------------------------------*/
   
-   /*BLOG----------------------------------------------------------------------------------*/
-  .foto{width: 100%;  padding: 0px; }
-  .foto img{ width:100%; }
-  .column{border: solid 1px black;width: 100%;height: 925px; padding: 25px 100px 25px 15px;}
-  .post { background-color: rgba(255, 255, 255, 0.5); width: 100%; }
-  .content-post{width: 100%; padding:25px 50px 25px 100px;}
-  .botones {float: right;  position: absolute; top: 250px; 
-      bottom: 15px; right: 10px;}
-  /*SHARE BUTONS-----------------------------------------------------------------------*/
-  .share-buttons-row{height: 40px;display: -webkit-flex; /* Safari */-webkit-align-items: center; /* Safari 7.0+ */
-   display: flex;align-items: center;}
-  .share-buttons-row > div {width: 40px;height: 40px;cursor: pointer;-webkit-border-radius: 2px;-moz-border-radius: 2px;
-  border-radius: 2px;text-align: center;float: left;margin-right: .3em;padding: 0;background-repeat: no-repeat;
-  background-position: center;background-size: 20px 20px;}
-  .share-fb{ background-color: #2d609b;
-  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTI2LjY2NyAwaC0yMS4zMzRjLTIuOTQ1IDAtNS4zMzMgMi4zODgtNS4zMzMgNS4zMzR2MjEuMzMyYzAgMi45NDYgMi4zODcgNS4zMzQgNS4zMzMgNS4zMzRoMTAuNjY3di0xNGgtNHYtNGg0di0zYzAtMi43NjEgMi4yMzktNSA1LTVoNXY0aC01Yy0wLjU1MiAwLTEgMC40NDgtMSAxdjNoNS41bC0xIDRoLTQuNXYxNGg2LjY2N2MyLjk0NSAwIDUuMzMzLTIuMzg4IDUuMzMzLTUuMzM0di0yMS4zMzJjMC0yLjk0Ni0yLjM4Ny01LjMzNC01LjMzMy01LjMzNHoiPjwvcGF0aD48L3N2Zz4=);
-  }
-  .share-twitter{background-color: #00c3f3;
-  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTMyIDYuMDc2Yy0xLjE3NyAwLjUyMi0yLjQ0MyAwLjg3NS0zLjc3MSAxLjAzNCAxLjM1NS0wLjgxMyAyLjM5Ni0yLjA5OSAyLjg4Ny0zLjYzMi0xLjI2OSAwLjc1Mi0yLjY3NCAxLjI5OS00LjE2OSAxLjU5My0xLjE5OC0xLjI3Ni0yLjkwNC0yLjA3My00Ljc5Mi0yLjA3My0zLjYyNiAwLTYuNTY1IDIuOTM5LTYuNTY1IDYuNTY1IDAgMC41MTUgMC4wNTggMS4wMTYgMC4xNyAxLjQ5Ni01LjQ1Ni0wLjI3NC0xMC4yOTQtMi44ODgtMTMuNTMyLTYuODYtMC41NjUgMC45Ny0wLjg4OSAyLjA5Ny0wLjg4OSAzLjMwMSAwIDIuMjc4IDEuMTU5IDQuMjg3IDIuOTIxIDUuNDY1LTEuMDc2LTAuMDM0LTIuMDg4LTAuMzI5LTIuOTc0LTAuODIxLTAuMDAxIDAuMDI3LTAuMDAxIDAuMDU1LTAuMDAxIDAuMDgzIDAgMy4xODEgMi4yNjMgNS44MzQgNS4yNjYgNi40MzctMC41NTEgMC4xNS0xLjEzMSAwLjIzLTEuNzMgMC4yMy0wLjQyMyAwLTAuODM0LTAuMDQxLTEuMjM1LTAuMTE4IDAuODM1IDIuNjA4IDMuMjYgNC41MDYgNi4xMzMgNC41NTktMi4yNDcgMS43NjEtNS4wNzggMi44MS04LjE1NCAyLjgxLTAuNTMgMC0xLjA1Mi0wLjAzMS0xLjU2Ni0wLjA5MiAyLjkwNSAxLjg2MyA2LjM1NiAyLjk1IDEwLjA2NCAyLjk1IDEyLjA3NiAwIDE4LjY3OS0xMC4wMDQgMTguNjc5LTE4LjY4IDAtMC4yODUtMC4wMDYtMC41NjgtMC4wMTktMC44NDkgMS4yODMtMC45MjYgMi4zOTYtMi4wODIgMy4yNzYtMy4zOTh6Ij48L3BhdGg+PC9zdmc+);
-  }
-  .share-linkedin{background-color: #0074a1;
-   background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTI2LjYyNSAwaC0yMS4yNWMtMi45NTYgMC01LjM3NSAyLjQxOS01LjM3NSA1LjM3NXYyMS4yNWMwIDIuOTU2IDIuNDE5IDUuMzc1IDUuMzc1IDUuMzc1aDIxLjI1YzIuOTU2IDAgNS4zNzUtMi40MTkgNS4zNzUtNS4zNzV2LTIxLjI1YzAtMi45NTYtMi40MTktNS4zNzUtNS4zNzUtNS4zNzV6TTEyIDI2aC00di0xNGg0djE0ek0xMCAxMGMtMS4xMDUgMC0yLTAuODk1LTItMnMwLjg5NS0yIDItMiAyIDAuODk1IDIgMi0wLjg5NSAyLTIgMnpNMjYgMjZoLTR2LThjMC0xLjEwNS0wLjg5NS0yLTItMnMtMiAwLjg5NS0yIDJ2OGgtNHYtMTRoNHYyLjQ4M2MwLjgyNS0xLjEzMyAyLjA4Ni0yLjQ4MyAzLjUtMi40ODMgMi40ODUgMCA0LjUgMi4yMzkgNC41IDV2OXoiPjwvcGF0aD48L3N2Zz4=);
-  }
-  .share-pinterest{background-color: #ca212a;
-  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTE2IDBjLTguODM3IDAtMTYgNy4xNjMtMTYgMTYgMCA2Ljc3OCA0LjIxNyAxMi41NjggMTAuMTY5IDE0Ljg5OS0wLjE0LTEuMjY2LTAuMjY2LTMuMjA4IDAuMDU1LTQuNTkgMC4yOTEtMS4yNDkgMS44NzYtNy45NTMgMS44NzYtNy45NTNzLTAuNDc5LTAuOTU4LTAuNDc5LTIuMzc1YzAtMi4yMjUgMS4yOS0zLjg4NiAyLjg5NS0zLjg4NiAxLjM2NSAwIDIuMDI0IDEuMDI1IDIuMDI0IDIuMjU0IDAgMS4zNzMtMC44NzQgMy40MjUtMS4zMjUgNS4zMjctMC4zNzcgMS41OTMgMC43OTkgMi44OTIgMi4zNjkgMi44OTIgMi44NDQgMCA1LjAzMC0yLjk5OSA1LjAzMC03LjMyNyAwLTMuODMxLTIuNzUzLTYuNTA5LTYuNjgzLTYuNTA5LTQuNTUyIDAtNy4yMjUgMy40MTUtNy4yMjUgNi45NDMgMCAxLjM3NSAwLjUzIDIuODUgMS4xOTEgMy42NTEgMC4xMzEgMC4xNTggMC4xNSAwLjI5NyAwLjExMSAwLjQ1OS0wLjEyMSAwLjUwNi0wLjM5MSAxLjU5My0wLjQ0NCAxLjgxNS0wLjA3MCAwLjI5My0wLjIzMiAwLjM1NS0wLjUzNSAwLjIxNC0xLjk5OC0wLjkzLTMuMjQ4LTMuODUyLTMuMjQ4LTYuMTk4IDAtNS4wNDcgMy42NjctOS42ODIgMTAuNTcyLTkuNjgyIDUuNTUgMCA5Ljg2NCAzLjk1NSA5Ljg2NCA5LjI0MSAwIDUuNTE0LTMuNDc3IDkuOTUyLTguMzAyIDkuOTUyLTEuNjIxIDAtMy4xNDUtMC44NDItMy42NjctMS44MzcgMCAwLTAuODAyIDMuMDU1LTAuOTk3IDMuODAzLTAuMzYxIDEuMzktMS4zMzcgMy4xMzItMS45ODkgNC4xOTUgMS40OTcgMC40NjMgMy4wODggMC43MTMgNC43MzggMC43MTMgOC44MzYtMCAxNi03LjE2MyAxNi0xNnMtNy4xNjMtMTYtMTYtMTZ6Ij48L3BhdGg+PC9zdmc+);
-  }
-  .share-tumblr{background-color: #36465d;
-  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTI2LjY2OCAwaC0yMS4zMzRjLTIuOTM0IDAtNS4zMzQgMi40LTUuMzM0IDUuMzM0djIxLjMzMmMwIDIuOTM2IDIuNCA1LjMzNCA1LjMzNCA1LjMzNGgyMS4zMzRjMi45MzMgMCA1LjMzMi0yLjM5OCA1LjMzMi01LjMzNHYtMjEuMzMyYy0wLTIuOTMzLTIuMzk5LTUuMzM0LTUuMzMyLTUuMzM0ek0yMi44NjYgMjUuNzcxYy0wLjk0MiAwLjQ0My0xLjc5OCAwLjc1Ni0yLjU2MyAwLjkzNi0wLjc2NSAwLjE3OC0xLjU5MyAwLjI2Ny0yLjQ4MSAwLjI2Ny0xLjAxMCAwLTEuNjA1LTAuMTI3LTIuMzgxLTAuMzgxLTAuNzc1LTAuMjU2LTEuNDM4LTAuNjIxLTEuOTg0LTEuMDkwLTAuNTQ5LTAuNDczLTAuOTI4LTAuOTc1LTEuMTQtMS41MDZzLTAuMzE3LTEuMzAzLTAuMzE3LTIuMzEzdi03Ljc0NGgtM3YtMy4xMjdjMC44NjctMC4yODEgMS44NzMtMC42ODUgMi40OS0xLjIxMSAwLjYyLTAuNTI3IDEuMTE2LTEuMTU4IDEuNDktMS44OTYgMC4zNzUtMC43MzYgMC42MzMtMS42NzYgMC43NzQtMi44MTVoMy4xNDF2NS4xMDhoNS4xMDV2My45NDFoLTUuMTA2djUuNjYyYzAgMS4yODEtMC4wMTcgMi4wMjAgMC4xMTkgMi4zODMgMC4xMzUgMC4zNjEgMC40NzMgMC43MzYgMC44NDEgMC45NTMgMC40ODkgMC4yOTMgMS4wNDcgMC40MzkgMS42NzYgMC40MzkgMS4xMTggMCAyLjIzMS0wLjM2MyAzLjMzNi0xLjA5MHYzLjQ4MnoiPjwvcGF0aD48L3N2Zz4=);
-  }
-  /*BLOG----------------------------------------------------------------------------------*/
+   
   
     /*BOTIGA----------------------------------------------------------------------------------*/
     p {font-size:16px;text-align: left;}
   
-    .botigaText1 {padding: 35px 75px 25px 75px;}
+    .botigaText1 {padding: 35px 75px 25px 75px!important;}
   
     .botigaText1 h1 {font-size: 35px; font-family: Amarante-Regular,serif; margin-bottom: 15px;}
     
     .botigaText1 p {margin:0; }
     
-    .containerAmpolla {padding: 0px 15px 25px 75px; width: 100%;  }
+    .containerAmpolla {padding: 0px 15px 25px 75px!important; width: 100%;  }
     .sliderAmpolla {width: 100%; position: relative;left:-250px;}
     
-    .containerCaixa {padding: 0px 75px 25px 15px; width: 100%;}
+    .containerCaixa {padding: 0px 75px 25px 15px!important; width: 100%;}
     .sliderCaixa { width: 100%; position: relative;left:-250px;}
     
     .carousel-inner2 { border: solid 2px #927334;box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);overflow: auto;opacity: 0;}
@@ -841,9 +783,13 @@ p {margin-bottom: 0!important;}
     .modal-body {width: 100%;}
     form {text-align: center;}
     form select {font-size: 14px;}
-      .modal-content {background-image: url(../img/fondodiv1.jpg);background-attachment: fixed;
-        background-position: center center;background-size: cover;width: 100%;}
-    
+    .modal-content {background-image: url('http://localhost/ficheros/WORDPRESS/cava_tercera_republica/wp-content/uploads/2021/10/fondodiv1.jpg')!important;background-attachment: fixed;
+    background-position: center center;background-size: cover;width: 100%;}
+    .paycard { display: flex; justify-content: center;}
+    .paycard img {margin:0 auto!important; text-align: center!important;}
+    .buybuttons {display: flex; justify-content: center; height: 40px;} 
+    .buybuttons button { margin:0 auto!important; background-color:#927334;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em}
+  
     
     /*BOTIGA----------------------------------------------------------------------------------*/
   
@@ -873,7 +819,7 @@ p {margin-bottom: 0!important;}
   .right{width: 100%;height:170px;padding:0px 0px 0px 20px;float: right;}
   .right a {color: #97702b; text-decoration: none;}
   .right a:hover {color:grey;}
-  .right p{width: 100%;font-size: 12px;color:white;margin: 0px;}
+  .right p{width: 100%;font-size: 12px;color:white;margin-bottom: 25px!important;}
   .logos {width: 70%;height:35px; margin: 0 auto; background-color: #353533; padding: 0px; margin-top: 5px;}
   .face {width: 12%; float: left;margin-left:14%; margin-right:14%;}
   .face img{ width: 100%; }
@@ -893,17 +839,17 @@ p {margin-bottom: 0!important;}
   
   /*FOOTER---------------------------------------------------------------------------------*/
   
-    /*CONTACTAR--------------------------------------------------------------------------------*/
+  /*CONTACTAR--------------------------------------------------------------------------------*/
   
-    /* table { width:100%;text-align:center; border:0; border-color:"#FFFFFF"; margin: 0 auto;} */
-    /* .contactar {width: 50%;margin: 0 auto; padding: 50px 0px 50px 0px;} */
-    .contactar h1 {font-size: 45px; font-family: Amarante-Regular,serif; margin-bottom: 15px; text-align: center;}
-    .contactar h2 {font-size:18px;text-align: left;}
-    .contactar td {font-size:18px;text-align: left;}
-  
-  .enviat{padding: 100px;height: 100%;}
-  
-   /*CONTACTAR--------------------------------------------------------------------------------*/
+  table { width:100%;text-align:center; border:0; border-color:"#FFFFFF"; margin: 0 auto;} 
+  .contactar {width: 65%!important;margin: 0 auto!important; padding: 50px 50px 50px 50px!important;}
+   .contactar h1 {font-size: 45px; font-family: Amarante-Regular,serif; margin-bottom: 15px; text-align: center;}
+   .contactar h2 {font-size:18px;text-align: left;}
+   .contactar td {font-size:18px;text-align: left;}
+ 
+ .enviat{padding: 100px;height: 100%;}
+ 
+  /*CONTACTAR--------------------------------------------------------------------------------*/
   
   }
   
@@ -1034,85 +980,82 @@ p {margin-bottom: 0!important;}
   
   /*INDEX---------------------------------------------------------------------------------*/
 
-  /*REPU----------------------------------------------------------------------------------*/
+/*REPU----------------------------------------------------------------------------------*/
+.general {position:relative;padding-left: 75px!important;}
+
+p {font-size:18px;text-align: left;}
+
+.repuText {padding: 50px 75px 0px 75px!important;}
+
+/* .repuText p{margin: 0px;} */
+
+.repuText h1 {font-size: 45px; font-family: Amarante-Regular,serif; margin-bottom: 15px;}
+
+.repuleft{padding: 50px 32px 0px 0px!important; position: relative; float: left; left:-250px;}
+
+.repuleft img{width: 100%;  border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
+
+#repuImg1L {opacity: 0;}
+
+.repuleft2 {padding: 0px 0px 0px 75px!important; position: relative; float: left;margin-right: 0px; left: -250px;position:absolute; bottom:0!important}
+
+.repuleft2 img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0; bottom: 0!important;}
+
+.repuright{padding: 50px 75px 0px 0px!important; position: relative;float: right; left: -250px; }
+
+.repuright img{width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  p {font-size:14px;text-align: left;}
-  
-  .repuText {padding: 25px 50px 0px 50px;}
-  
-  .repuText p{margin: 0px;}
-  
-  .repuText h1 {font-size: 35px; font-family: Amarante-Regular,serif; line-height: 40px;}
-  
-  .repuleft{padding: 25px 20px 25px 50px; position: relative; float: left; left:-250px;}
-  
-  .repuleft img{width: 100%;  border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
-  
-  #repuImg1L {opacity: 0;}
-  
-  .repuleft2 {padding: 0px 20px 0px 50px; position: relative; float: left;margin-right: 0px; left: -250px;}
-  
-  .repuleft2 img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
-  
-  .repuright{padding: 25px 50px 0px 25px; position: relative;float: right; left: -250px; }
-  
-  .repuright img{width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
-   
-  .repuText2 {padding: 0px; padding: 25px 50px 0px 50px;}
-  
-  .repuText2 h1 {font-size: 35px; font-family: Amarante-Regular,serif; line-height: 40px;}
-  
-  .repuText2 p{ margin:0px; text-align: left;}
-  
-  .repuleft3 {padding: 25px 20px 50px 50px; position: relative; left: -250px;}
-  
-  .repuleft3 img{width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
-  
-  .repuright2{padding: 25px 50px 50px 20px; position: relative; left: -250px;}
-  
-  .repuright2 img{width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
-  
-  
-  
-  /*REPU----------------------------------------------------------------------------------*/
-  
+.repuText2 {padding: 50px 75px 0px 75px!important;}
+
+.repuText2 h1 {font-size: 45px; font-family: Amarante-Regular,serif;margin-bottom: 15px;}
+
+.repuText2 p{ margin:0px; text-align: left;}
+
+.repuleft3 {padding: 50px 20px 50px 75px!important; position: relative; left: -250px;}
+
+.repuleft3 img{width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
+
+.repuright2{padding: 50px 75px 0px 20px!important; position: relative; left: -250px;}
+
+.repuright2 img{width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
+/*REPU----------------------------------------------------------------------------------*/
   /*ORIGEN----------------------------------------------------------------------------------*/
   
   p {font-size:14px;text-align: left;margin:0}
   
-  .orgText { padding: 35px 50px 25px 50px;}
+  .orgText { padding: 35px 50px 25px 50px!important;}
   
   .orgText h1 {font-size: 30px; font-family: Amarante-Regular,serif; line-height: 40px;}
   
-  .orgText p { padding: 0px 0px 0px 0px; margin: 0px; text-align: justify;}
+  .orgText p { padding: 0px 0px 0px 0px!important; margin: 0px; text-align: justify;}
   
-  .orgLeft { padding: 0px 15px 25px 50px; position:relative;left:-250px;}
+  .orgLeft { padding: 0px 15px 25px 50px!important; position:relative;left:-250px;}
   
   .orgLeft img { width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity:0;}
   
-  .orgRight {padding: 0px 50px 25px 15px;position:relative;left:-250px;}
+  .orgRight {padding: 0px 50px 25px 15px!important;position:relative;left:-250px;}
   
   .orgRight img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity:0;}
   
   .orgText2 p {padding: 0px;}
   
-  .orgText2{ padding: 0px 50px 25px 50px; }
+  .orgText2{ padding: 0px 50px 25px 50px!important; }
   
   .orgText2 h1 {font-size: 30px; font-family: Amarante-Regular,serif; line-height: 40px;}
   
-  .ciarga {padding: 0px 15px 25px 50px; position:relative;left:-250px;}
+  .ciarga {padding: 0px 15px 25px 50px!important; position:relative;left:-250px;}
   
   .ciarga img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity:0;}
   
-  .ciarga2 {padding: 0px 50px 25px 15px;position:relative;left:-250px;}
+  .ciarga2 {padding: 0px 50px 25px 15px!important;position:relative;left:-250px;}
   
   .ciarga2 img{width: 100%;border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3); opacity:0;}
   
-  .orgLeft2 { padding: 0px 15px 50px 50px; position:relative;left:-250px;}
+  .orgLeft2 { padding: 0px 15px 50px 50px!important; position:relative;left:-250px;}
   
   .orgLeft2 img { width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity:0;}
   
-  .orgRight2 { padding: 0px 50px 50px 15px; position:relative;left:-250px;}
+  .orgRight2 { padding: 0px 50px 50px 15px!important; position:relative;left:-250px;}
   
   .orgRight2 img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity:0;}
   
@@ -1122,27 +1065,27 @@ p {margin-bottom: 0!important;}
   
    p {font-size:14px;text-align: left;margin:0}
   
-  .cavaText1 { padding: 35px 50px 25px 50px;}
+  .cavaText1 { padding: 35px 50px 25px 50px!important;}
   
   .cavaText1 h1 {font-size: 30px; font-family: Amarante-Regular,serif; line-height: 40px;}
   
-  .cavaRight {padding: 0px 50px 25px 15px;position: relative;left:-250px;}
+  .cavaRight {padding: 0px 50px 25px 15px!important;position: relative;left:-250px;}
   
-  .cavaLeft {padding: 0px 15px 25px 50px;position: relative;left:-250px;}
+  .cavaLeft {padding: 0px 15px 25px 50px!important;position: relative;left:-250px;}
   
   .cavaLeft img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
   .cavaRight img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  .cavaText2 {padding: 0px 50px 25px 50px;}
+  .cavaText2 {padding: 0px 50px 25px 50px!important;}
   
   .cavaText2 h1 {font-size: 30px; font-family: Amarante-Regular,serif; line-height: 40px;}
   
-  .cavapan {padding: 0px 15px 50px 50px;position: relative;left:-250px;}
+  .cavapan {padding: 0px 15px 50px 50px!important;position: relative;left:-250px;}
   
   .cavapan img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  .cavapan2 {padding: 0px 50px 50px 15px;position: relative;left:-250px;}
+  .cavapan2 {padding: 0px 50px 50px 15px!important;position: relative;left:-250px;}
   
   .cavapan2 img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
@@ -1156,31 +1099,31 @@ p {margin-bottom: 0!important;}
   
   p {font-size:16px;text-align: left;}
   
-  .tastText1 { padding: 35px 50px 25px 50px;}
+  .tastText1 { padding: 35px 50px 25px 50px!important;}
   
   .tastText1 h1 {font-size: 35px; font-family: Amarante-Regular,serif; margin-bottom: 15px;}
   
   .tastText1 p {text-align: left;margin: 0px;}
   
-  .tastLeft {padding: 0px 15px 25px 50px;position: relative;left:-250px;}
+  .tastLeft {padding: 0px 15px 25px 50px!important;position: relative;left:-250px;}
   
   .tastLeft img {width:100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  .tastRight {padding: 0px 50px 25px 15px; position: relative;left:-250px; }
+  .tastRight {padding: 0px 50px 25px 15px!important; position: relative;left:-250px; }
   
   .tastRight img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  .tastText2{padding: 0px 50px 25px 50px;}
+  .tastText2{padding: 0px 50px 25px 50px!important;}
   
   .tastText2 h1 {font-size: 35px; font-family: Amarante-Regular,serif; margin-bottom: 15px;}
   
   .tastText2 p {margin:0}
   
-  .tastLeft2 {padding: 0px 15px 50px 50px;position: relative;left:-250px;}
+  .tastLeft2 {padding: 0px 15px 50px 50px!important;position: relative;left:-250px;}
   
   .tastLeft2 img {width:100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  .tastRight2 {padding: 0px 50px 50px 15px; position: relative;left:-250px;}
+  .tastRight2 {padding: 0px 50px 50px 15px!important; position: relative;left:-250px;}
   
   .tastRight2 img {width:100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
@@ -1189,16 +1132,16 @@ p {margin-bottom: 0!important;}
   /*BOTIGA----------------------------------------------------------------------------------*/
   p {font-size:16px;text-align: left;}
   
-  .botigaText1 {padding: 35px 50px 25px 50px;}
+  .botigaText1 {padding: 35px 50px 25px 50px!important;}
   
   .botigaText1 h1 {font-size: 35px; font-family: Amarante-Regular,serif; margin-bottom: 15px;}
   
   .botigaText1 p {margin:0; }
   
-  .containerAmpolla {padding: 0px 15px 25px 50px; width: 100%;  }
+  .containerAmpolla {padding: 0px 15px 25px 50px!important; width: 100%;  }
   .sliderAmpolla {width: 100%; position: relative;left:-250px;}
   
-  .containerCaixa {padding: 0px 50px 25px 15px; width: 100%;}
+  .containerCaixa {padding: 0px 50px 25px 15px!important; width: 100%;}
   .sliderCaixa { width: 100%; position: relative;left:-250px;}
   
   .carousel-inner2 { border: solid 2px #927334;box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);overflow: auto;opacity: 0;}
@@ -1217,8 +1160,12 @@ p {margin-bottom: 0!important;}
   .modal-body {width: 100%;}
   form {text-align: center;}
   form select {font-size: 14px;}
-    .modal-content {background-image: url(../img/fondodiv1.jpg);background-attachment: fixed;
-      background-position: center center;background-size: cover;width: 100%;}
+  .modal-content {background-image: url('http://localhost/ficheros/WORDPRESS/cava_tercera_republica/wp-content/uploads/2021/10/fondodiv1.jpg')!important;background-attachment: fixed;
+  background-position: center center;background-size: cover;width: 100%;}
+  .paycard { display: flex; justify-content: center;}
+  .paycard img {margin:0 auto!important; text-align: center!important;}
+  .buybuttons {display: flex; justify-content: center; height: 40px;} 
+  .buybuttons button { margin:0 auto!important; background-color:#927334;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em}
   
   /*BOTIGA----------------------------------------------------------------------------------*/
   
@@ -1250,7 +1197,7 @@ p {margin-bottom: 0!important;}
   .right a {color: #97702b; text-decoration: none;}
   .right a:hover {color:grey!important;}
   .right{width: 100%;height:170px;padding:0px 0px 0px 20px;float: right;}
-  .right p{width: 100%;font-size: 12px;color:white;margin: 0px;}
+  .right p{width: 100%;font-size: 12px;color:white;margin-bottom: 30px!important;}
   .logos {width: 70%;height:35px; margin: 0 auto; background-color: #353533; padding: 0px; margin-top: 5px;}
   .face {width: 12%; float: left;margin-left:14%; margin-right:14%;}
   .face img{ width: 100%; }
@@ -1270,13 +1217,17 @@ p {margin-bottom: 0!important;}
   
   /*FOOTER---------------------------------------------------------------------------------*/
   
-    /*CONTACTAR--------------------------------------------------------------------------------*/
+  /*CONTACTAR--------------------------------------------------------------------------------*/
   
-    .contactar h1 {font-size: 35px; font-family: Amarante-Regular,serif; margin-bottom: 15px; text-align: center;}
-    .contactar h2 {font-size:16px;text-align: left;}
-    .contactar td {font-size:16px;text-align: left;}
-  
-   /*CONTACTAR--------------------------------------------------------------------------------*/
+  table { width:100%;text-align:center; border:0; border-color:"#FFFFFF"; margin: 0 auto;} 
+  .contactar {width: 65%!important;margin: 0 auto!important; padding: 50px 50px 50px 50px!important;}
+   .contactar h1 {font-size: 45px; font-family: Amarante-Regular,serif; margin-bottom: 15px; text-align: center;}
+   .contactar h2 {font-size:18px;text-align: left;}
+   .contactar td {font-size:18px;text-align: left;}
+ 
+ .enviat{padding: 100px;height: 100%;}
+
+ /*CONTACTAR--------------------------------------------------------------------------------*/
   
   
   } 
@@ -1409,41 +1360,41 @@ p {margin-bottom: 0!important;}
   
   
   /*REPU----------------------------------------------------------------------------------*/
-  
+ 
   p {font-size:14px;text-align: left;}
   
   /* .general { margin:auto; width: 100%; padding: 0px; } */
   
-  .repuText {padding:25px 50px 0px 50px;}
+  .repuText {padding:25px 75px 0px 75px!important;}
   
   .repuText h1 {font-size: 28px; font-family: Amarante-Regular,serif; line-height: 40px;}
   
   .repuText p{margin: 0px;}
   
-  .repuleft{padding:25px 50px 0px 50px; position: relative;left:-250px;}
+  .repuleft{padding:50px 75px 0px 75px!important; position: relative;left:-250px;}
   
   .repuleft img{width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0; }
   
-  .repuleft2 {padding:25px 50px 0px 50px; position: relative;margin-right: 0px; left: -250px;}
+  .repuleft2 {padding:50px 75px 0px 75px!important; position: relative;margin-right: 0px; left: -250px;}
   
   .repuleft2 img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
   
-  .repuright {padding:25px 50px 0px 50px; position: relative;margin-right: 0px; left: -250px;}
+  .repuright {padding:50px 75px 0px 75px!important; position: relative;margin-right: 0px; left: -250px;}
   
   .repuright img{  width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(59, 25, 25, 0.3);opacity: 0;}
    
-  .repuText2 {padding:25px 50px 0px 50px;}
+  .repuText2 {padding:50px 75px 0px 75px!important;}
   
   .repuText2 h1 {font-size: 28px; font-family: Amarante-Regular,serif; line-height: 40px;}
   
   .repuText2 p{ margin:0px;}
   
-  .repuleft3 {padding:25px 50px 0px 50px; position: relative; left: -250px;}
+  .repuleft3 {padding:50px 75px 0px 75px!important; position: relative; left: -250px;}
   
   .repuleft3 img{width: 100%;border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  .repuright2{padding:25px 50px 50px 50px; position: relative; left: -250px;}
+  .repuright2{padding:50px 75px 50px 75px!important; position: relative; left: -250px;}
   
   .repuright2 img{width: 100%;border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
@@ -1453,17 +1404,17 @@ p {margin-bottom: 0!important;}
   
   p {font-size:14px;text-align: left;}
   
-  .orgText { padding:25px 50px 0px 50px;}
+  .orgText { padding:25px 50px 0px 50px!important;}
   
   .orgText h1 {font-size: 28px; font-family: Amarante-Regular,serif; line-height: 40px;}
   
   .orgText p { padding: 0px; margin: 0px;}
   
-  .orgLeft {padding:25px 50px 0px 50px; position: relative; left: -250px; }
+  .orgLeft {padding:25px 50px 0px 50px!important; position: relative; left: -250px; }
   
   .orgLeft img { width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0; }
   
-  .orgRight {padding:25px 50px 25px 50px;position: relative; left: -250px; }
+  .orgRight {padding:25px 50px 25px 50px!important;position: relative; left: -250px; }
   
   .orgRight img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);;opacity: 0;}
   
@@ -1471,21 +1422,21 @@ p {margin-bottom: 0!important;}
   
   .orgText2 h1 {font-size: 28px; font-family: Amarante-Regular,serif; line-height: 40px;}
   
-  .orgText2{ padding: 0px 50px 0px 50px; }
+  .orgText2{ padding: 0px 50px 0px 50px!important; }
   
-  .ciarga {padding:25px 50px 25px 50px;position: relative; left: -250px;}
+  .ciarga {padding:25px 50px 25px 50px!important; position: relative; left: -250px;}
   
   .ciarga img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  .ciarga2 {padding:0px 50px 25px 50px;;position: relative; left: -250px;}
+  .ciarga2 {padding:0px 50px 25px 50px!important; position: relative; left: -250px;}
   
   .ciarga2 img{width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0; }
   
-  .orgLeft2 { padding:25px 50px 25px 50px; position: relative; left: -250px;}
+  .orgLeft2 { padding:25px 50px 25px 50px!important; position: relative; left: -250px;}
   
   .orgLeft2 img { width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  .orgRight2 { padding:0px 50px 50px 50px; position: relative; left: -250px;}
+  .orgRight2 { padding:0px 50px 50px 50px!important; position: relative; left: -250px;}
   
   .orgRight2 img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
@@ -1494,31 +1445,31 @@ p {margin-bottom: 0!important;}
   
    p {font-size:14px;text-align: left;}
   
-  .cavaText1 {padding:25px 50px 0px 50px; }
+  .cavaText1 {padding:25px 50px 0px 50px!important; }
   
   .cavaText1 h1 {font-size: 28px; font-family: Amarante-Regular,serif; line-height: 40px;}
   
   .cavaText1 p{margin:0;} 
   
-  .cavaRight {padding:25px 50px 25px 50px; position: relative; left:-250px;}
+  .cavaRight {padding:25px 50px 25px 50px!important; position: relative; left:-250px;}
   
-  .cavaLeft {padding:25px 50px 0px 50px; position: relative; left:-250px;}
+  .cavaLeft {padding:25px 50px 0px 50px!important; position: relative; left:-250px;}
   
   .cavaLeft img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
   .cavaRight img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  .cavaText2 {padding: 0px 50px 25px 50px; text-align: left;}
+  .cavaText2 {padding: 0px 50px 25px 50px!important; text-align: left;}
   
   .cavaText2 h1 {font-size: 28px; font-family: Amarante-Regular,serif; line-height: 40px;}
   
   .cavaText2 p{margin:0;}
   
-  .cavapan {padding:0px 50px 25px 50px; position: relative; left:-250px;}
+  .cavapan {padding:0px 50px 25px 50px!important; position: relative; left:-250px;}
   
   .cavapan img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  .cavapan2 {padding:0px 50px 50px 50px;position: relative;left:-250px;}
+  .cavapan2 {padding:0px 50px 50px 50px!important;position: relative;left:-250px;}
   
   .cavapan2 img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
@@ -1531,27 +1482,27 @@ p {margin-bottom: 0!important;}
   
   p {font-size:14px;text-align: left;}
   
-  .tastText1 {padding:25px 50px 0px 50px;}
+  .tastText1 {padding:25px 50px 0px 50px!important;}
   
   .tastText1 h1 {font-size: 28px; font-family: Amarante-Regular,serif; margin-bottom: 15px;}
   
   .tastText1 p {text-align: left;margin: 0px;}
   
-  .tastLeft { padding:25px 50px 0px 50px;position: relative;left:-250px;}
+  .tastLeft { padding:25px 50px 0px 50px!important;position: relative;left:-250px;}
   
   .tastLeft img {width:100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  .tastRight {padding:25px 50px 0px 50px; position: relative;left:-250px; }
+  .tastRight {padding:25px 50px 0px 50px!important; position: relative;left:-250px; }
   
   .tastRight img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  .tastText2{padding: 25px 50px 25px 50px;}
+  .tastText2{padding: 25px 50px 25px 50px!important;}
   
   .tastText2 h1 {font-size: 28px; font-family: Amarante-Regular,serif; margin-bottom: 15px;}
   
   .tastText2 p {margin:0}
   
-  .tastLeft2 {padding:0px 50px 0px 50px;position: relative;left:-250px;}
+  .tastLeft2 {padding:0px 50px 0px 50px!important;position: relative;left:-250px;}
   
   .tastLeft2 img {width:100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
@@ -1566,16 +1517,16 @@ p {margin-bottom: 0!important;}
   /*BOTIGA----------------------------------------------------------------------------------*/
   p {font-size:14px;text-align: left;}
   
-  .botigaText1 {padding: 35px 50px 25px 50px;}
+  .botigaText1 {padding: 35px 50px 25px 50px!important;}
   
   .botigaText1 h1 {font-size: 28px; font-family: Amarante-Regular,serif; margin-bottom: 15px;}
   
   .botigaText1 p {margin:0; }
   
-  .containerAmpolla {padding:0px 50px 0px 50px; width: 100%;  }
+  .containerAmpolla {padding:0px 50px 0px 50px!important; width: 100%;  }
   .sliderAmpolla {width: 100%; position: relative;left:-250px;}
   
-  .containerCaixa {padding:25px 50px 0px 50px; width: 100%;}
+  .containerCaixa {padding:25px 50px 0px 50px!important; width: 100%;}
   .sliderCaixa { width: 100%; position: relative;left:-250px;}
   
   .carousel-inner2 { border: solid 2px #927334;box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);overflow: auto;opacity: 0;}
@@ -1593,8 +1544,12 @@ p {margin-bottom: 0!important;}
   .modal-body {width: 100%;}
   form {text-align: center;}
   form select {font-size: 14px;}
-    .modal-content {background-image: url(../img/fondodiv1.jpg);background-attachment: fixed;
-      background-position: center center;background-size: cover;width: 100%;}
+  .modal-content {background-image: url('http://localhost/ficheros/WORDPRESS/cava_tercera_republica/wp-content/uploads/2021/10/fondodiv1.jpg')!important;background-attachment: fixed;
+  background-position: center center;background-size: cover;width: 100%;}
+  .paycard { display: flex; justify-content: center;}
+  .paycard img {margin:0 auto!important; text-align: center!important;}
+  .buybuttons {display: flex; justify-content: center; height: 40px;} 
+  .buybuttons button { margin:0 auto!important; background-color:#927334;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em}
   
   /*BOTIGA----------------------------------------------------------------------------------*/
   
@@ -1646,17 +1601,21 @@ p {margin-bottom: 0!important;}
   .content-logos {width: 100%; height:50px;background-color:#353533;}  
   .politicas-smart {display: none;}
   .politicas {width: 100%;height:50px;background-color: black;padding:10px 15px 10px 15px!important;display: block;}
-  .politicas p {color: white; font-size: 11px;  text-align: center;margin:0;line-height: 30px;} 
+  .politicas p {color: white; font-size: 12px!important;  text-align: center;margin:0;line-height: 30px;} 
   
   /*FOOTER---------------------------------------------------------------------------------*/
+
+  /*CONTACTAR--------------------------------------------------------------------------------*/
   
-    /*CONTACTAR--------------------------------------------------------------------------------*/
-  
-    .contactar h1 {font-size: 28px; font-family: Amarante-Regular,serif; margin-bottom: 15px; text-align: center;}
+  table { width:100%;text-align:center; border:0; border-color:"#FFFFFF"; margin: 0 auto;} 
+  .contactar {width: 65%!important;margin: 0 auto!important; padding: 50px 25px 50px 25px!important;}
+  .contactar h1 {font-size: 28px; font-family: Amarante-Regular,serif; margin-bottom: 15px; text-align: center;}
     .contactar h2 {font-size:14px;text-align: left;}
     .contactar td {font-size:14px;text-align: left;}
-  
-   /*CONTACTAR--------------------------------------------------------------------------------*/
+ 
+ .enviat{padding: 100px;height: 100%;}
+
+ /*CONTACTAR--------------------------------------------------------------------------------*/
   
   }
   
@@ -1668,13 +1627,9 @@ p {margin-bottom: 0!important;}
   /*-------------------------------------------------------------------------------------------*/
   @media screen and (min-width:321px) and (max-width:575px) 
   {
-    *{
-      margin:0;
-      padding: 0;
-    }
+ 
   /* body {background: red;}	 */
-  
-    
+      
   .bgone {background-image: url('http://localhost/ficheros/WORDPRESS/cava_tercera_republica/wp-content/uploads/2021/10/fondodiv1.jpg')!important;
     background-attachment: fixed;
     background-position: center;background-size: cover;width: 100%;position: absolute;  padding: 0; }
@@ -1736,13 +1691,9 @@ p {margin-bottom: 0!important;}
   
   /*--MENU-----------------------------------------------------------*/
   
-  
-  
   #slider2 {width: 100%; height: 100%;  padding: 60px 0px 0px 0px; }
-  
-  
+  #slider2 p {display: none;}
   #slider { display: none;}
-  
   
   /*INDEX----------------------------------------------------------------------------------*/
   
@@ -1790,119 +1741,118 @@ p {margin-bottom: 0!important;}
   
   /*REPU----------------------------------------------------------------------------------*/
   
+
   p {font-size:14px;text-align: left;}
   
+  .repuText {padding:25px 40px 0px 40px!important;}
   
-  .repuText {padding:25px 25px 0px 25px;}
-  
-  .repuText h1 {font-size: 28px; font-family: Amarante-Regular,serif; line-height: 40px;}
+  .repuText h1 {font-size: 27px; font-family: Amarante-Regular,serif; line-height: 40px;}
   
   .repuText p{margin: 0px;}
   
-  .repuleft{padding:25px 25px 0px 25px; position: relative;left:-250px;}
+  .repuleft{padding:25px 40px 0px 40px!important; position: relative;left:-250px;}
   
   .repuleft img{width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0; }
   
-  .repuleft2 {padding:25px 25px 0px 25px; position: relative;margin-right: 0px; left: -250px;}
+  .repuleft2 {padding:25px 40px 0px 40px!important; position: relative;margin-right: 0px; left: -250px;}
   
   .repuleft2 img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  
-  .repuright {padding:25px 25px 0px 25px; position: relative;margin-right: 0px; left: -250px;}
+  .repuright {padding:25px 40px 0px 40px!important; position: relative;margin-right: 0px; left: -250px;}
   
   .repuright img{  width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(59, 25, 25, 0.3);opacity: 0;}
    
-  .repuText2 {padding:25px 25px 0px 25px;}
+  .repuText2 {padding:25px 50px 0px 50px!important;}
   
-  .repuText2 h1 {font-size: 28px; font-family: Amarante-Regular,serif; line-height: 40px;}
+  .repuText2 h1 {font-size: 27px; font-family: Amarante-Regular,serif; line-height: 40px;}
   
   .repuText2 p{ margin:0px;}
   
-  .repuleft3 {padding:25px 25px 0px 25px; position: relative; left: -250px;}
+  .repuleft3 {padding:25px 50px 0px 50px!important; position: relative; left: -250px;}
   
   .repuleft3 img{width: 100%;border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  .repuright2{padding:25px 25px 50px 25px; position: relative; left: -250px;}
+  .repuright2{padding:25px 50px 50px 50px!important; position: relative; left: -250px;}
   
   .repuright2 img{width: 100%;border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
   /*REPU----------------------------------------------------------------------------------*/
   
-  /*ORIGEN----------------------------------------------------------------------------------*/
+/*ORIGEN----------------------------------------------------------------------------------*/
   
-  p {font-size:14px;text-align: left;}
+p {font-size:14px;text-align: left;}
   
-  .orgText { padding: 25px 25px 0px 25px;}
-  
-  .orgText h1 {font-size: 28px; font-family: Amarante-Regular,serif; line-height: 40px;}
-  
-  .orgText p { padding: 0px; margin: 0px;}
-  
-  .orgLeft {padding: 25px 25px 25px 25px; position: relative; left: -250px; }
-  
-  .orgLeft img { width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0; }
-  
-  .orgRight {padding: 0px 25px 0px 25px;position: relative; left: -250px; }
-  
-  .orgRight img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);;opacity: 0;}
-  
-  .orgText2 p {padding: 0px; margin:0}
-  
-  .orgText2 h1 {font-size: 28px; font-family: Amarante-Regular,serif; line-height: 40px;}
-  
-  .orgText2{ padding: 25px 25px 0px 25px;}
-  
-  .ciarga {padding: 25px 25px 0px 25px;position: relative; left: -250px;}
-  
-  .ciarga img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
-  
-  .ciarga2 {padding: 25px 25px 0px 25px;position: relative; left: -250px;}
-  
-  .ciarga2 img{width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0; }
-  
-  .orgLeft2 { padding: 25px 25px 25px 25px;position: relative; left: -250px;}
-  
-  .orgLeft2 img { width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
-  
-  .orgRight2 { padding: 0px 25px 50px 25px; position: relative; left: -250px;}
-  
-  .orgRight2 img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
-  
-  /*ORIGEN----------------------------------------------------------------------------------*/
-  
+.orgText { padding:25px 50px 0px 50px!important;}
+
+.orgText h1 {font-size: 28px; font-family: Amarante-Regular,serif; line-height: 40px;}
+
+.orgText p { padding: 0px; margin: 0px;}
+
+.orgLeft {padding:25px 50px 0px 50px!important; position: relative; left: -250px; }
+
+.orgLeft img { width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0; }
+
+.orgRight {padding:25px 50px 25px 50px!important;position: relative; left: -250px; }
+
+.orgRight img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);;opacity: 0;}
+
+.orgText2 p {padding: 0px; margin:0}
+
+.orgText2 h1 {font-size: 28px; font-family: Amarante-Regular,serif; line-height: 40px;}
+
+.orgText2{ padding: 0px 50px 0px 50px!important; }
+
+.ciarga {padding:25px 50px 25px 50px!important; position: relative; left: -250px;}
+
+.ciarga img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
+
+.ciarga2 {padding:0px 50px 25px 50px!important; position: relative; left: -250px;}
+
+.ciarga2 img{width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0; }
+
+.orgLeft2 { padding:25px 50px 25px 50px!important; position: relative; left: -250px;}
+
+.orgLeft2 img { width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
+
+.orgRight2 { padding:0px 50px 50px 50px!important; position: relative; left: -250px;}
+
+.orgRight2 img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
+
+/*ORIGEN----------------------------------------------------------------------------------*/
+
   /*CAVA----------------------------------------------------------------------------------*/
   
   p {font-size:14px;text-align: left;}
   
-  .cavaText1 {padding: 25px 25px 0px 25px; }
+  .cavaText1 {padding: 25px 50px 0px 50px!important; }
   
   .cavaText1 h1 {font-size: 28px; font-family: Amarante-Regular,serif; line-height: 40px;}
   
   .cavaText1 p{margin:0;} 
   
-  .cavaRight {padding: 0px 25px 0px 25px; position: relative; left:-250px;}
+  .cavaRight {padding: 0px 50px 0px 50px!important; position: relative; left:-250px;}
   
-  .cavaLeft {padding: 25px 25px 25px 25px; position: relative; left:-250px;}
+  .cavaLeft {padding: 25px 50px 25px 50px!important; position: relative; left:-250px;}
   
   .cavaLeft img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
   .cavaRight img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  .cavaText2 {padding: 25px 25px 0px 25px; }
+  .cavaText2 {padding: 25px 50px 0px 50px!important; }
   
   .cavaText2 p {margin:0;}
   
   .cavaText2 h1 {font-size: 28px; font-family: Amarante-Regular,serif; line-height: 40px;}
   
-  .cavapan {padding: 25px 25px 25px 25px; position: relative; left:-250px;}
+  .cavapan {padding: 25px 50px 25px 50px!important; position: relative; left:-250px;}
   
   .cavapan img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  .cavapan2 {padding:0px 25px 50px 25px;position: relative;left:-250px;}
+  .cavapan2 {padding:0px 50px 50px 50px!important;position: relative;left:-250px;}
   
   .cavapan2 img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  .cavaText3 {padding: 25px 50px 25px 50px; text-align: left;}
+  .cavaText3 {padding: 25px 50px 25px 50px!important; text-align: left;}
   
   .cavaText3 p {margin:0}
   
@@ -1913,31 +1863,31 @@ p {margin-bottom: 0!important;}
   
   p {font-size:14px;text-align: left;}
   
-  .tastText1 {padding: 25px 25px 0px 25px; }
+  .tastText1 {padding: 25px 25px 0px 25px!important; }
   
   .tastText1 h1 {font-size: 28px; font-family: Amarante-Regular,serif; margin-bottom: 15px;}
   
   .tastText1 p {text-align: left;margin: 0px;}
   
-  .tastLeft {padding: 25px 25px 25px 25px;position: relative;left:-250px;}
+  .tastLeft {padding: 25px 25px 25px 25px!important;position: relative;left:-250px;}
   
   .tastLeft img {width:100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  .tastRight {padding: 0px 25px 0px 25px; position: relative;left:-250px; }
+  .tastRight {padding: 0px 25px 0px 25px!important; position: relative;left:-250px; }
   
   .tastRight img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  .tastText2{padding: 25px 25px 0px 25px; }
+  .tastText2{padding: 25px 25px 0px 25px!important; }
   
   .tastText2 h1 {font-size: 28px; font-family: Amarante-Regular,serif; margin-bottom: 15px;}
   
   .tastText2 p {margin:0}
   
-  .tastLeft2 {padding: 25px 25px 25px 25px;position: relative;left:-250px;}
+  .tastLeft2 {padding: 25px 25px 25px 25px!important;position: relative;left:-250px;}
   
   .tastLeft2 img {width:100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  .tastRight2 {padding: 0px 25px 50px 25px;position: relative;left:-250px;}
+  .tastRight2 {padding: 0px 25px 50px 25px!important;position: relative;left:-250px;}
   
   .tastRight2 img {width:100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
@@ -1948,17 +1898,17 @@ p {margin-bottom: 0!important;}
   
   p {font-size:14px;text-align: left;}
   
-  .botigaText1 {padding: 25px 25px 0px 25px }
+  .botigaText1 {padding: 25px 50px 0px 50px!important; }
   
   .botigaText1 h1 {font-size: 28px; font-family: Amarante-Regular,serif; margin-bottom: 15px;}
   
   .botigaText1 p {margin:0; }
   
-  .containerAmpolla {padding: 25px 25px 25px 25px; width: 100%;  }
+  .containerAmpolla {padding: 25px 50px 25px 50px!important; width: 100%;  }
   
   .sliderAmpolla {width: 100%; position: relative;left:-250px;}
   
-  .containerCaixa {padding: 0px 25px 0px 25px; width: 100%;}
+  .containerCaixa {padding: 0px 50px 0px 50px!important; width: 100%;}
   
   .sliderCaixa { width: 100%; position: relative;left:-250px;}
   
@@ -1978,9 +1928,13 @@ p {margin-bottom: 0!important;}
   .modal-body {width: 100%;}
   form {text-align: center;}
   form select {font-size: 14px;}
-    .modal-content {background-image: url(../img/fondodiv1.jpg);background-attachment: fixed;
-      background-position: center center;background-size: cover;width: 100%;}
-  
+  .modal-content {background-image: url('http://localhost/ficheros/WORDPRESS/cava_tercera_republica/wp-content/uploads/2021/10/fondodiv1.jpg')!important;background-attachment: fixed;
+  background-position: center center;background-size: cover;width: 100%;}
+  .paycard { display: flex; justify-content: center;}
+  .paycard img {margin:0 auto!important; text-align: center!important;}
+  .buybuttons {display: flex; justify-content: center; height: 40px;} 
+  .buybuttons button { margin:0 auto!important; background-color:#927334;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em}
+    
   
   /*BOTIGA----------------------------------------------------------------------------------*/
   
@@ -2011,9 +1965,9 @@ p {margin-bottom: 0!important;}
   .right{padding: 0px;width: 100%;height:110px;float: right;background-color:#353533 ;margin-top: 20px;}
   .right a {color: #97702b; text-decoration: none;}
   .right a:hover {color:grey!important;}
-  .right p{width: 100%;font-size: 12px!important;color:white;margin:10px 0px 10px 0px; }
+  .right p{width: 100%;font-size: 11px!important;color:white;margin:10px 0px 10px 0px; }
   
-  .logos {width: 50%; height:30px; background-color: #353533; padding: 0px; display: flex;margin:0 auto; z-index: 0;}
+  .logos {width: 50%; height:30px; background-color: #353533; padding: 0px; display: flex;margin:2% 25% 0% 25%; z-index: 0;}
   
   .face {width: 32px; margin-left:15px; margin-right:15px;float:right;}
   .face img{ width: 100%; }
@@ -2035,13 +1989,17 @@ p {margin-bottom: 0!important;}
   .modal-dialog {max-width: 60%!important;}
   /*FOOTER---------------------------------------------------------------------------------*/
   
-    /*CONTACTAR--------------------------------------------------------------------------------*/
+  /*CONTACTAR--------------------------------------------------------------------------------*/
   
-    .contactar h1 {font-size: 28px; font-family: Amarante-Regular,serif; margin-bottom: 15px; text-align: center;}
+  table { width:100%;text-align:center; border:0; border-color:"#FFFFFF"; margin: 0 auto;} 
+  .contactar {width: 100%!important;margin: 0 auto!important; padding: 25px 50px 25px 50px!important;}
+  .contactar h1 {font-size: 28px; font-family: Amarante-Regular,serif; margin-bottom: 15px; text-align: center;}
     .contactar h2 {font-size:14px;text-align: left;}
-    .contactar td {font-size:14px;text-align: left;}
-  
-   /*CONTACTAR--------------------------------------------------------------------------------*/
+    .contactar td {font-size:12px;text-align: left;}
+ 
+ .enviat{padding: 100px;height: 100%;}
+
+ /*CONTACTAR--------------------------------------------------------------------------------*/
   
   } 
    
@@ -2082,6 +2040,7 @@ p {margin-bottom: 0!important;}
   
   #slider {display: none;}
   #slider2 {padding:60px 0px 0px 0px ; width: 100%;}
+  #slider2 p {display: none;}
   
   .TiraCava {  margin:0px; padding: 0px!important; border-top: solid 1px white; }
   .TiraBig { display: none; }
@@ -2166,7 +2125,7 @@ p {margin-bottom: 0!important;}
   p {font-size:14px;text-align: left;}
   
   
-  .repuText {padding:25px 25px 0px 25px;}
+  .repuText {padding:25px 35px 0px 35px!important;}
   
   .repuText h1 {font-size: 28px; font-family: Amarante-Regular,serif; line-height: 40px;}
   
@@ -2180,99 +2139,98 @@ p {margin-bottom: 0!important;}
   
   .repuleft2 img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  
   .repuright {padding:25px 25px 0px 25px; position: relative;margin-right: 0px; left: -250px;}
   
   .repuright img{  width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(59, 25, 25, 0.3);opacity: 0;}
    
-  .repuText2 {padding:25px 25px 0px 25px;}
+  .repuText2 {padding:25px 35px 0px 35px!important;}
   
   .repuText2 h1 {font-size: 28px; font-family: Amarante-Regular,serif; line-height: 40px;}
   
   .repuText2 p{ margin:0px;}
   
-  .repuleft3 {padding:25px 25px 0px 25px; position: relative; left: -250px;}
+  .repuleft3 {padding:25px 35px 0px 35px!important; position: relative; left: -250px;}
   
   .repuleft3 img{width: 100%;border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  .repuright2{padding:25px 25px 50px 25px; position: relative; left: -250px;}
+  .repuright2{padding:25px 35px 50px 35px!important; position: relative; left: -250px;}
   
   .repuright2 img{width: 100%;border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
   /*REPU----------------------------------------------------------------------------------*/
   
-  /*ORG----------------------------------------------------------------------------------*/
+  /*ORIGEN----------------------------------------------------------------------------------*/
   
   p {font-size:14px;text-align: left;}
   
-  .orgText {padding:25px 25px 0px 25px;}
+  .orgText { padding:25px 50px 0px 50px!important;}
   
   .orgText h1 {font-size: 28px; font-family: Amarante-Regular,serif; line-height: 40px;}
   
-  .orgText p{margin: 0px; }
+  .orgText p { padding: 0px; margin: 0px;}
   
-  .orgLeft{padding: 25px 25px 0px 25px;padding-bottom: 35px; position: relative; left:-250px;}
+  .orgLeft {padding:25px 50px 0px 50px!important; position: relative; left: -250px; }
   
-  .orgLeft img{width: 100%;  border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
+  .orgLeft img { width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0; }
   
-  .orgRight{padding: 0px 25px 0px 25px; position: relative; left:-250px;}
+  .orgRight {padding:25px 50px 25px 50px!important;position: relative; left: -250px; }
   
-  .orgRight img{width: 100%; margin:0px;border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
+  .orgRight img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);;opacity: 0;}
   
-  .orgText2 {padding:25px 25px 0px 25px;}
+  .orgText2 p {padding: 0px; margin:0}
   
   .orgText2 h1 {font-size: 28px; font-family: Amarante-Regular,serif; line-height: 40px;}
-   
-  .orgText2 p{ margin:0px;  }
   
-  .ciarga{padding: 25px 25px 0px 25px; position: relative; left:-250px;}
+  .orgText2{ padding: 0px 50px 0px 50px!important; }
   
-  .ciarga img{width: 100%;padding:0px;border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
+  .ciarga {padding:25px 50px 25px 50px!important; position: relative; left: -250px;}
   
-  .ciarga2 {width:100%; padding: 25px 25px 0px 25px; position: relative; left:-250px;}
+  .ciarga img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  .ciarga2 img{width: 100%;padding-top: 0px;border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
+  .ciarga2 {padding:0px 50px 25px 50px!important; position: relative; left: -250px;}
   
-  .orgLeft2 {padding: 25px 25px 0px 25px;position: relative; left:-250px;}
+  .ciarga2 img{width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0; }
   
-  .orgLeft2 img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
+  .orgLeft2 { padding:25px 50px 25px 50px!important; position: relative; left: -250px;}
   
-  .orgRight2 {padding: 25px 25px 50px 25px;position: relative; left:-250px;}
+  .orgLeft2 img { width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  .orgRight2 img{width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
+  .orgRight2 { padding:0px 50px 50px 50px!important; position: relative; left: -250px;}
   
-  /*ORG----------------------------------------------------------------------------------*/
+  .orgRight2 img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
+  
+  /*ORIGEN----------------------------------------------------------------------------------*/
   
   /*CAVA----------------------------------------------------------------------------------*/
   
   /*CAVA----------------------------------------------------------------------------------*/
   p {font-size:14px;text-align: left;}
   
-  .cavaText1 {padding: 25px 25px 0px 25px; }
+  .cavaText1 {padding: 25px 50px 0px 50px!important; }
   
-  .cavaText1 h1 {font-size: 28px; font-family: Amarante-Regular,serif; line-height: 40px;}
+  .cavaText1 h1 {font-size: 26px!important; font-family: Amarante-Regular,serif; line-height: 40px;}
   
   .cavaText1 p{margin:0;} 
   
-  .cavaRight {padding:25px 25px 0px 25px; position: relative; left:-250px;}
+  .cavaRight {padding:25px 50px 0px 50px!important; position: relative; left:-250px;}
   
-  .cavaLeft {padding: 25px 25px 0px 25px; position: relative; left:-250px;}
+  .cavaLeft {padding: 25px 50px 0px 50px!important; position: relative; left:-250px;}
   
   .cavaLeft img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
   .cavaRight img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  .cavaText2 {padding: 25px 25px 0px 25px; ;}
+  .cavaText2 {padding: 25px 50px 0px 50px!important; }
   
-  .cavaText2 h1 {font-size: 28px; font-family: Amarante-Regular,serif; line-height: 40px;}
+  .cavaText2 h1 {font-size: 26px!important; font-family: Amarante-Regular,serif; line-height: 40px;}
   
   .cavaText2  p{margin:0;}
   
-  .cavapan {padding: 25px 25px 0px 25px; position: relative; left:-250px;}
+  .cavapan {padding: 25px 50px 0px 50px!important; position: relative; left:-250px;}
   
   .cavapan img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  .cavapan2 {padding: 25px 25px 50px 25px;;position: relative;left:-250px;}
+  .cavapan2 {padding: 25px 50px 50px 50px!important;position: relative;left:-250px;}
   
   .cavapan2 img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
@@ -2286,31 +2244,31 @@ p {margin-bottom: 0!important;}
   
   p {font-size:14px;text-align: left;}
   
-  .tastText1 {padding: 25px 25px 0px 25px; }
+  .tastText1 {padding: 25px 25px 0px 25px!important; }
   
   .tastText1 h1 {font-size: 28px; font-family: Amarante-Regular,serif; margin-bottom: 15px;}
   
   .tastText1 p {text-align: left;margin: 0px;}
   
-  .tastLeft {padding: 25px 25px 25px 25px;position: relative;left:-250px;}
+  .tastLeft {padding: 25px 25px 25px 25px!important;position: relative;left:-250px;}
   
   .tastLeft img {width:100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  .tastRight {padding: 0px 25px 0px 25px; position: relative;left:-250px; }
+  .tastRight {padding: 0px 25px 0px 25px!important; position: relative;left:-250px; }
   
   .tastRight img {width: 100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  .tastText2{padding: 25px 25px 0px 25px; }
+  .tastText2{padding: 25px 25px 0px 25px!important; }
   
   .tastText2 h1 {font-size: 28px; font-family: Amarante-Regular,serif; margin-bottom: 15px;}
   
   .tastText2 p {margin:0}
   
-  .tastLeft2 {padding: 25px 25px 25px 25px;position: relative;left:-250px;}
+  .tastLeft2 {padding: 25px 25px 25px 25px!important;position: relative;left:-250px;}
   
   .tastLeft2 img {width:100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
-  .tastRight2 {padding: 0px 25px 50px 25px;position: relative;left:-250px;}
+  .tastRight2 {padding: 0px 25px 50px 25px!important;position: relative;left:-250px;}
   
   .tastRight2 img {width:100%; border: solid 2px #927334; box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.3);opacity: 0;}
   
@@ -2321,17 +2279,17 @@ p {margin-bottom: 0!important;}
   
   p {font-size:14px;text-align: left;}
   
-  .botigaText1 {padding: 25px 25px 0px 25px }
+  .botigaText1 {padding: 25px 50px 0px 50px!important;}
   
   .botigaText1 h1 {font-size: 28px; font-family: Amarante-Regular,serif; margin-bottom: 15px;}
   
   .botigaText1 p {margin:0; }
   
-  .containerAmpolla {padding: 25px 25px 25px 25px; width: 100%;  }
+  .containerAmpolla {padding: 25px 50px 25px 50px!important; width: 100%;  }
   
   .sliderAmpolla {width: 100%; position: relative;left:-250px;}
   
-  .containerCaixa {padding: 0px 25px 0px 25px; width: 100%;}
+  .containerCaixa {padding: 0px 50px 0px 50px!important; width: 100%;}
   
   .sliderCaixa { width: 100%; position: relative;left:-250px;}
   
@@ -2351,9 +2309,13 @@ p {margin-bottom: 0!important;}
   .modal-body {width: 100%;}
   form {text-align: center;}
   form select {font-size: 14px;}
-    .modal-content {background-image: url(../img/fondodiv1.jpg);background-attachment: fixed;
-      background-position: center center;background-size: cover;width: 100%;}
-  
+  .modal-content {background-image: url('http://localhost/ficheros/WORDPRESS/cava_tercera_republica/wp-content/uploads/2021/10/fondodiv1.jpg')!important;background-attachment: fixed;
+  background-position: center center;background-size: cover;width: 100%;}
+  .paycard { display: flex; justify-content: center;}
+  .paycard img {margin:0 auto!important; text-align: center!important;}
+  .buybuttons {display: flex; justify-content: center; height: 40px;} 
+  .buybuttons button { margin:0 auto!important; background-color:#927334;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em}
+    
   
   /*BOTIGA----------------------------------------------------------------------------------*/
   
@@ -2404,13 +2366,17 @@ p {margin-bottom: 0!important;}
   .politicas-smart p {color: white; font-size: 10px!important;  text-align: center;margin:0;line-height: 18px;} 
   /*FOOTER---------------------------------------------------------------------------------*/
   
-    /*CONTACTAR--------------------------------------------------------------------------------*/
+  /*CONTACTAR--------------------------------------------------------------------------------*/
   
-    .contactar h1 {font-size: 28px; font-family: Amarante-Regular,serif; margin-bottom: 15px; text-align: center;}
+  table { width:100%;text-align:center; border:0; border-color:"#FFFFFF"; margin: 0 auto;} 
+  .contactar {width: 100%!important;margin: 0 auto!important; padding: 25px 25px 25px 25px!important;}
+  .contactar h1 {font-size: 28px; font-family: Amarante-Regular,serif; margin-bottom: 15px; text-align: center;}
     .contactar h2 {font-size:14px;text-align: left;}
     .contactar td {font-size:14px;text-align: left;}
-  
-   /*CONTACTAR--------------------------------------------------------------------------------*/
+ 
+ .enviat{padding: 100px;height: 100%;}
+
+ /*CONTACTAR--------------------------------------------------------------------------------*/
   }
   
 

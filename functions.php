@@ -52,3 +52,7 @@ add_action('widgets_init','cava_tr_widgets');
    }
    add_action( 'init', 'cava_tr_register_my_menus' );
 //REGISTER MENUS
+
+//Eliminar párrafos automáticos por defecto
+remove_filter('the_content', 'wpautop');
+remove_filter( 'the_excerpt', 'wpautop' );

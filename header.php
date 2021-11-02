@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="http://localhost/ficheros/WORDPRESS/cava_tercera_republica/wp-content/themes/cava3arepublica/js/scripts.js"></script>
-    
+    <script src="https://js.stripe.com/v3"></script>
    <?php wp_head(); ?>
   
 
